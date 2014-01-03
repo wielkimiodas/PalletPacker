@@ -22,26 +22,7 @@ public class Optimizer {
 		initializeOptimizer();
 	}
 
-	private ArrayList<Carrier> getSpecificCarriers(String palleteName) {
-		ArrayList<Carrier> specificCarriers = new ArrayList<Carrier>();
-		for (Carrier carrier : carriers) {
-			if (carrier.getPalletUsed().getName().equals(palleteName)) {
-				specificCarriers.add(carrier);
-			}
-		}
-		return specificCarriers;
-	}
-
-	private Boolean iryArrangeOnExistingCarrier(Package givenPackage) {
-		ArrayList<Carrier> availableCarriers = getSpecificCarriers(givenPackage
-				.getDefaultPallet().getName());
-		for (Carrier carrier : availableCarriers) {
-			if (carrier.getVolumeLeft() >= givenPackage.getVolume()) {
-				carrier.addPackage(givenPackage);
-				return true;
-			}
-		}
-
+	private Boolean tryArrangeOnExistingCarrier(Package givenPackage) {
 		Set<Pallet> compatiblePallets = givenPackage.getCompatiblePallets();
 		for (Carrier carrier : carriers) {
 			if (!compatiblePallets.contains(carrier.getPalletUsed())) {
@@ -86,7 +67,7 @@ public class Optimizer {
 		Package[] pckgs = warehouse.getPackages();
 
 		for (int i = 0; i < pckgs.length; i++) {
-			if (!iryArrangeOnExistingCarrier(pckgs[i])) {
+			if (!tryArrangeOnExistingCarrier(pckgs[i])) {
 				Carrier c = new Carrier(carriers.size() + 1,
 						pckgs[i].getDefaultPallet(),
 						warehouse.getPallets().length);

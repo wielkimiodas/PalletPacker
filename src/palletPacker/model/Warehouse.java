@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
+import palletPacker.processor.Configuration;
+
 public class Warehouse {
 
 	private Package[] packages;
@@ -73,4 +75,7 @@ public class Warehouse {
 		br.close();
 	}
 
+	public Configuration getDefaultConfiguration(){
+		return new Configuration(packages, new boolean[packages.length]);
+	}
 }
