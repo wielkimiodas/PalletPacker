@@ -43,17 +43,17 @@ public class Optimizer {
 		}
 
 		Set<Pallet> compatiblePallets = givenPackage.getCompatiblePallets();
-		for(Carrier carrier : carriers){
-			if (!compatiblePallets.contains(carrier.getPalletUsed())){
+		for (Carrier carrier : carriers) {
+			if (!compatiblePallets.contains(carrier.getPalletUsed())) {
 				continue;
 			}
-			
-			if (carrier.canHandlePackage(givenPackage)){
+
+			if (carrier.canHandlePackage(givenPackage)) {
 				carrier.addPackage(givenPackage);
 				return true;
 			}
 		}
-		
+
 		return false;
 	}
 
@@ -88,7 +88,8 @@ public class Optimizer {
 		for (int i = 0; i < pckgs.length; i++) {
 			if (!iryArrangeOnExistingCarrier(pckgs[i])) {
 				Carrier c = new Carrier(carriers.size() + 1,
-						pckgs[i].getDefaultPallet(),warehouse.getPallets().length);
+						pckgs[i].getDefaultPallet(),
+						warehouse.getPallets().length);
 				c.addPackage(pckgs[i]);
 				carriers.add(c);
 			}
@@ -103,8 +104,9 @@ public class Optimizer {
 		int pckgs = 0;
 		for (Carrier c : carriers) {
 			System.out.println("n" + c.getId() + "\t"
-					+ c.getPalletUsed().getName() + "\t" + c.getExtensionsUsed());
-			pckgs+=c.getPackagesAssigned().size();
+					+ c.getPalletUsed().getName() + "\t"
+					+ c.getExtensionsUsed());
+			pckgs += c.getPackagesAssigned().size();
 		}
 		System.out.println(pckgs);
 		for (Carrier c : carriers) {

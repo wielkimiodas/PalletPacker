@@ -48,7 +48,7 @@ public class Warehouse {
 			int v = Integer.parseInt(lineSplitted[1]);
 			float h = Float.parseFloat(lineSplitted[2]);
 			float hMax = Float.parseFloat(lineSplitted[3]);
-			Pallet p = new Pallet(id,lineSplitted[0], v, h, hMax);
+			Pallet p = new Pallet(id, lineSplitted[0], v, h, hMax);
 			pallets[i] = p;
 		}
 

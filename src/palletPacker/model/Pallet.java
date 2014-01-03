@@ -16,7 +16,7 @@ public class Pallet {
 		this.extensionHeight = height;
 		this.maxHeight = maxHeight;
 		this.maxVolume = maxHeight * area;
-		this.name=name;
+		this.name = name;
 	}
 
 	public int getId() {
@@ -38,7 +38,7 @@ public class Pallet {
 	public float getMaxVolume() {
 		return maxVolume;
 	}
-	
+
 	public String getName() {
 		return name;
 	}

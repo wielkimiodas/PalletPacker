@@ -30,17 +30,18 @@ public class Carrier {
 	public ArrayList<Package> getPackagesAssigned() {
 		return packagesAssigned;
 	}
-	
-	public boolean canHandlePackage(Package packageToCheck){
+
+	public boolean canHandlePackage(Package packageToCheck) {
 		float packageVolume = packageToCheck.getVolume();
 		if (getVolumeLeft() < packageVolume) {
 			return false;
 		}
-		
-		if (typesArray[packageToCheck.getDefaultPallet().getId()] + packageVolume > typesArray[palletUsed.getId()]){
+
+		if (typesArray[packageToCheck.getDefaultPallet().getId()]
+				+ packageVolume > typesArray[palletUsed.getId()]) {
 			return false;
 		}
-		
+
 		return true;
 	}
 
@@ -51,7 +52,7 @@ public class Carrier {
 		volumeInUse += packageVolume;
 		extensionsUsed = (int) Math.ceil(volumeInUse / palletUsed.area
 				/ palletUsed.extensionHeight);
-		typesArray[packageToAdd.getDefaultPallet().id] += packageVolume;		
+		typesArray[packageToAdd.getDefaultPallet().id] += packageVolume;
 	}
 
 	public int getId() {
