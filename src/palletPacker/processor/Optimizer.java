@@ -70,7 +70,7 @@ public class Optimizer {
 	}
 
 	private void ComputeTargetFunctionValue() {
-		float minPalletVolume = Float.MAX_VALUE;
+		minPalletVolume = Float.MAX_VALUE;
 		for (Carrier carrier : carriers) {
 			totalArea += carrier.getPalletUsed().getArea();
 			float usedSpace = carrier.getVolumeInUse();
