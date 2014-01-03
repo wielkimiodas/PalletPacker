@@ -10,6 +10,13 @@ public class Carrier {
 	float volumeLeft;
 	float volumeInUse;
 
+	public Carrier(int id, Pallet palletUsed) {
+		this.id = id;
+		this.palletUsed = palletUsed;
+		packagesAssigned = new ArrayList<Package>();
+		this.volumeLeft = palletUsed.maxVolume;
+	}
+
 	public float getVolumeInUse() {
 		return volumeInUse;
 	}
@@ -28,13 +35,6 @@ public class Carrier {
 		volumeInUse += assignedPackage.volume;
 		extensionsUsed = (int) Math.ceil(volumeInUse / palletUsed.area
 				/ palletUsed.extensionHeight);
-	}
-
-	public Carrier(int id, Pallet palletUsed) {
-		this.id = id;
-		this.palletUsed = palletUsed;
-		packagesAssigned = new ArrayList<Package>();
-		this.volumeLeft = palletUsed.maxVolume;
 	}
 
 	public int getId() {
