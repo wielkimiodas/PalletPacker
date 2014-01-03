@@ -1,6 +1,5 @@
 package palletPacker.processor;
 
-import java.awt.List;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -42,16 +41,17 @@ public class Optimizer {
 			}
 		}
 
-		if(givenPackage.getCompatiblePallets()!=null)
-		for (Pallet compatiblePallet : givenPackage.getCompatiblePallets()) {
-			availableCarriers = GetSpecificCarriers(compatiblePallet.getId());
-			for (Carrier carrier : availableCarriers) {
-				if (carrier.getVolumeLeft() >= givenPackage.getVolume()) {
-					carrier.addPackage(givenPackage);
-					return true;
+		if (givenPackage.getCompatiblePallets() != null)
+			for (Pallet compatiblePallet : givenPackage.getCompatiblePallets()) {
+				availableCarriers = GetSpecificCarriers(compatiblePallet
+						.getId());
+				for (Carrier carrier : availableCarriers) {
+					if (carrier.getVolumeLeft() >= givenPackage.getVolume()) {
+						carrier.addPackage(givenPackage);
+						return true;
+					}
 				}
 			}
-		}
 
 		return false;
 	}
@@ -73,8 +73,7 @@ public class Optimizer {
 		float minPalletVolume = Float.MAX_VALUE;
 		for (Carrier carrier : carriers) {
 			totalArea += carrier.getPalletUsed().getArea();
-			float usedSpace = carrier.getPalletUsed().getMaxVolume()
-					- carrier.getVolumeLeft();
+			float usedSpace = carrier.getVolumeInUse();
 			if (usedSpace < minPalletVolume) {
 				minPalletVolume = usedSpace;
 			}
@@ -87,7 +86,7 @@ public class Optimizer {
 
 		for (int i = 0; i < pckgs.length; i++) {
 			if (!TryArrangeOnExistingCarrier(pckgs[i])) {
-				Carrier c = new Carrier(carriers.size()+1,
+				Carrier c = new Carrier(carriers.size() + 1,
 						pckgs[i].getDefaultPallet());
 				c.addPackage(pckgs[i]);
 				carriers.add(c);
@@ -107,7 +106,7 @@ public class Optimizer {
 		System.out.println("miljart");
 		for (Carrier c : carriers) {
 			for (Package p : c.getPackagesAssigned()) {
-				System.out.println(p.getId() + "\t" + "n"+ c.getId());
+				System.out.println(p.getId() + "\t" + "n" + c.getId());
 			}
 		}
 
