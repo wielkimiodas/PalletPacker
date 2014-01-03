@@ -99,12 +99,14 @@ public class Optimizer {
 	public void printResults() {
 		System.out.println("1");
 		System.out.println(totalArea + "\t" + minPalletVolume);
-		System.out.println(carriers.size());		
+		System.out.println(carriers.size());
+		int pckgs = 0;
 		for (Carrier c : carriers) {
 			System.out.println("n" + c.getId() + "\t"
 					+ c.getPalletUsed().getName() + "\t" + c.getExtensionsUsed());
+			pckgs+=c.getPackagesAssigned().size();
 		}
-		System.out.println(carriers.size());
+		System.out.println(pckgs);
 		for (Carrier c : carriers) {
 			for (Package p : c.getPackagesAssigned()) {
 				System.out.println(p.getId() + "\t" + "n" + c.getId());
