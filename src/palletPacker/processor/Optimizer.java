@@ -1,5 +1,7 @@
 package palletPacker.processor;
 
+import java.io.IOException;
+
 import palletPacker.model.Warehouse;
 
 public class Optimizer {
@@ -14,7 +16,21 @@ public class Optimizer {
 	
 	private void InitializeOptimizer()
 	{
-		warehouse = new Warehouse("data/example1.txt");		
+		warehouse = new Warehouse();
+		try {
+			warehouse.ReadData("data/example1.txt");
+		} catch (NumberFormatException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	private void NaivePacker()
+	{
+		
 	}
 	
 	

@@ -9,20 +9,10 @@ public class Warehouse {
 	
 	public Package[] packages;
 	public Pallet[] pallets;
-	String dataFilePath;
 	
-	public Warehouse(String dataFilePath)
+	public Warehouse()
 	{
-		this.dataFilePath = dataFilePath;
-		try {
-			ReadData();
-		} catch (NumberFormatException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 	}
 	
 	private Pallet getPalletByName(String name)
@@ -37,7 +27,7 @@ public class Warehouse {
 		return null;
 	}
 	
-	private void ReadData() throws NumberFormatException, IOException
+	public void ReadData(String dataFilePath) throws NumberFormatException, IOException
 	{
 		File dataFile = new File(dataFilePath);
 		BufferedReader br = new BufferedReader(new FileReader(dataFile));
