@@ -2,6 +2,7 @@ package palletPacker.processor;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Set;
 
 import palletPacker.model.Carrier;
 import palletPacker.model.Pallet;
@@ -10,18 +11,18 @@ import palletPacker.model.Package;
 
 public class Optimizer {
 
-	Warehouse warehouse;
-	ArrayList<Carrier> carriers;
-	int totalArea = 0;
-	float minPalletVolume;
+	private Warehouse warehouse;
+	private ArrayList<Carrier> carriers;
+	private int totalArea = 0;
+	private float minPalletVolume;
 
 	public Optimizer() {
 		super();
 
-		InitializeOptimizer();
+		initializeOptimizer();
 	}
 
-	private ArrayList<Carrier> GetSpecificCarriers(String palleteName) {
+	private ArrayList<Carrier> getSpecificCarriers(String palleteName) {
 		ArrayList<Carrier> specificCarriers = new ArrayList<Carrier>();
 		for (Carrier carrier : carriers) {
 			if (carrier.getPalletUsed().getName().equals(palleteName)) {
@@ -31,8 +32,8 @@ public class Optimizer {
 		return specificCarriers;
 	}
 
-	private Boolean TryArrangeOnExistingCarrier(Package givenPackage) {
-		ArrayList<Carrier> availableCarriers = GetSpecificCarriers(givenPackage
+	private Boolean iryArrangeOnExistingCarrier(Package givenPackage) {
+		ArrayList<Carrier> availableCarriers = getSpecificCarriers(givenPackage
 				.getDefaultPallet().getName());
 		for (Carrier carrier : availableCarriers) {
 			if (carrier.getVolumeLeft() >= givenPackage.getVolume()) {
@@ -41,22 +42,22 @@ public class Optimizer {
 			}
 		}
 
-		if (givenPackage.getCompatiblePallets() != null)
-			for (Pallet compatiblePallet : givenPackage.getCompatiblePallets()) {
-				availableCarriers = GetSpecificCarriers(compatiblePallet
-						.getName());
-				for (Carrier carrier : availableCarriers) {
-					if (carrier.getVolumeLeft() >= givenPackage.getVolume()) {
-						carrier.addPackage(givenPackage);
-						return true;
-					}
-				}
+		Set<Pallet> compatiblePallets = givenPackage.getCompatiblePallets();
+		for(Carrier carrier : carriers){
+			if (!compatiblePallets.contains(carrier.getPalletUsed())){
+				continue;
 			}
-
+			
+			if (carrier.canHandlePackage(givenPackage)){
+				carrier.addPackage(givenPackage);
+				return true;
+			}
+		}
+		
 		return false;
 	}
 
-	private void InitializeOptimizer() {
+	private void initializeOptimizer() {
 		warehouse = new Warehouse();
 		try {
 			warehouse.ReadData("data/example1.txt");
@@ -69,7 +70,7 @@ public class Optimizer {
 		}
 	}
 
-	private void ComputeTargetFunctionValue() {
+	private void computeTargetFunctionValue() {
 		minPalletVolume = Float.MAX_VALUE;
 		for (Carrier carrier : carriers) {
 			totalArea += carrier.getPalletUsed().getArea();
@@ -80,22 +81,22 @@ public class Optimizer {
 		}
 	}
 
-	public void RunNaivePacker() {
+	public void runNaivePacker() {
 		carriers = new ArrayList<Carrier>();
 		Package[] pckgs = warehouse.getPackages();
 
 		for (int i = 0; i < pckgs.length; i++) {
-			if (!TryArrangeOnExistingCarrier(pckgs[i])) {
+			if (!iryArrangeOnExistingCarrier(pckgs[i])) {
 				Carrier c = new Carrier(carriers.size() + 1,
 						pckgs[i].getDefaultPallet(),warehouse.getPallets().length);
 				c.addPackage(pckgs[i]);
 				carriers.add(c);
 			}
 		}
-		ComputeTargetFunctionValue();
+		computeTargetFunctionValue();
 	}
 
-	public void PrintResults() {
+	public void printResults() {
 		System.out.println("1");
 		System.out.println(totalArea + "\t" + minPalletVolume);
 		System.out.println(carriers.size());		

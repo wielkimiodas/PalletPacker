@@ -1,9 +1,14 @@
 package palletPacker.model;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Package {
 
-	String id;
-	int volume;
+	private String id;
+	private int volume;
+	private Pallet defaultPallet;
+	private Set<Pallet> compatiblePallets;
 
 	public String getId() {
 		return id;
@@ -17,19 +22,16 @@ public class Package {
 		return defaultPallet;
 	}
 
-	public Pallet[] getCompatiblePallets() {
-		return CompatiblePallets;
+	public Set<Pallet> getCompatiblePallets() {
+		return compatiblePallets;
 	}
 
-	Pallet defaultPallet;
-	Pallet[] CompatiblePallets;
-
 	public Package(String id, int volume, Pallet defaultPallet,
-			Pallet[] compatiblePallets) {
+			Set<Pallet> compatiblePallets) {
 		super();
 		this.id = id;
 		this.volume = volume;
 		this.defaultPallet = defaultPallet;
-		CompatiblePallets = compatiblePallets;
+		this.compatiblePallets = new HashSet<>(compatiblePallets);
 	}
 }

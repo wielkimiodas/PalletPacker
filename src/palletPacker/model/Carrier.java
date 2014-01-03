@@ -3,20 +3,20 @@ package palletPacker.model;
 import java.util.ArrayList;
 
 public class Carrier {
-	int id;
-	Pallet palletUsed;
-	int extensionsUsed;
-	ArrayList<Package> packagesAssigned;
-	float volumeLeft;
-	float volumeInUse;
-	float tomekArray[];
+	private int id;
+	private Pallet palletUsed;
+	private int extensionsUsed;
+	private ArrayList<Package> packagesAssigned;
+	private float volumeLeft;
+	private float volumeInUse;
+	private float typesArray[];
 
-	public Carrier(int id, Pallet palletUsed, int palletTypes) {
+	public Carrier(int id, Pallet palletUsed, int nPalletTypes) {
 		this.id = id;
 		this.palletUsed = palletUsed;
 		packagesAssigned = new ArrayList<Package>();
 		this.volumeLeft = palletUsed.maxVolume;
-		tomekArray = new float[palletTypes];
+		typesArray = new float[nPalletTypes];
 	}
 
 	public float getVolumeInUse() {
@@ -30,38 +30,39 @@ public class Carrier {
 	public ArrayList<Package> getPackagesAssigned() {
 		return packagesAssigned;
 	}
+	
+	public boolean canHandlePackage(Package packageToCheck){
+		float packageVolume = packageToCheck.getVolume();
+		if (getVolumeLeft() < packageVolume) {
+			return false;
+		}
+		
+		if (typesArray[packageToCheck.getDefaultPallet().getId()] + packageVolume > typesArray[palletUsed.getId()]){
+			return false;
+		}
+		
+		return true;
+	}
 
 	public void addPackage(Package packageToAdd) {
 		this.packagesAssigned.add(packageToAdd);
-		volumeLeft -= packageToAdd.volume;
-		volumeInUse += packageToAdd.volume;
+		float packageVolume = packageToAdd.getVolume();
+		volumeLeft -= packageVolume;
+		volumeInUse += packageVolume;
 		extensionsUsed = (int) Math.ceil(volumeInUse / palletUsed.area
 				/ palletUsed.extensionHeight);
-		tomekArray[packageToAdd.defaultPallet.id] += packageToAdd.volume;		
+		typesArray[packageToAdd.getDefaultPallet().id] += packageVolume;		
 	}
 
 	public int getId() {
 		return id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
-	}
-
 	public Pallet getPalletUsed() {
 		return palletUsed;
-	}
-
-	public void setPalletUsed(Pallet palletUsed) {
-		this.palletUsed = palletUsed;
 	}
 
 	public int getExtensionsUsed() {
 		return extensionsUsed;
 	}
-
-	public void setExtensionsUsed(int extensionsUsed) {
-		this.extensionsUsed = extensionsUsed;
-	}
-
 }

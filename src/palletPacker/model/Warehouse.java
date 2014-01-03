@@ -4,11 +4,13 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Warehouse {
 
-	Package[] packages;
-	Pallet[] pallets;
+	private Package[] packages;
+	private Pallet[] pallets;
 
 	public Package[] getPackages() {
 		return packages;
@@ -58,12 +60,10 @@ public class Warehouse {
 			int v = Integer.parseInt(lineSplitted[1]);
 			String defaultPalletName = lineSplitted[2];
 			Pallet defPallet = getPalletByName(defaultPalletName);
-			Pallet[] compPallets = null;
+			Set<Pallet> compPallets = new HashSet<>();
 			if (lineSplitted.length > 3) {
-				compPallets = new Pallet[lineSplitted.length - 3];
-
 				for (int j = 0; j < lineSplitted.length - 3; j++) {
-					compPallets[j] = getPalletByName(lineSplitted[j + 3]);
+					compPallets.add(getPalletByName(lineSplitted[j + 3]));
 				}
 
 			}
