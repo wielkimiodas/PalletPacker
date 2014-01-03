@@ -9,12 +9,14 @@ public class Carrier {
 	ArrayList<Package> packagesAssigned;
 	float volumeLeft;
 	float volumeInUse;
+	float tomekArray[];
 
-	public Carrier(int id, Pallet palletUsed) {
+	public Carrier(int id, Pallet palletUsed, int palletTypes) {
 		this.id = id;
 		this.palletUsed = palletUsed;
 		packagesAssigned = new ArrayList<Package>();
 		this.volumeLeft = palletUsed.maxVolume;
+		tomekArray = new float[palletTypes];
 	}
 
 	public float getVolumeInUse() {
@@ -29,12 +31,13 @@ public class Carrier {
 		return packagesAssigned;
 	}
 
-	public void addPackage(Package assignedPackage) {
-		this.packagesAssigned.add(assignedPackage);
-		volumeLeft -= assignedPackage.volume;
-		volumeInUse += assignedPackage.volume;
+	public void addPackage(Package packageToAdd) {
+		this.packagesAssigned.add(packageToAdd);
+		volumeLeft -= packageToAdd.volume;
+		volumeInUse += packageToAdd.volume;
 		extensionsUsed = (int) Math.ceil(volumeInUse / palletUsed.area
 				/ palletUsed.extensionHeight);
+		tomekArray[packageToAdd.defaultPallet.id] += packageToAdd.volume;		
 	}
 
 	public int getId() {

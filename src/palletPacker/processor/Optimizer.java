@@ -24,7 +24,7 @@ public class Optimizer {
 	private ArrayList<Carrier> GetSpecificCarriers(String palleteName) {
 		ArrayList<Carrier> specificCarriers = new ArrayList<Carrier>();
 		for (Carrier carrier : carriers) {
-			if (carrier.getPalletUsed().getId().equals(palleteName)) {
+			if (carrier.getPalletUsed().getName().equals(palleteName)) {
 				specificCarriers.add(carrier);
 			}
 		}
@@ -33,7 +33,7 @@ public class Optimizer {
 
 	private Boolean TryArrangeOnExistingCarrier(Package givenPackage) {
 		ArrayList<Carrier> availableCarriers = GetSpecificCarriers(givenPackage
-				.getDefaultPallet().getId());
+				.getDefaultPallet().getName());
 		for (Carrier carrier : availableCarriers) {
 			if (carrier.getVolumeLeft() >= givenPackage.getVolume()) {
 				carrier.addPackage(givenPackage);
@@ -44,7 +44,7 @@ public class Optimizer {
 		if (givenPackage.getCompatiblePallets() != null)
 			for (Pallet compatiblePallet : givenPackage.getCompatiblePallets()) {
 				availableCarriers = GetSpecificCarriers(compatiblePallet
-						.getId());
+						.getName());
 				for (Carrier carrier : availableCarriers) {
 					if (carrier.getVolumeLeft() >= givenPackage.getVolume()) {
 						carrier.addPackage(givenPackage);
@@ -87,7 +87,7 @@ public class Optimizer {
 		for (int i = 0; i < pckgs.length; i++) {
 			if (!TryArrangeOnExistingCarrier(pckgs[i])) {
 				Carrier c = new Carrier(carriers.size() + 1,
-						pckgs[i].getDefaultPallet());
+						pckgs[i].getDefaultPallet(),warehouse.getPallets().length);
 				c.addPackage(pckgs[i]);
 				carriers.add(c);
 			}
@@ -98,12 +98,12 @@ public class Optimizer {
 	public void PrintResults() {
 		System.out.println("1");
 		System.out.println(totalArea + "\t" + minPalletVolume);
-		System.out.println(carriers.size());
+		System.out.println(carriers.size());		
 		for (Carrier c : carriers) {
 			System.out.println("n" + c.getId() + "\t"
-					+ c.getPalletUsed().getId() + "\t" + c.getExtensionsUsed());
+					+ c.getPalletUsed().getName() + "\t" + c.getExtensionsUsed());
 		}
-		System.out.println("miljart");
+		System.out.println(carriers.size());
 		for (Carrier c : carriers) {
 			for (Package p : c.getPackagesAssigned()) {
 				System.out.println(p.getId() + "\t" + "n" + c.getId());

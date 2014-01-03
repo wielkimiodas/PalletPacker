@@ -24,7 +24,7 @@ public class Warehouse {
 
 	private Pallet getPalletByName(String name) {
 		for (int i = 0; i < pallets.length; i++) {
-			if (pallets[i].id.equals(name)) {
+			if (pallets[i].name.equals(name)) {
 				return pallets[i];
 			}
 		}
@@ -42,10 +42,11 @@ public class Warehouse {
 		for (int i = 0; i < palletsAmount; i++) {
 			String line = br.readLine();
 			String[] lineSplitted = line.split("\t");
+			int id = i;
 			int v = Integer.parseInt(lineSplitted[1]);
 			float h = Float.parseFloat(lineSplitted[2]);
 			float hMax = Float.parseFloat(lineSplitted[3]);
-			Pallet p = new Pallet(lineSplitted[0], v, h, hMax);
+			Pallet p = new Pallet(id,lineSplitted[0], v, h, hMax);
 			pallets[i] = p;
 		}
 

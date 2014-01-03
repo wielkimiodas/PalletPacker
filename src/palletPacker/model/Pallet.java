@@ -2,22 +2,24 @@ package palletPacker.model;
 
 public class Pallet {
 
-	String id;
+	int id;
 	int area;
 	float extensionHeight;
 	float maxHeight;
 	float maxVolume;
+	String name;
 
-	public Pallet(String id, int area, float height, float maxHeight) {
+	public Pallet(int id, String name, int area, float height, float maxHeight) {
 		super();
 		this.id = id;
 		this.area = area;
 		this.extensionHeight = height;
 		this.maxHeight = maxHeight;
 		this.maxVolume = maxHeight * area;
+		this.name=name;
 	}
 
-	public String getId() {
+	public int getId() {
 		return id;
 	}
 
@@ -35,6 +37,10 @@ public class Pallet {
 
 	public float getMaxVolume() {
 		return maxVolume;
+	}
+	
+	public String getName() {
+		return name;
 	}
 
 }
