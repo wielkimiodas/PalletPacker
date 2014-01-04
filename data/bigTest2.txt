@@ -1,0 +1,1102 @@
+100
+Pallet1	850	1131.6	511483.2
+Pallet2	414	1137.6	2606241.5
+Pallet3	1083	713.4	116997.6
+Pallet4	748	567.0	1174824.0
+Pallet5	567	634.2	1433926.2
+Pallet6	54	804.6	883450.75
+Pallet7	953	569.7	436390.22
+Pallet8	567	1082.8	1283118.0
+Pallet9	402	1067.3	1374682.5
+Pallet10	541	572.9	1011168.56
+Pallet11	148	715.9	543368.1
+Pallet12	671	919.8	968549.4
+Pallet13	745	321.0	352458.0
+Pallet14	555	202.3	384976.9
+Pallet15	182	183.3	93483.0
+Pallet16	133	522.0	294408.0
+Pallet17	955	788.7	1891302.6
+Pallet18	157	1047.6	2393766.0
+Pallet19	1200	955.7	2172306.2
+Pallet20	732	537.1	314740.6
+Pallet21	922	579.2	845632.0
+Pallet22	119	701.4	577953.6
+Pallet23	208	1070.8	833082.44
+Pallet24	367	180.5	243314.0
+Pallet25	754	623.3	1192996.1
+Pallet26	949	540.7	754276.5
+Pallet27	528	57.6	128851.195
+Pallet28	1094	322.9	316119.1
+Pallet29	201	258.2	204236.2
+Pallet30	267	658.2	1324956.6
+Pallet31	341	319.7	85679.6
+Pallet32	377	581.9	303751.8
+Pallet33	928	470.0	361430.0
+Pallet34	457	806.4	1317657.6
+Pallet35	1070	1090.6	514763.2
+Pallet36	1074	176.7	380788.5
+Pallet37	347	1035.9	330452.1
+Pallet38	410	78.0	41964.0
+Pallet39	158	740.6	616919.75
+Pallet40	691	115.3	16257.301
+Pallet41	818	1046.2	221794.39
+Pallet42	659	205.0	192700.0
+Pallet43	165	218.0	242416.0
+Pallet44	814	821.3	919034.7
+Pallet45	113	837.9	253045.81
+Pallet46	67	872.0	1011520.0
+Pallet47	504	798.3	685739.7
+Pallet48	1160	337.6	60092.8
+Pallet49	1188	948.0	689196.0
+Pallet50	110	464.0	270976.0
+Pallet51	1068	465.4	722766.2
+Pallet52	784	749.6	56220.0
+Pallet53	872	291.9	631963.5
+Pallet54	839	547.8	1167909.6
+Pallet55	86	177.6	408657.62
+Pallet56	550	309.4	223386.8
+Pallet57	973	1036.0	565656.0
+Pallet58	944	823.9	804126.44
+Pallet59	579	659.9	1282845.6
+Pallet60	1131	919.6	1436415.1
+Pallet61	176	520.8	990561.56
+Pallet62	435	83.9	135834.11
+Pallet63	1149	1086.3	1942304.5
+Pallet64	1131	788.5	1514708.5
+Pallet65	1144	348.6	673843.8
+Pallet66	175	461.5	434271.5
+Pallet67	969	743.9	913509.25
+Pallet68	911	209.4	98208.59
+Pallet69	757	773.2	1571915.6
+Pallet70	155	1023.3	356108.4
+Pallet71	1200	636.3	181981.8
+Pallet72	1173	286.7	26949.8
+Pallet73	766	231.5	253029.5
+Pallet74	630	472.8	99760.8
+Pallet75	275	545.3	217574.69
+Pallet76	935	588.1	1304993.9
+Pallet77	643	70.0	125860.0
+Pallet78	271	460.7	227125.11
+Pallet79	977	985.0	558495.0
+Pallet80	1101	938.3	163264.2
+Pallet81	569	308.2	506989.03
+Pallet82	1177	432.2	318963.6
+Pallet83	518	429.3	568822.5
+Pallet84	467	990.3	553577.7
+Pallet85	544	440.5	491598.0
+Pallet86	693	938.4	1330651.2
+Pallet87	421	949.8	2163644.2
+Pallet88	1032	1013.4	1760275.9
+Pallet89	822	105.7	47987.797
+Pallet90	1003	933.9	651862.2
+Pallet91	1150	1040.7	1912806.5
+Pallet92	170	573.1	1060808.0
+Pallet93	506	401.0	129122.0
+Pallet94	360	795.2	427817.6
+Pallet95	781	952.0	276080.0
+Pallet96	1069	646.8	726356.4
+Pallet97	194	887.4	929107.8
+Pallet98	1198	810.0	1197180.0
+Pallet99	589	784.5	72174.0
+Pallet100	940	120.0	273240.0
+1000
+p1	34	Pallet81	Pallet44	Pallet76	Pallet80	Pallet51	Pallet9
+p2	132	Pallet88	Pallet10	Pallet39	Pallet73	Pallet59	Pallet95	Pallet50	Pallet53	Pallet99	Pallet1	Pallet61	Pallet4	Pallet38	Pallet94	Pallet77	Pallet74	Pallet81	Pallet28	Pallet41	Pallet37	Pallet20	Pallet79	Pallet33	Pallet68	Pallet76	Pallet64	Pallet63	Pallet25	Pallet83	Pallet16	Pallet15	Pallet17	Pallet82	Pallet2	Pallet12
+p3	787245	Pallet49	Pallet24	Pallet32	Pallet96	Pallet40	Pallet81	Pallet52	Pallet30	Pallet79	Pallet33	Pallet68	Pallet21	Pallet86	Pallet57	Pallet2
+p4	276533	Pallet79	Pallet87	Pallet74	Pallet41	Pallet95	Pallet85	Pallet50	Pallet98	Pallet76	Pallet21	Pallet11	Pallet86	Pallet29	Pallet49	Pallet71	Pallet14	Pallet69	Pallet78	Pallet48	Pallet82
+p5	1	Pallet80	Pallet23	Pallet19	Pallet59	Pallet60	Pallet80	Pallet30	Pallet95	Pallet45	Pallet9	Pallet90	Pallet5	Pallet29	Pallet61	Pallet93	Pallet62	Pallet38	Pallet72	Pallet57	Pallet94	Pallet78	Pallet77	Pallet7	Pallet32	Pallet74	Pallet81	Pallet22	Pallet28	Pallet37	Pallet20	Pallet68	Pallet76	Pallet21	Pallet65	Pallet89	Pallet63	Pallet64	Pallet27	Pallet69	Pallet25	Pallet91	Pallet51	Pallet16	Pallet12
+p6	2420528	Pallet34
+p7	179981872	Pallet8
+p8	1	Pallet31
+p9	170	Pallet22	Pallet42	Pallet18	Pallet60	Pallet59	Pallet66	Pallet45	Pallet54	Pallet29	Pallet99	Pallet71	Pallet4	Pallet38	Pallet84	Pallet94	Pallet78	Pallet24	Pallet70	Pallet86	Pallet64	Pallet69	Pallet25	Pallet51	Pallet48	Pallet83	Pallet82	Pallet12	Pallet17	Pallet23	Pallet34	Pallet19	Pallet80	Pallet30	Pallet9	Pallet67	Pallet5	Pallet53	Pallet11	Pallet61	Pallet72	Pallet56	Pallet40	Pallet81	Pallet22	Pallet79	Pallet26	Pallet21	Pallet58	Pallet2
+p10	1	Pallet95	Pallet57
+p11	1	Pallet82	Pallet34	Pallet19	Pallet60	Pallet80	Pallet31	Pallet55	Pallet66	Pallet85	Pallet50	Pallet9	Pallet36	Pallet90	Pallet5	Pallet11	Pallet54	Pallet13	Pallet61	Pallet93	Pallet84	Pallet57	Pallet43	Pallet24	Pallet22	Pallet70	Pallet37	Pallet41	Pallet92	Pallet98	Pallet26	Pallet3	Pallet64	Pallet63	Pallet25	Pallet97	Pallet15	Pallet12
+p12	24392	Pallet41
+p13	3314	Pallet21
+p14	1	Pallet10	Pallet26
+p15	1	Pallet4
+p16	1419	Pallet24
+p17	9	Pallet35	Pallet18	Pallet70	Pallet51	Pallet16	Pallet45	Pallet15
+p18	2681692	Pallet8	Pallet10	Pallet96	Pallet19	Pallet88	Pallet31	Pallet85	Pallet47	Pallet54	Pallet71	Pallet4	Pallet72	Pallet84	Pallet78	Pallet24	Pallet56	Pallet40	Pallet37	Pallet92	Pallet68	Pallet35	Pallet65	Pallet49	Pallet89	Pallet63	Pallet27	Pallet69	Pallet97	Pallet48	Pallet83	Pallet16
+p19	537029	Pallet88
+p20	1	Pallet43
+p21	308092881	Pallet44	Pallet42	Pallet100	Pallet11	Pallet86	Pallet22	Pallet88	Pallet69	Pallet57	Pallet85	Pallet45
+p22	1	Pallet73	Pallet75	Pallet32	Pallet34	Pallet8	Pallet70	Pallet30	Pallet33	Pallet9	Pallet98	Pallet68	Pallet26	Pallet11	Pallet13	Pallet61	Pallet64	Pallet84
+p23	1	Pallet88	Pallet42	Pallet46	Pallet19	Pallet59	Pallet60	Pallet52	Pallet88	Pallet95	Pallet36	Pallet67	Pallet5	Pallet53	Pallet29	Pallet54	Pallet13	Pallet38	Pallet77	Pallet56	Pallet32	Pallet22	Pallet37	Pallet79	Pallet33	Pallet68	Pallet86	Pallet65	Pallet3	Pallet64	Pallet58	Pallet27	Pallet97	Pallet48	Pallet16	Pallet17	Pallet82
+p24	30472	Pallet46	Pallet6	Pallet42	Pallet18	Pallet46	Pallet59	Pallet95	Pallet66	Pallet47	Pallet90	Pallet54	Pallet29	Pallet13	Pallet1	Pallet99	Pallet4	Pallet62	Pallet84	Pallet43	Pallet24	Pallet32	Pallet8	Pallet68	Pallet92	Pallet76	Pallet86	Pallet49	Pallet65	Pallet25	Pallet69	Pallet51	Pallet83	Pallet17	Pallet12	Pallet87	Pallet39	Pallet73	Pallet23	Pallet96	Pallet52	Pallet30	Pallet31	Pallet9	Pallet67	Pallet5	Pallet53	Pallet11	Pallet93	Pallet72	Pallet77	Pallet75	Pallet56	Pallet74	Pallet28	Pallet37	Pallet20	Pallet79	Pallet33	Pallet26	Pallet89	Pallet58	Pallet27	Pallet97	Pallet91
+p25	20853876	Pallet10
+p26	635	Pallet81	Pallet24	Pallet39	Pallet73	Pallet46	Pallet40	Pallet52	Pallet37	Pallet55	Pallet85	Pallet9	Pallet98	Pallet36	Pallet76	Pallet26	Pallet99	Pallet27	Pallet84
+p27	68000338	Pallet99	Pallet44	Pallet10	Pallet87	Pallet80	Pallet52	Pallet30	Pallet55	Pallet45	Pallet90	Pallet11	Pallet54	Pallet99	Pallet61	Pallet14	Pallet24	Pallet100	Pallet28	Pallet70	Pallet41	Pallet33	Pallet26	Pallet89	Pallet3	Pallet64	Pallet25	Pallet97	Pallet17
+p28	1	Pallet58
+p29	15	Pallet61	Pallet5	Pallet79
+p30	505	Pallet42	Pallet39	Pallet96	Pallet19	Pallet34	Pallet30	Pallet31	Pallet66	Pallet45	Pallet67	Pallet47	Pallet53	Pallet5	Pallet11	Pallet29	Pallet13	Pallet71	Pallet93	Pallet57	Pallet74	Pallet37	Pallet79	Pallet98	Pallet21	Pallet86	Pallet65	Pallet89	Pallet58	Pallet25	Pallet27	Pallet48	Pallet51	Pallet12	Pallet82
+p31	56401312	Pallet60	Pallet3	Pallet63
+p32	1	Pallet46	Pallet76
+p33	1	Pallet61	Pallet37	Pallet31	Pallet66
+p34	118769064	Pallet85	Pallet83
+p35	1	Pallet46	Pallet73	Pallet19	Pallet22	Pallet52	Pallet85	Pallet68	Pallet35	Pallet86	Pallet71	Pallet93	Pallet72	Pallet83	Pallet15	Pallet12	Pallet2
+p36	522849625	Pallet26	Pallet67	Pallet42	Pallet46	Pallet96	Pallet41	Pallet95	Pallet20	Pallet91	Pallet12	Pallet98
+p37	3054505	Pallet31
+p38	393275512	Pallet26
+p39	1	Pallet35
+p40	1	Pallet1	Pallet75	Pallet41	Pallet94
+p41	655612	Pallet28
+p42	13709636	Pallet13	Pallet10	Pallet26	Pallet90	Pallet59	Pallet52	Pallet27	Pallet85	Pallet2
+p43	1133119	Pallet74
+p44	1	Pallet50	Pallet44	Pallet87	Pallet42	Pallet39	Pallet73	Pallet23	Pallet19	Pallet59	Pallet95	Pallet50	Pallet9	Pallet36	Pallet67	Pallet13	Pallet4	Pallet14	Pallet72	Pallet84	Pallet94	Pallet43	Pallet32	Pallet22	Pallet8	Pallet37	Pallet92	Pallet98	Pallet76	Pallet35	Pallet86	Pallet63	Pallet3	Pallet69	Pallet25	Pallet97	Pallet48
+p45	13283	Pallet47	Pallet23	Pallet59	Pallet60	Pallet30	Pallet55	Pallet66	Pallet45	Pallet50	Pallet5	Pallet61	Pallet4	Pallet72	Pallet38	Pallet57	Pallet77	Pallet24	Pallet32	Pallet8	Pallet37	Pallet20	Pallet33	Pallet21	Pallet89	Pallet3	Pallet58	Pallet27	Pallet91	Pallet48	Pallet83	Pallet16	Pallet12	Pallet2
+p46	1	Pallet34	Pallet44	Pallet42	Pallet56	Pallet30	Pallet50	Pallet92	Pallet36	Pallet57	Pallet84	Pallet91	Pallet83	Pallet77
+p47	2551	Pallet43
+p48	1	Pallet21
+p49	796951260	Pallet93	Pallet10	Pallet54	Pallet52	Pallet88	Pallet58	Pallet97	Pallet68
+p50	1	Pallet66
+p51	21576	Pallet77	Pallet44	Pallet6	Pallet96	Pallet19	Pallet59	Pallet80	Pallet30	Pallet55	Pallet90	Pallet11	Pallet54	Pallet14	Pallet57	Pallet75	Pallet40	Pallet33	Pallet26	Pallet21	Pallet58	Pallet69	Pallet25	Pallet27	Pallet48	Pallet15	Pallet17
+p52	6060199	Pallet53
+p53	258894	Pallet72	Pallet44	Pallet42	Pallet6	Pallet46	Pallet59	Pallet88	Pallet45	Pallet47	Pallet90	Pallet54	Pallet1	Pallet13	Pallet4	Pallet78	Pallet94	Pallet43	Pallet24	Pallet100	Pallet32	Pallet8	Pallet68	Pallet92	Pallet35	Pallet86	Pallet64	Pallet69	Pallet83	Pallet16	Pallet15	Pallet12	Pallet17	Pallet10	Pallet96	Pallet80	Pallet30	Pallet53	Pallet11	Pallet72	Pallet57	Pallet56	Pallet37	Pallet41	Pallet20	Pallet33	Pallet98	Pallet26	Pallet91	Pallet2
+p54	139317138	Pallet71	Pallet68
+p55	627165	Pallet48	Pallet67	Pallet100	Pallet40	Pallet97	Pallet48
+p56	1	Pallet99	Pallet87	Pallet11	Pallet74	Pallet22	Pallet57	Pallet48
+p57	29581	Pallet1	Pallet18	Pallet23	Pallet28	Pallet80	Pallet31	Pallet85	Pallet45	Pallet29	Pallet99	Pallet71	Pallet65	Pallet49	Pallet3	Pallet72	Pallet69	Pallet25	Pallet97	Pallet51	Pallet17	Pallet82
+p58	1	Pallet75
+p59	1	Pallet77	Pallet44	Pallet10	Pallet87	Pallet6	Pallet39	Pallet18	Pallet34	Pallet59	Pallet80	Pallet52	Pallet50	Pallet9	Pallet67	Pallet11	Pallet62	Pallet93	Pallet38	Pallet57	Pallet94	Pallet24	Pallet100	Pallet32	Pallet40	Pallet22	Pallet20	Pallet79	Pallet33	Pallet76	Pallet86	Pallet65	Pallet89	Pallet64	Pallet3	Pallet27	Pallet97	Pallet91	Pallet48	Pallet16	Pallet17	Pallet82	Pallet12
+p60	1	Pallet84	Pallet44	Pallet88	Pallet66	Pallet45	Pallet47	Pallet54	Pallet71	Pallet13	Pallet1	Pallet62	Pallet14	Pallet4	Pallet38	Pallet84	Pallet78	Pallet43	Pallet7	Pallet24	Pallet100	Pallet32	Pallet70	Pallet76	Pallet65	Pallet49	Pallet64	Pallet69	Pallet83	Pallet15	Pallet12	Pallet82	Pallet87	Pallet39	Pallet96	Pallet19	Pallet80	Pallet30	Pallet31	Pallet9	Pallet67	Pallet5	Pallet72	Pallet56	Pallet28	Pallet41	Pallet20	Pallet79	Pallet26	Pallet89	Pallet63	Pallet3	Pallet58	Pallet91	Pallet2
+p61	38836	Pallet11
+p62	49570	Pallet5	Pallet1	Pallet62
+p63	1	Pallet14
+p64	71	Pallet43
+p65	788	Pallet29
+p66	1	Pallet51	Pallet44	Pallet42	Pallet87	Pallet10	Pallet96	Pallet88	Pallet31	Pallet85	Pallet50	Pallet9	Pallet36	Pallet47	Pallet90	Pallet29	Pallet99	Pallet71	Pallet13	Pallet93	Pallet4	Pallet72	Pallet38	Pallet57	Pallet78	Pallet94	Pallet77	Pallet43	Pallet7	Pallet81	Pallet74	Pallet41	Pallet20	Pallet79	Pallet33	Pallet92	Pallet98	Pallet26	Pallet65	Pallet89	Pallet3	Pallet63	Pallet58	Pallet48	Pallet51	Pallet83	Pallet15	Pallet82	Pallet17
+p67	3	Pallet84
+p68	1421992076	Pallet93	Pallet42	Pallet46	Pallet18	Pallet88	Pallet98	Pallet9	Pallet76	Pallet35	Pallet26	Pallet53	Pallet65	Pallet71	Pallet77	Pallet15
+p69	1	Pallet26
+p70	4	Pallet14
+p71	73704	Pallet77
+p72	53002756	Pallet11
+p73	1	Pallet67
+p74	7107752	Pallet34
+p75	4167765	Pallet65
+p76	62861	Pallet81
+p77	1	Pallet17
+p78	78237776	Pallet12	Pallet64
+p79	2	Pallet96	Pallet6	Pallet10	Pallet39	Pallet34	Pallet30	Pallet31	Pallet95	Pallet47	Pallet1	Pallet99	Pallet13	Pallet71	Pallet62	Pallet14	Pallet84	Pallet57	Pallet100	Pallet32	Pallet40	Pallet74	Pallet8	Pallet37	Pallet41	Pallet79	Pallet33	Pallet26	Pallet21	Pallet86	Pallet89	Pallet69	Pallet15	Pallet12	Pallet17
+p80	61	Pallet53	Pallet87	Pallet10	Pallet100	Pallet59	Pallet28	Pallet70	Pallet30	Pallet66	Pallet79	Pallet36	Pallet35	Pallet29	Pallet13	Pallet64	Pallet58	Pallet27	Pallet48	Pallet15	Pallet16	Pallet12
+p81	51662	Pallet85	Pallet75	Pallet39	Pallet90	Pallet32	Pallet1	Pallet60	Pallet14	Pallet16
+p82	11	Pallet57	Pallet47	Pallet100	Pallet65	Pallet63	Pallet52	Pallet3	Pallet14	Pallet78	Pallet85	Pallet33
+p83	8072667	Pallet1
+p84	85119628	Pallet17	Pallet96	Pallet34	Pallet60	Pallet88	Pallet41	Pallet20	Pallet66	Pallet45	Pallet98	Pallet54	Pallet14	Pallet63	Pallet64	Pallet38	Pallet16	Pallet2
+p85	1	Pallet36	Pallet7	Pallet6	Pallet87	Pallet46	Pallet13	Pallet60	Pallet59	Pallet69	Pallet33	Pallet9
+p86	486	Pallet16
+p87	1	Pallet1	Pallet10	Pallet73	Pallet46	Pallet96	Pallet34	Pallet19	Pallet59	Pallet8	Pallet88	Pallet45	Pallet33	Pallet36	Pallet5	Pallet1	Pallet94	Pallet82
+p88	1808	Pallet78
+p89	74847	Pallet36
+p90	1	Pallet7
+p91	1	Pallet44	Pallet100	Pallet65	Pallet3	Pallet70	Pallet72	Pallet48	Pallet83	Pallet43	Pallet12
+p92	4	Pallet41	Pallet6	Pallet42	Pallet18	Pallet46	Pallet60	Pallet88	Pallet66	Pallet85	Pallet50	Pallet13	Pallet1	Pallet71	Pallet99	Pallet14	Pallet4	Pallet94	Pallet24	Pallet7	Pallet100	Pallet32	Pallet70	Pallet92	Pallet76	Pallet49	Pallet64	Pallet69	Pallet48	Pallet51	Pallet83	Pallet12	Pallet87	Pallet39	Pallet73	Pallet96	Pallet23	Pallet34	Pallet52	Pallet80	Pallet36	Pallet93	Pallet72	Pallet57	Pallet56	Pallet40	Pallet81	Pallet74	Pallet37	Pallet33	Pallet26	Pallet3	Pallet58	Pallet91
+p93	1	Pallet44	Pallet7	Pallet10	Pallet74	Pallet89	Pallet48	Pallet68
+p94	1	Pallet39	Pallet49
+p95	1	Pallet17	Pallet16
+p96	78410642	Pallet31	Pallet21	Pallet81	Pallet3	Pallet63	Pallet20	Pallet50
+p97	11	Pallet64	Pallet75
+p98	1	Pallet5
+p99	1	Pallet98	Pallet41	Pallet91
+p100	226	Pallet33	Pallet6	Pallet40	Pallet61	Pallet91	Pallet82
+p101	102569133	Pallet48	Pallet49	Pallet52	Pallet31
+p102	1037842259	Pallet91	Pallet6	Pallet42	Pallet18	Pallet60	Pallet52	Pallet95	Pallet50	Pallet36	Pallet67	Pallet53	Pallet90	Pallet54	Pallet71	Pallet61	Pallet62	Pallet4	Pallet84	Pallet24	Pallet7	Pallet32	Pallet41	Pallet20	Pallet79	Pallet68	Pallet76	Pallet26	Pallet21	Pallet49	Pallet63	Pallet58	Pallet97	Pallet48	Pallet51	Pallet16	Pallet82
+p103	34	Pallet11	Pallet44	Pallet42	Pallet6	Pallet46	Pallet88	Pallet95	Pallet47	Pallet54	Pallet29	Pallet13	Pallet99	Pallet71	Pallet14	Pallet62	Pallet94	Pallet78	Pallet43	Pallet100	Pallet35	Pallet65	Pallet25	Pallet69	Pallet51	Pallet15	Pallet12	Pallet82	Pallet39	Pallet96	Pallet19	Pallet34	Pallet52	Pallet30	Pallet31	Pallet36	Pallet61	Pallet93	Pallet77	Pallet75	Pallet22	Pallet28	Pallet41	Pallet20	Pallet79	Pallet98	Pallet21	Pallet89	Pallet3	Pallet58	Pallet27	Pallet91	Pallet2
+p104	57692622	Pallet48	Pallet44	Pallet87	Pallet73	Pallet34	Pallet60	Pallet81	Pallet28	Pallet30	Pallet70	Pallet66	Pallet36	Pallet47	Pallet54	Pallet99	Pallet93	Pallet62	Pallet3	Pallet25	Pallet97	Pallet48	Pallet94	Pallet83	Pallet77
+p105	139	Pallet51	Pallet10	Pallet6	Pallet39	Pallet73	Pallet46	Pallet23	Pallet96	Pallet34	Pallet59	Pallet55	Pallet31	Pallet85	Pallet36	Pallet5	Pallet90	Pallet54	Pallet62	Pallet77	Pallet100	Pallet32	Pallet37	Pallet92	Pallet26	Pallet21	Pallet63	Pallet64	Pallet51	Pallet48	Pallet83	Pallet16	Pallet15	Pallet17	Pallet12
+p106	1	Pallet1
+p107	30817599	Pallet79
+p108	1	Pallet36	Pallet75	Pallet8	Pallet79	Pallet50	Pallet35	Pallet26	Pallet1	Pallet89	Pallet63	Pallet4	Pallet48	Pallet51	Pallet12
+p109	1	Pallet47
+p110	445189706	Pallet88	Pallet44	Pallet46	Pallet73	Pallet96	Pallet34	Pallet19	Pallet52	Pallet80	Pallet95	Pallet85	Pallet45	Pallet54	Pallet1	Pallet13	Pallet61	Pallet38	Pallet72	Pallet94	Pallet7	Pallet75	Pallet32	Pallet81	Pallet22	Pallet37	Pallet20	Pallet68	Pallet21	Pallet65	Pallet64	Pallet97	Pallet51	Pallet2
+p111	185575	Pallet74	Pallet75	Pallet95	Pallet51	Pallet98
+p112	3437914	Pallet78	Pallet75	Pallet10	Pallet100	Pallet32	Pallet40	Pallet80	Pallet41	Pallet55	Pallet31	Pallet20	Pallet79	Pallet92	Pallet98	Pallet76	Pallet21	Pallet62	Pallet27	Pallet84	Pallet78
+p113	13008	Pallet51
+p114	851	Pallet78	Pallet6	Pallet46	Pallet18	Pallet60	Pallet95	Pallet45	Pallet50	Pallet47	Pallet90	Pallet29	Pallet1	Pallet99	Pallet14	Pallet62	Pallet84	Pallet94	Pallet78	Pallet24	Pallet8	Pallet68	Pallet92	Pallet76	Pallet35	Pallet86	Pallet65	Pallet51	Pallet15	Pallet82	Pallet17	Pallet87	Pallet10	Pallet23	Pallet19	Pallet52	Pallet55	Pallet67	Pallet5	Pallet53	Pallet11	Pallet61	Pallet93	Pallet77	Pallet56	Pallet40	Pallet81	Pallet22	Pallet20	Pallet79	Pallet33	Pallet26	Pallet21	Pallet89	Pallet27	Pallet97
+p115	1	Pallet70
+p116	1	Pallet21
+p117	141990551	Pallet56	Pallet42	Pallet10	Pallet23	Pallet31	Pallet55	Pallet36	Pallet5	Pallet11	Pallet4	Pallet72	Pallet84	Pallet77	Pallet43	Pallet7	Pallet24	Pallet74	Pallet70	Pallet41	Pallet20	Pallet33	Pallet35	Pallet76	Pallet97	Pallet91	Pallet82
+p118	1	Pallet45	Pallet23	Pallet14
+p119	1271305701	Pallet54	Pallet42	Pallet18	Pallet59	Pallet60	Pallet88	Pallet95	Pallet66	Pallet90	Pallet29	Pallet1	Pallet71	Pallet62	Pallet38	Pallet94	Pallet78	Pallet24	Pallet7	Pallet100	Pallet32	Pallet70	Pallet8	Pallet68	Pallet86	Pallet64	Pallet51	Pallet83	Pallet16	Pallet15	Pallet17	Pallet10	Pallet87	Pallet39	Pallet23	Pallet19	Pallet80	Pallet55	Pallet9	Pallet67	Pallet53	Pallet61	Pallet77	Pallet56	Pallet74	Pallet37	Pallet33	Pallet98	Pallet21	Pallet89	Pallet3	Pallet97	Pallet2
+p120	1	Pallet86	Pallet44	Pallet42	Pallet87	Pallet39	Pallet23	Pallet60	Pallet80	Pallet52	Pallet88	Pallet31	Pallet66	Pallet85	Pallet45	Pallet53	Pallet90	Pallet5	Pallet11	Pallet29	Pallet71	Pallet13	Pallet1	Pallet4	Pallet14	Pallet93	Pallet72	Pallet94	Pallet43	Pallet7	Pallet100	Pallet32	Pallet74	Pallet22	Pallet37	Pallet20	Pallet79	Pallet92	Pallet68	Pallet35	Pallet86	Pallet65	Pallet3	Pallet58	Pallet51	Pallet15	Pallet16	Pallet12
+p121	1	Pallet50	Pallet63
+p122	1	Pallet66
+p123	1	Pallet13	Pallet87	Pallet11
+p124	91	Pallet83	Pallet10	Pallet73	Pallet40	Pallet80	Pallet30	Pallet31	Pallet41	Pallet92	Pallet98	Pallet53	Pallet54	Pallet13	Pallet3	Pallet64	Pallet62	Pallet16	Pallet17
+p125	1	Pallet55
+p126	249589	Pallet81	Pallet44	Pallet88	Pallet66	Pallet90	Pallet54	Pallet71	Pallet99	Pallet94	Pallet78	Pallet24	Pallet32	Pallet8	Pallet68	Pallet92	Pallet76	Pallet35	Pallet86	Pallet49	Pallet64	Pallet25	Pallet48	Pallet83	Pallet16	Pallet12	Pallet10	Pallet19	Pallet34	Pallet80	Pallet52	Pallet36	Pallet67	Pallet53	Pallet5	Pallet11	Pallet61	Pallet93	Pallet72	Pallet77	Pallet40	Pallet81	Pallet28	Pallet20	Pallet98	Pallet26	Pallet3	Pallet27	Pallet91	Pallet97	Pallet2
+p127	20	Pallet59	Pallet53	Pallet89	Pallet28	Pallet77	Pallet45
+p128	1	Pallet45	Pallet81	Pallet52
+p129	6095623	Pallet4	Pallet6	Pallet75	Pallet10	Pallet100	Pallet18	Pallet28	Pallet22	Pallet88	Pallet41	Pallet50	Pallet45	Pallet68	Pallet9	Pallet47	Pallet35	Pallet29	Pallet99	Pallet78	Pallet77
+p130	1	Pallet66
+p131	1	Pallet85
+p132	1	Pallet93	Pallet5	Pallet96	Pallet59	Pallet89	Pallet74	Pallet78	Pallet83	Pallet43	Pallet12
+p133	1	Pallet9
+p134	1	Pallet76
+p135	23	Pallet21	Pallet7	Pallet18	Pallet56	Pallet81	Pallet88	Pallet37	Pallet68	Pallet26	Pallet54	Pallet65	Pallet61	Pallet4	Pallet38	Pallet69	Pallet27	Pallet84	Pallet51	Pallet48	Pallet83
+p136	196	Pallet41	Pallet5	Pallet72	Pallet98
+p137	44093925	Pallet83	Pallet42	Pallet88	Pallet66	Pallet85	Pallet47	Pallet29	Pallet71	Pallet13	Pallet99	Pallet62	Pallet4	Pallet38	Pallet78	Pallet43	Pallet100	Pallet32	Pallet8	Pallet70	Pallet92	Pallet49	Pallet64	Pallet69	Pallet48	Pallet83	Pallet16	Pallet17	Pallet82	Pallet87	Pallet39	Pallet73	Pallet23	Pallet34	Pallet80	Pallet52	Pallet30	Pallet55	Pallet36	Pallet67	Pallet53	Pallet5	Pallet61	Pallet93	Pallet72	Pallet56	Pallet81	Pallet28	Pallet20	Pallet33	Pallet63	Pallet27	Pallet91
+p138	314538398	Pallet71	Pallet73	Pallet62	Pallet64	Pallet8	Pallet38	Pallet31	Pallet78	Pallet50
+p139	13085	Pallet89
+p140	4519	Pallet2
+p141	461	Pallet9
+p142	1	Pallet91
+p143	2160451	Pallet73	Pallet31
+p144	1	Pallet69
+p145	1	Pallet49	Pallet75	Pallet47	Pallet56	Pallet32	Pallet59	Pallet22	Pallet3	Pallet33	Pallet82
+p146	240055	Pallet27
+p147	1	Pallet96	Pallet42	Pallet87	Pallet39	Pallet46	Pallet59	Pallet55	Pallet66	Pallet85	Pallet50	Pallet29	Pallet71	Pallet61	Pallet4	Pallet78	Pallet77	Pallet100	Pallet56	Pallet32	Pallet81	Pallet22	Pallet20	Pallet98	Pallet89	Pallet27	Pallet16	Pallet15
+p148	1	Pallet50	Pallet10	Pallet87	Pallet46	Pallet23	Pallet19	Pallet60	Pallet52	Pallet30	Pallet95	Pallet50	Pallet9	Pallet36	Pallet47	Pallet67	Pallet90	Pallet53	Pallet5	Pallet11	Pallet54	Pallet29	Pallet71	Pallet99	Pallet93	Pallet62	Pallet14	Pallet72	Pallet38	Pallet24	Pallet75	Pallet56	Pallet40	Pallet74	Pallet70	Pallet8	Pallet68	Pallet98	Pallet21	Pallet89	Pallet3	Pallet64	Pallet27	Pallet91	Pallet97	Pallet83
+p149	27132669	Pallet16	Pallet10	Pallet73	Pallet56	Pallet32	Pallet34	Pallet60	Pallet74	Pallet22	Pallet37	Pallet41	Pallet33	Pallet50	Pallet11	Pallet86	Pallet29	Pallet71
+p150	23	Pallet95
+p151	9150415	Pallet24	Pallet44	Pallet6	Pallet42	Pallet95	Pallet85	Pallet50	Pallet47	Pallet90	Pallet29	Pallet54	Pallet1	Pallet71	Pallet13	Pallet62	Pallet38	Pallet84	Pallet43	Pallet7	Pallet70	Pallet8	Pallet92	Pallet76	Pallet35	Pallet65	Pallet49	Pallet64	Pallet25	Pallet51	Pallet83	Pallet15	Pallet82	Pallet12	Pallet87	Pallet10	Pallet39	Pallet73	Pallet23	Pallet34	Pallet19	Pallet52	Pallet31	Pallet55	Pallet9	Pallet36	Pallet11	Pallet61	Pallet93	Pallet72	Pallet57	Pallet77	Pallet75	Pallet56	Pallet81	Pallet22	Pallet28	Pallet37	Pallet41	Pallet79	Pallet33	Pallet21	Pallet89	Pallet63	Pallet3	Pallet58	Pallet2
+p152	1	Pallet78	Pallet19
+p153	218703	Pallet91	Pallet7	Pallet29	Pallet82
+p154	1	Pallet63
+p155	11599964	Pallet21
+p156	107826	Pallet60
+p157	81171	Pallet24	Pallet14	Pallet95
+p158	499347	Pallet84
+p159	4377	Pallet75
+p160	106714817	Pallet91	Pallet28
+p161	15224113	Pallet87	Pallet44	Pallet42	Pallet18	Pallet60	Pallet59	Pallet95	Pallet50	Pallet54	Pallet71	Pallet4	Pallet14	Pallet38	Pallet94	Pallet32	Pallet70	Pallet8	Pallet92	Pallet76	Pallet49	Pallet48	Pallet83	Pallet16	Pallet82	Pallet17	Pallet73	Pallet96	Pallet34	Pallet19	Pallet80	Pallet52	Pallet55	Pallet31	Pallet36	Pallet53	Pallet11	Pallet61	Pallet72	Pallet57	Pallet77	Pallet75	Pallet56	Pallet40	Pallet74	Pallet81	Pallet22	Pallet37	Pallet41	Pallet33	Pallet63	Pallet27	Pallet2
+p162	3020224	Pallet57	Pallet42	Pallet39	Pallet96	Pallet19	Pallet60	Pallet55	Pallet66	Pallet9	Pallet53	Pallet29	Pallet61	Pallet38	Pallet72	Pallet57	Pallet94	Pallet77	Pallet7	Pallet40	Pallet74	Pallet81	Pallet22	Pallet8	Pallet37	Pallet35	Pallet76	Pallet26	Pallet21	Pallet58	Pallet27	Pallet97	Pallet91	Pallet82	Pallet2
+p163	1	Pallet96	Pallet44	Pallet10	Pallet6	Pallet34	Pallet59	Pallet60	Pallet80	Pallet88	Pallet36	Pallet47	Pallet67	Pallet54	Pallet13	Pallet1	Pallet61	Pallet14	Pallet93	Pallet72	Pallet84	Pallet57	Pallet77	Pallet75	Pallet56	Pallet32	Pallet81	Pallet28	Pallet70	Pallet8	Pallet35	Pallet21	Pallet64	Pallet58	Pallet25	Pallet51	Pallet16	Pallet82
+p164	1	Pallet97	Pallet87	Pallet42	Pallet18	Pallet23	Pallet60	Pallet59	Pallet88	Pallet95	Pallet47	Pallet67	Pallet29	Pallet1	Pallet61	Pallet38	Pallet78	Pallet56	Pallet74	Pallet8	Pallet41	Pallet20	Pallet92	Pallet76	Pallet86	Pallet58	Pallet27	Pallet51	Pallet15	Pallet82
+p165	35	Pallet59
+p166	1	Pallet52
+p167	108952336	Pallet68	Pallet7	Pallet42	Pallet73	Pallet56	Pallet19	Pallet80	Pallet22	Pallet70	Pallet31	Pallet41	Pallet45	Pallet90	Pallet49	Pallet3	Pallet84	Pallet51	Pallet83
+p168	4277	Pallet42
+p169	65930961	Pallet84
+p170	145225802	Pallet40	Pallet33
+p171	94	Pallet80
+p172	76413273	Pallet29	Pallet73
+p173	1	Pallet72
+p174	1	Pallet19	Pallet87	Pallet73	Pallet23	Pallet59	Pallet80	Pallet30	Pallet95	Pallet50	Pallet9	Pallet36	Pallet67	Pallet53	Pallet99	Pallet61	Pallet62	Pallet57	Pallet84	Pallet94	Pallet75	Pallet74	Pallet81	Pallet22	Pallet70	Pallet37	Pallet41	Pallet20	Pallet76	Pallet86	Pallet63	Pallet27	Pallet69	Pallet25	Pallet97	Pallet51	Pallet48	Pallet83	Pallet82
+p175	8443080	Pallet32	Pallet70	Pallet41
+p176	1	Pallet13	Pallet46	Pallet60	Pallet31	Pallet85	Pallet9	Pallet67	Pallet71	Pallet13	Pallet1	Pallet61	Pallet24	Pallet100	Pallet32	Pallet74	Pallet28	Pallet70	Pallet37	Pallet79	Pallet76	Pallet86	Pallet49	Pallet69	Pallet25	Pallet48
+p177	6275	Pallet25
+p178	1	Pallet85	Pallet11	Pallet70	Pallet83	Pallet98
+p179	1340219811	Pallet57	Pallet10	Pallet95	Pallet68	Pallet98	Pallet5	Pallet90	Pallet11	Pallet54	Pallet86	Pallet99	Pallet61	Pallet3	Pallet4	Pallet58	Pallet38	Pallet25	Pallet51	Pallet16	Pallet2
+p180	1	Pallet73	Pallet44	Pallet87	Pallet19	Pallet28	Pallet92	Pallet67	Pallet76	Pallet89	Pallet63	Pallet38	Pallet72	Pallet51	Pallet94	Pallet83	Pallet43	Pallet15	Pallet17
+p181	1	Pallet24	Pallet10	Pallet39	Pallet96	Pallet19	Pallet34	Pallet59	Pallet52	Pallet30	Pallet31	Pallet55	Pallet66	Pallet9	Pallet90	Pallet53	Pallet29	Pallet99	Pallet61	Pallet62	Pallet38	Pallet57	Pallet78	Pallet43	Pallet7	Pallet75	Pallet100	Pallet40	Pallet81	Pallet28	Pallet22	Pallet8	Pallet35	Pallet76	Pallet89	Pallet69	Pallet91	Pallet51	Pallet16	Pallet17
+p182	3194	Pallet85	Pallet90	Pallet11	Pallet23	Pallet34	Pallet59	Pallet63	Pallet20	Pallet95	Pallet66	Pallet45	Pallet9
+p183	69979168	Pallet14	Pallet73	Pallet56	Pallet30	Pallet31	Pallet41	Pallet85	Pallet45	Pallet33	Pallet98	Pallet11	Pallet49	Pallet71	Pallet13	Pallet61	Pallet89	Pallet14	Pallet62	Pallet69	Pallet97	Pallet83	Pallet77	Pallet15	Pallet12
+p184	42582	Pallet96	Pallet87	Pallet6	Pallet10	Pallet73	Pallet18	Pallet19	Pallet30	Pallet55	Pallet95	Pallet66	Pallet45	Pallet50	Pallet67	Pallet47	Pallet11	Pallet29	Pallet57	Pallet78	Pallet7	Pallet75	Pallet81	Pallet70	Pallet41	Pallet37	Pallet20	Pallet79	Pallet33	Pallet98	Pallet68	Pallet76	Pallet65	Pallet49	Pallet25	Pallet91	Pallet83
+p185	336397	Pallet98
+p186	1	Pallet53
+p187	1	Pallet46	Pallet6	Pallet42	Pallet46	Pallet59	Pallet88	Pallet95	Pallet66	Pallet45	Pallet47	Pallet29	Pallet99	Pallet71	Pallet13	Pallet14	Pallet62	Pallet84	Pallet94	Pallet43	Pallet7	Pallet100	Pallet32	Pallet70	Pallet35	Pallet76	Pallet86	Pallet49	Pallet69	Pallet51	Pallet48	Pallet83	Pallet16	Pallet82	Pallet10	Pallet87	Pallet39	Pallet73	Pallet96	Pallet19	Pallet52	Pallet80	Pallet30	Pallet55	Pallet31	Pallet9	Pallet36	Pallet67	Pallet5	Pallet93	Pallet72	Pallet57	Pallet77	Pallet75	Pallet40	Pallet81	Pallet74	Pallet28	Pallet20	Pallet79	Pallet21	Pallet26	Pallet3	Pallet27	Pallet91	Pallet2
+p188	1	Pallet74	Pallet47
+p189	640642	Pallet22
+p190	271	Pallet22	Pallet10	Pallet87	Pallet75	Pallet31	Pallet37	Pallet33	Pallet92	Pallet68	Pallet9	Pallet36	Pallet21	Pallet90	Pallet13	Pallet25	Pallet51	Pallet77
+p191	1	Pallet71	Pallet21	Pallet19	Pallet59	Pallet61	Pallet2
+p192	34502390	Pallet69	Pallet44	Pallet6	Pallet42	Pallet88	Pallet50	Pallet45	Pallet90	Pallet29	Pallet1	Pallet62	Pallet84	Pallet94	Pallet78	Pallet43	Pallet24	Pallet100	Pallet32	Pallet92	Pallet65	Pallet25	Pallet69	Pallet51	Pallet15	Pallet82	Pallet17	Pallet87	Pallet73	Pallet23	Pallet52	Pallet80	Pallet55	Pallet9	Pallet36	Pallet67	Pallet11	Pallet61	Pallet93	Pallet72	Pallet56	Pallet40	Pallet74	Pallet28	Pallet22	Pallet41	Pallet79	Pallet98	Pallet26	Pallet21	Pallet89	Pallet63	Pallet58	Pallet97	Pallet91
+p193	1097	Pallet89
+p194	1	Pallet18	Pallet100
+p195	64412	Pallet29
+p196	1	Pallet54
+p197	1	Pallet54	Pallet44	Pallet42	Pallet6	Pallet18	Pallet19	Pallet59	Pallet88	Pallet55	Pallet9	Pallet36	Pallet47	Pallet67	Pallet13	Pallet61	Pallet93	Pallet38	Pallet84	Pallet7	Pallet56	Pallet8	Pallet37	Pallet33	Pallet68	Pallet92	Pallet89	Pallet63	Pallet25	Pallet51	Pallet16	Pallet2	Pallet17
+p198	1	Pallet47	Pallet6
+p199	1	Pallet32	Pallet6	Pallet73	Pallet32	Pallet55	Pallet85	Pallet26	Pallet29	Pallet89	Pallet62	Pallet38	Pallet16	Pallet17
+p200	87436913	Pallet51
+p201	1	Pallet81
+p202	1	Pallet15	Pallet67	Pallet96
+p203	285104	Pallet20	Pallet6	Pallet42	Pallet19	Pallet59	Pallet30	Pallet9	Pallet67	Pallet29	Pallet1	Pallet99	Pallet93	Pallet14	Pallet77	Pallet75	Pallet100	Pallet74	Pallet22	Pallet37	Pallet41	Pallet79	Pallet76	Pallet86	Pallet49	Pallet65	Pallet89	Pallet58	Pallet25	Pallet91	Pallet51	Pallet48	Pallet82
+p204	88369	Pallet83
+p205	1	Pallet92	Pallet36	Pallet86	Pallet99	Pallet52	Pallet22	Pallet33
+p206	1267513	Pallet97
+p207	101713359	Pallet83	Pallet44	Pallet67	Pallet46	Pallet56	Pallet99	Pallet1	Pallet40	Pallet72	Pallet79	Pallet15	Pallet82
+p208	27	Pallet26
+p209	1	Pallet91	Pallet7	Pallet75	Pallet61	Pallet89	Pallet88	Pallet17	Pallet2	Pallet92	Pallet68
+p210	707452696	Pallet19
+p211	3	Pallet41	Pallet42	Pallet6	Pallet60	Pallet88	Pallet95	Pallet66	Pallet45	Pallet90	Pallet29	Pallet99	Pallet1	Pallet71	Pallet14	Pallet4	Pallet62	Pallet38	Pallet84	Pallet94	Pallet43	Pallet24	Pallet7	Pallet70	Pallet68	Pallet92	Pallet35	Pallet86	Pallet65	Pallet49	Pallet64	Pallet25	Pallet69	Pallet48	Pallet15	Pallet82	Pallet12	Pallet87	Pallet10	Pallet73	Pallet23	Pallet80	Pallet30	Pallet55	Pallet31	Pallet9	Pallet67	Pallet5	Pallet53	Pallet11	Pallet61	Pallet72	Pallet77	Pallet75	Pallet56	Pallet40	Pallet22	Pallet37	Pallet41	Pallet20	Pallet79	Pallet21	Pallet26	Pallet63	Pallet3	Pallet91	Pallet97	Pallet2
+p212	158494545	Pallet76	Pallet32	Pallet1	Pallet8	Pallet66	Pallet92
+p213	1982037	Pallet46	Pallet87	Pallet46	Pallet81	Pallet88	Pallet20	Pallet79	Pallet9	Pallet47	Pallet11	Pallet89	Pallet91	Pallet78
+p214	1	Pallet16	Pallet44	Pallet28	Pallet88	Pallet8	Pallet91	Pallet20
+p215	1	Pallet68	Pallet90
+p216	61856437	Pallet55	Pallet35
+p217	6843	Pallet12	Pallet73	Pallet23	Pallet31	Pallet50	Pallet45	Pallet36	Pallet53	Pallet5	Pallet90	Pallet11	Pallet99	Pallet71	Pallet13	Pallet61	Pallet14	Pallet93	Pallet62	Pallet72	Pallet94	Pallet43	Pallet7	Pallet24	Pallet100	Pallet81	Pallet74	Pallet22	Pallet28	Pallet70	Pallet37	Pallet65	Pallet64	Pallet3	Pallet69	Pallet25	Pallet83	Pallet15	Pallet12
+p218	1	Pallet34	Pallet70	Pallet51	Pallet43
+p219	66	Pallet42
+p220	1	Pallet29
+p221	289545876	Pallet65	Pallet29	Pallet49
+p222	2	Pallet29	Pallet7
+p223	49632	Pallet45
+p224	8656381	Pallet60
+p225	2	Pallet96
+p226	1	Pallet83	Pallet36	Pallet5	Pallet28
+p227	45078530	Pallet74
+p228	168600515	Pallet98	Pallet42	Pallet75	Pallet5	Pallet34	Pallet60	Pallet38	Pallet82
+p229	82913	Pallet17
+p230	1	Pallet20	Pallet59
+p231	176534	Pallet23	Pallet44	Pallet6	Pallet42	Pallet18	Pallet59	Pallet60	Pallet88	Pallet66	Pallet85	Pallet45	Pallet47	Pallet29	Pallet13	Pallet99	Pallet14	Pallet4	Pallet78	Pallet7	Pallet24	Pallet100	Pallet32	Pallet70	Pallet92	Pallet76	Pallet86	Pallet65	Pallet69	Pallet83	Pallet39	Pallet73	Pallet96	Pallet34	Pallet30	Pallet67	Pallet5	Pallet11	Pallet61	Pallet93	Pallet72	Pallet57	Pallet77	Pallet75	Pallet56	Pallet74	Pallet81	Pallet28	Pallet22	Pallet37	Pallet79	Pallet33	Pallet98	Pallet26	Pallet3	Pallet63	Pallet27	Pallet97	Pallet91	Pallet2
+p232	1	Pallet80	Pallet10	Pallet6	Pallet52	Pallet30	Pallet66	Pallet85	Pallet50	Pallet9	Pallet36	Pallet47	Pallet53	Pallet5	Pallet11	Pallet29	Pallet1	Pallet61	Pallet57	Pallet24	Pallet7	Pallet75	Pallet56	Pallet40	Pallet28	Pallet33	Pallet98	Pallet35	Pallet26	Pallet58	Pallet16	Pallet15	Pallet12	Pallet82	Pallet2
+p233	2698684	Pallet57	Pallet53	Pallet31	Pallet83
+p234	1	Pallet29	Pallet24	Pallet99	Pallet93	Pallet51
+p235	11650429	Pallet19
+p236	6445791	Pallet81	Pallet5	Pallet99	Pallet40	Pallet74	Pallet62	Pallet8	Pallet48
+p237	1969068643	Pallet29	Pallet42	Pallet18	Pallet60	Pallet59	Pallet66	Pallet50	Pallet1	Pallet71	Pallet62	Pallet4	Pallet14	Pallet38	Pallet7	Pallet24	Pallet8	Pallet68	Pallet92	Pallet76	Pallet65	Pallet64	Pallet69	Pallet48	Pallet51	Pallet12	Pallet87	Pallet23	Pallet96	Pallet19	Pallet80	Pallet30	Pallet31	Pallet55	Pallet36	Pallet5	Pallet61	Pallet72	Pallet57	Pallet75	Pallet40	Pallet81	Pallet74	Pallet37	Pallet20	Pallet79	Pallet98	Pallet26	Pallet21	Pallet89	Pallet3	Pallet63	Pallet97	Pallet91	Pallet2
+p238	1	Pallet67	Pallet44	Pallet6	Pallet18	Pallet59	Pallet60	Pallet66	Pallet45	Pallet90	Pallet29	Pallet54	Pallet13	Pallet99	Pallet62	Pallet14	Pallet38	Pallet84	Pallet7	Pallet70	Pallet92	Pallet76	Pallet35	Pallet49	Pallet69	Pallet48	Pallet16	Pallet15	Pallet10	Pallet73	Pallet23	Pallet96	Pallet55	Pallet5	Pallet72	Pallet75	Pallet56	Pallet40	Pallet81	Pallet74	Pallet28	Pallet41	Pallet37	Pallet20	Pallet79	Pallet98	Pallet26	Pallet89	Pallet58	Pallet27	Pallet91	Pallet2
+p239	1	Pallet39	Pallet87	Pallet18	Pallet96	Pallet59	Pallet60	Pallet95	Pallet66	Pallet85	Pallet9	Pallet36	Pallet90	Pallet11	Pallet54	Pallet1	Pallet71	Pallet93	Pallet4	Pallet72	Pallet57	Pallet84	Pallet43	Pallet7	Pallet100	Pallet40	Pallet74	Pallet22	Pallet8	Pallet70	Pallet41	Pallet37	Pallet20	Pallet68	Pallet21	Pallet65	Pallet89	Pallet63	Pallet3	Pallet27	Pallet91	Pallet83	Pallet16	Pallet12
+p240	1	Pallet42
+p241	4	Pallet63	Pallet18	Pallet71
+p242	1394099	Pallet12	Pallet7	Pallet32	Pallet96	Pallet81	Pallet52	Pallet88	Pallet47	Pallet76	Pallet71	Pallet63	Pallet94	Pallet2
+p243	42	Pallet71	Pallet42	Pallet10	Pallet87	Pallet39	Pallet46	Pallet23	Pallet34	Pallet80	Pallet9	Pallet11	Pallet71	Pallet13	Pallet1	Pallet62	Pallet43	Pallet77	Pallet75	Pallet56	Pallet100	Pallet74	Pallet22	Pallet28	Pallet8	Pallet37	Pallet79	Pallet92	Pallet98	Pallet35	Pallet26	Pallet86	Pallet89	Pallet64	Pallet69	Pallet27	Pallet91	Pallet48	Pallet51	Pallet83	Pallet2
+p244	5832	Pallet87	Pallet21
+p245	34048	Pallet77
+p246	129305230	Pallet90
+p247	1	Pallet63	Pallet24	Pallet67	Pallet29	Pallet49	Pallet8	Pallet55	Pallet17
+p248	40420	Pallet4	Pallet21	Pallet73	Pallet46	Pallet90	Pallet40	Pallet49	Pallet70	Pallet38	Pallet31	Pallet57	Pallet45
+p249	1	Pallet89
+p250	4	Pallet92
+p251	1966805	Pallet92	Pallet72
+p252	1	Pallet5	Pallet6	Pallet75	Pallet89	Pallet28	Pallet38	Pallet78	Pallet83	Pallet33
+p253	2	Pallet32
+p254	4	Pallet18	Pallet57	Pallet15
+p255	1	Pallet91	Pallet76	Pallet73	Pallet32	Pallet22	Pallet55	Pallet17
+p256	180292	Pallet30
+p257	26	Pallet30
+p258	88765	Pallet74
+p259	1	Pallet26	Pallet39	Pallet96	Pallet23	Pallet19	Pallet60	Pallet52	Pallet88	Pallet66	Pallet45	Pallet50	Pallet9	Pallet99	Pallet57	Pallet94	Pallet40	Pallet41	Pallet33	Pallet76	Pallet26	Pallet63	Pallet58	Pallet69	Pallet91	Pallet97	Pallet15
+p260	270101	Pallet78	Pallet36	Pallet6	Pallet53	Pallet90	Pallet54	Pallet81	Pallet3
+p261	592	Pallet59	Pallet44	Pallet87	Pallet10	Pallet42	Pallet73	Pallet19	Pallet80	Pallet31	Pallet55	Pallet85	Pallet45	Pallet90	Pallet29	Pallet54	Pallet13	Pallet71	Pallet1	Pallet93	Pallet62	Pallet38	Pallet57	Pallet94	Pallet77	Pallet24	Pallet100	Pallet56	Pallet32	Pallet40	Pallet28	Pallet70	Pallet37	Pallet98	Pallet68	Pallet92	Pallet76	Pallet89	Pallet63	Pallet25	Pallet69	Pallet91	Pallet48	Pallet83	Pallet16	Pallet15	Pallet17	Pallet12	Pallet82
+p262	66198	Pallet16	Pallet44	Pallet87	Pallet39	Pallet46	Pallet73	Pallet23	Pallet96	Pallet34	Pallet60	Pallet59	Pallet80	Pallet88	Pallet30	Pallet31	Pallet66	Pallet50	Pallet45	Pallet47	Pallet90	Pallet99	Pallet4	Pallet93	Pallet38	Pallet84	Pallet43	Pallet24	Pallet7	Pallet75	Pallet32	Pallet40	Pallet74	Pallet22	Pallet8	Pallet70	Pallet20	Pallet79	Pallet35	Pallet76	Pallet21	Pallet26	Pallet3	Pallet25	Pallet27	Pallet91	Pallet17
+p263	1	Pallet13
+p264	1	Pallet72	Pallet84	Pallet95	Pallet33	Pallet9
+p265	265	Pallet23
+p266	47388	Pallet4
+p267	1	Pallet98
+p268	1	Pallet46
+p269	191719657	Pallet28	Pallet6	Pallet73	Pallet19	Pallet74	Pallet52	Pallet28	Pallet22	Pallet70	Pallet31	Pallet55	Pallet79	Pallet68	Pallet5	Pallet90	Pallet54	Pallet99	Pallet4	Pallet62	Pallet58	Pallet97	Pallet16	Pallet82
+p270	1	Pallet60
+p271	46	Pallet40
+p272	293	Pallet55	Pallet44	Pallet6	Pallet46	Pallet18	Pallet60	Pallet88	Pallet95	Pallet50	Pallet1	Pallet99	Pallet4	Pallet14	Pallet38	Pallet84	Pallet94	Pallet43	Pallet24	Pallet32	Pallet70	Pallet8	Pallet76	Pallet86	Pallet65	Pallet25	Pallet69	Pallet48	Pallet83	Pallet17	Pallet12	Pallet87	Pallet39	Pallet73	Pallet23	Pallet34	Pallet19	Pallet31	Pallet9	Pallet36	Pallet67	Pallet53	Pallet11	Pallet72	Pallet57	Pallet74	Pallet28	Pallet37	Pallet41	Pallet20	Pallet98	Pallet21	Pallet26	Pallet63	Pallet91	Pallet97	Pallet2
+p273	1	Pallet16	Pallet39	Pallet78
+p274	1	Pallet97	Pallet87	Pallet67	Pallet6	Pallet21	Pallet46	Pallet59	Pallet63	Pallet70	Pallet45	Pallet92	Pallet82
+p275	1	Pallet100	Pallet16
+p276	1	Pallet3
+p277	13910614	Pallet75	Pallet47	Pallet42	Pallet17	Pallet98
+p278	89	Pallet2	Pallet35	Pallet53	Pallet56	Pallet13	Pallet45	Pallet92
+p279	98712633	Pallet87	Pallet44	Pallet18	Pallet46	Pallet88	Pallet95	Pallet66	Pallet50	Pallet47	Pallet90	Pallet13	Pallet1	Pallet99	Pallet14	Pallet4	Pallet38	Pallet84	Pallet78	Pallet100	Pallet70	Pallet92	Pallet35	Pallet65	Pallet64	Pallet69	Pallet51	Pallet48	Pallet15	Pallet17	Pallet12	Pallet39	Pallet73	Pallet23	Pallet34	Pallet19	Pallet80	Pallet30	Pallet55	Pallet36	Pallet67	Pallet93	Pallet72	Pallet75	Pallet81	Pallet22	Pallet41	Pallet37	Pallet79	Pallet33	Pallet98	Pallet26	Pallet21	Pallet89
+p280	1	Pallet9	Pallet44	Pallet6	Pallet18	Pallet60	Pallet88	Pallet95	Pallet66	Pallet85	Pallet50	Pallet45	Pallet47	Pallet90	Pallet54	Pallet29	Pallet13	Pallet71	Pallet99	Pallet14	Pallet4	Pallet62	Pallet84	Pallet94	Pallet78	Pallet43	Pallet7	Pallet100	Pallet32	Pallet8	Pallet68	Pallet92	Pallet49	Pallet69	Pallet83	Pallet17	Pallet87	Pallet23	Pallet34	Pallet19	Pallet80	Pallet31	Pallet55	Pallet11	Pallet77	Pallet56	Pallet40	Pallet28	Pallet37	Pallet41	Pallet79	Pallet98	Pallet26	Pallet58	Pallet91
+p281	37136568	Pallet20
+p282	1303	Pallet56	Pallet39	Pallet46	Pallet23	Pallet60	Pallet80	Pallet52	Pallet45	Pallet9	Pallet67	Pallet11	Pallet4	Pallet62	Pallet38	Pallet94	Pallet78	Pallet56	Pallet100	Pallet32	Pallet22	Pallet70	Pallet37	Pallet41	Pallet20	Pallet33	Pallet92	Pallet26	Pallet86	Pallet63	Pallet69	Pallet91	Pallet48	Pallet51	Pallet83	Pallet82
+p283	189161	Pallet73	Pallet49
+p284	1	Pallet62
+p285	1	Pallet11
+p286	1	Pallet74	Pallet35	Pallet32	Pallet4	Pallet79
+p287	1	Pallet40
+p288	53	Pallet50
+p289	2	Pallet49
+p290	1	Pallet55	Pallet18	Pallet99	Pallet69	Pallet16	Pallet12
+p291	10472330	Pallet99
+p292	1425	Pallet99	Pallet59	Pallet8	Pallet57	Pallet92
+p293	4	Pallet10
+p294	158537	Pallet7
+p295	1	Pallet76
+p296	1	Pallet59
+p297	318737	Pallet88
+p298	505	Pallet5	Pallet55
+p299	3045	Pallet87	Pallet44	Pallet24	Pallet19	Pallet81	Pallet36	Pallet76	Pallet35	Pallet47	Pallet21	Pallet29	Pallet61	Pallet89	Pallet63	Pallet93	Pallet14	Pallet69	Pallet91
+p300	5990550	Pallet57	Pallet44	Pallet39	Pallet18	Pallet96	Pallet55	Pallet95	Pallet45	Pallet9	Pallet36	Pallet53	Pallet90	Pallet5	Pallet29	Pallet57	Pallet7	Pallet32	Pallet81	Pallet28	Pallet92	Pallet76	Pallet26	Pallet89	Pallet64	Pallet3	Pallet69	Pallet97	Pallet15	Pallet12	Pallet2
+p301	1	Pallet64
+p302	309598	Pallet5
+p303	117065	Pallet61	Pallet44	Pallet10	Pallet39	Pallet73	Pallet46	Pallet96	Pallet60	Pallet80	Pallet52	Pallet55	Pallet85	Pallet47	Pallet5	Pallet13	Pallet99	Pallet61	Pallet14	Pallet4	Pallet93	Pallet78	Pallet75	Pallet56	Pallet100	Pallet81	Pallet22	Pallet28	Pallet8	Pallet92	Pallet35	Pallet26	Pallet25	Pallet91	Pallet48	Pallet15	Pallet2	Pallet12	Pallet82
+p304	2	Pallet12	Pallet7	Pallet39	Pallet32	Pallet40	Pallet52	Pallet22	Pallet67	Pallet86	Pallet71	Pallet99	Pallet62	Pallet77
+p305	1	Pallet34	Pallet44	Pallet42	Pallet10	Pallet39	Pallet19	Pallet80	Pallet30	Pallet55	Pallet66	Pallet36	Pallet47	Pallet67	Pallet53	Pallet61	Pallet57	Pallet43	Pallet7	Pallet24	Pallet56	Pallet74	Pallet37	Pallet20	Pallet68	Pallet92	Pallet76	Pallet21	Pallet86	Pallet63	Pallet58	Pallet97	Pallet83	Pallet15	Pallet16	Pallet82	Pallet17
+p306	388097113	Pallet42	Pallet75	Pallet87	Pallet10	Pallet89	Pallet70	Pallet8	Pallet57	Pallet94
+p307	7	Pallet22
+p308	13262165	Pallet62
+p309	72705868	Pallet44
+p310	1	Pallet35	Pallet93	Pallet51	Pallet83
+p311	7385	Pallet73	Pallet44	Pallet42	Pallet6	Pallet46	Pallet60	Pallet88	Pallet66	Pallet50	Pallet45	Pallet90	Pallet29	Pallet54	Pallet1	Pallet99	Pallet13	Pallet14	Pallet62	Pallet78	Pallet43	Pallet8	Pallet70	Pallet68	Pallet76	Pallet65	Pallet49	Pallet25	Pallet48	Pallet83	Pallet16	Pallet15	Pallet17	Pallet87	Pallet39	Pallet73	Pallet96	Pallet34	Pallet52	Pallet30	Pallet55	Pallet9	Pallet36	Pallet67	Pallet5	Pallet11	Pallet61	Pallet93	Pallet72	Pallet75	Pallet81	Pallet22	Pallet28	Pallet41	Pallet37	Pallet33	Pallet98	Pallet21	Pallet89	Pallet63	Pallet58	Pallet91	Pallet97
+p312	40581	Pallet2
+p313	5	Pallet22	Pallet39	Pallet18	Pallet96	Pallet28	Pallet70	Pallet88	Pallet66	Pallet79	Pallet35	Pallet47	Pallet5	Pallet13	Pallet25	Pallet78	Pallet94	Pallet43
+p314	1	Pallet88	Pallet6	Pallet100	Pallet60	Pallet83	Pallet15	Pallet98
+p315	2	Pallet81
+p316	1	Pallet11	Pallet24
+p317	1	Pallet15	Pallet6	Pallet42	Pallet18	Pallet60	Pallet59	Pallet88	Pallet95	Pallet45	Pallet29	Pallet54	Pallet1	Pallet71	Pallet13	Pallet14	Pallet62	Pallet84	Pallet94	Pallet43	Pallet7	Pallet24	Pallet100	Pallet8	Pallet92	Pallet68	Pallet35	Pallet86	Pallet49	Pallet69	Pallet25	Pallet83	Pallet12	Pallet82	Pallet10	Pallet87	Pallet39	Pallet73	Pallet34	Pallet52	Pallet80	Pallet30	Pallet31	Pallet55	Pallet9	Pallet36	Pallet67	Pallet53	Pallet5	Pallet61	Pallet93	Pallet72	Pallet81	Pallet22	Pallet41	Pallet37	Pallet79	Pallet98	Pallet26	Pallet89	Pallet63	Pallet58	Pallet91
+p318	35	Pallet9	Pallet44	Pallet6	Pallet18	Pallet60	Pallet88	Pallet66	Pallet85	Pallet50	Pallet45	Pallet47	Pallet90	Pallet54	Pallet29	Pallet13	Pallet71	Pallet4	Pallet14	Pallet62	Pallet38	Pallet84	Pallet94	Pallet78	Pallet43	Pallet100	Pallet8	Pallet70	Pallet92	Pallet76	Pallet49	Pallet65	Pallet69	Pallet25	Pallet83	Pallet16	Pallet82	Pallet17	Pallet12	Pallet10	Pallet87	Pallet39	Pallet80	Pallet30	Pallet9	Pallet67	Pallet53	Pallet5	Pallet11	Pallet93	Pallet57	Pallet40	Pallet74	Pallet81	Pallet22	Pallet79	Pallet33	Pallet98	Pallet26	Pallet58	Pallet27	Pallet91
+p319	1	Pallet81
+p320	511	Pallet70	Pallet46	Pallet49	Pallet74	Pallet4	Pallet8	Pallet97	Pallet16	Pallet50	Pallet82
+p321	1	Pallet27
+p322	3	Pallet56	Pallet10	Pallet42	Pallet39	Pallet34	Pallet88	Pallet85	Pallet50	Pallet11	Pallet54	Pallet61	Pallet72	Pallet38	Pallet84	Pallet57	Pallet77	Pallet7	Pallet70	Pallet20	Pallet98	Pallet92	Pallet35	Pallet49	Pallet65	Pallet64	Pallet63	Pallet83	Pallet16
+p323	1	Pallet39	Pallet44	Pallet39	Pallet34	Pallet80	Pallet88	Pallet95	Pallet36	Pallet67	Pallet47	Pallet99	Pallet71	Pallet1	Pallet62	Pallet4	Pallet14	Pallet94	Pallet78	Pallet24	Pallet100	Pallet40	Pallet81	Pallet41	Pallet20	Pallet49	Pallet65	Pallet89	Pallet63	Pallet58	Pallet27	Pallet69	Pallet97	Pallet91	Pallet51	Pallet48	Pallet83	Pallet2
+p324	848176	Pallet56	Pallet42	Pallet18	Pallet66	Pallet45	Pallet90	Pallet29	Pallet99	Pallet71	Pallet62	Pallet4	Pallet84	Pallet78	Pallet43	Pallet7	Pallet68	Pallet92	Pallet86	Pallet65	Pallet64	Pallet69	Pallet25	Pallet48	Pallet51	Pallet15	Pallet17	Pallet10	Pallet23	Pallet55	Pallet9	Pallet36	Pallet5	Pallet61	Pallet93	Pallet57	Pallet56	Pallet40	Pallet74	Pallet22	Pallet41	Pallet37	Pallet20	Pallet98	Pallet89	Pallet63	Pallet3	Pallet27	Pallet91	Pallet97	Pallet2
+p325	1	Pallet7
+p326	714	Pallet27	Pallet73	Pallet19	Pallet95
+p327	178	Pallet96
+p328	3	Pallet76
+p329	1	Pallet16	Pallet42	Pallet29	Pallet40	Pallet89	Pallet25	Pallet20	Pallet91	Pallet77	Pallet12	Pallet2
+p330	77	Pallet64
+p331	9	Pallet57
+p332	1679604	Pallet73	Pallet39	Pallet11	Pallet13	Pallet4	Pallet63	Pallet58	Pallet41	Pallet77	Pallet68	Pallet82
+p333	136540293	Pallet90
+p334	278742795	Pallet27	Pallet6	Pallet42	Pallet39	Pallet23	Pallet96	Pallet59	Pallet60	Pallet52	Pallet88	Pallet55	Pallet95	Pallet85	Pallet9	Pallet36	Pallet67	Pallet54	Pallet99	Pallet1	Pallet61	Pallet93	Pallet4	Pallet72	Pallet57	Pallet78	Pallet24	Pallet32	Pallet40	Pallet74	Pallet81	Pallet28	Pallet22	Pallet70	Pallet41	Pallet79	Pallet33	Pallet26	Pallet86	Pallet63	Pallet25	Pallet97	Pallet48	Pallet12	Pallet17
+p335	12673	Pallet22	Pallet44	Pallet87	Pallet39	Pallet18	Pallet23	Pallet19	Pallet59	Pallet80	Pallet52	Pallet31	Pallet66	Pallet85	Pallet5	Pallet11	Pallet93	Pallet62	Pallet14	Pallet4	Pallet57	Pallet84	Pallet94	Pallet78	Pallet43	Pallet77	Pallet7	Pallet24	Pallet40	Pallet74	Pallet81	Pallet22	Pallet70	Pallet20	Pallet79	Pallet33	Pallet98	Pallet35	Pallet21	Pallet86	Pallet49	Pallet63	Pallet58	Pallet25	Pallet27	Pallet48	Pallet16	Pallet17
+p336	1233160	Pallet12
+p337	1	Pallet44	Pallet42	Pallet21	Pallet34	Pallet94	Pallet98
+p338	1	Pallet57
+p339	20971300	Pallet51	Pallet42	Pallet87	Pallet54	Pallet60
+p340	1	Pallet37
+p341	1	Pallet18	Pallet24	Pallet75	Pallet40	Pallet74	Pallet41	Pallet66	Pallet85	Pallet45	Pallet50	Pallet35	Pallet47	Pallet53	Pallet49	Pallet93	Pallet4	Pallet3	Pallet83	Pallet17
+p342	23382	Pallet1
+p343	10	Pallet98
+p344	1	Pallet69	Pallet44	Pallet34	Pallet59	Pallet52	Pallet30	Pallet55	Pallet85	Pallet50	Pallet47	Pallet5	Pallet11	Pallet99	Pallet1	Pallet13	Pallet61	Pallet62	Pallet14	Pallet38	Pallet84	Pallet77	Pallet24	Pallet7	Pallet56	Pallet100	Pallet32	Pallet8	Pallet70	Pallet41	Pallet20	Pallet79	Pallet92	Pallet35	Pallet86	Pallet63	Pallet3	Pallet64	Pallet25	Pallet97	Pallet91	Pallet83	Pallet2	Pallet12
+p345	40490934	Pallet71
+p346	39578729	Pallet33
+p347	1	Pallet11	Pallet44	Pallet7	Pallet24	Pallet6	Pallet10	Pallet73	Pallet34	Pallet19	Pallet60	Pallet80	Pallet52	Pallet30	Pallet41	Pallet45	Pallet54	Pallet99	Pallet65	Pallet93	Pallet64	Pallet57	Pallet97	Pallet82
+p348	9	Pallet55	Pallet44	Pallet47	Pallet76	Pallet93
+p349	1288144	Pallet66
+p350	321885	Pallet81	Pallet35	Pallet47	Pallet87	Pallet100	Pallet34	Pallet30	Pallet15	Pallet43	Pallet82
+p351	6610810	Pallet95
+p352	547445	Pallet8
+p353	167321	Pallet1	Pallet3
+p354	1	Pallet82
+p355	1	Pallet65
+p356	74299	Pallet40	Pallet7	Pallet87	Pallet42	Pallet39	Pallet19	Pallet66	Pallet33	Pallet36	Pallet76	Pallet11	Pallet14	Pallet4	Pallet72	Pallet25	Pallet94
+p357	33443	Pallet89
+p358	13545046	Pallet61
+p359	1	Pallet9	Pallet44	Pallet73	Pallet18	Pallet19	Pallet80	Pallet88	Pallet55	Pallet50	Pallet9	Pallet67	Pallet90	Pallet54	Pallet1	Pallet4	Pallet93	Pallet38	Pallet84	Pallet78	Pallet7	Pallet22	Pallet28	Pallet89	Pallet63	Pallet69	Pallet2
+p360	1	Pallet90
+p361	342044	Pallet85	Pallet6	Pallet42	Pallet18	Pallet46	Pallet95	Pallet45	Pallet90	Pallet29	Pallet1	Pallet99	Pallet71	Pallet13	Pallet38	Pallet84	Pallet78	Pallet7	Pallet100	Pallet32	Pallet68	Pallet86	Pallet65	Pallet49	Pallet64	Pallet69	Pallet12	Pallet82	Pallet17	Pallet87	Pallet10	Pallet39	Pallet73	Pallet34	Pallet30	Pallet31	Pallet67	Pallet5	Pallet53	Pallet11	Pallet61	Pallet56	Pallet81	Pallet74	Pallet22	Pallet37	Pallet33	Pallet21	Pallet26	Pallet89	Pallet97
+p362	1930336	Pallet94
+p363	129870	Pallet25	Pallet39	Pallet5	Pallet8	Pallet98
+p364	1	Pallet38	Pallet35	Pallet6	Pallet11	Pallet96	Pallet99	Pallet20	Pallet15
+p365	74538336	Pallet69
+p366	10482598	Pallet44	Pallet44	Pallet42	Pallet46	Pallet88	Pallet95	Pallet66	Pallet45	Pallet50	Pallet99	Pallet13	Pallet1	Pallet71	Pallet14	Pallet62	Pallet4	Pallet84	Pallet94	Pallet43	Pallet24	Pallet7	Pallet100	Pallet32	Pallet70	Pallet92	Pallet68	Pallet35	Pallet86	Pallet49	Pallet25	Pallet69	Pallet16	Pallet82	Pallet10	Pallet87	Pallet34	Pallet19	Pallet52	Pallet30	Pallet55	Pallet9	Pallet36	Pallet67	Pallet53	Pallet11	Pallet72	Pallet75	Pallet40	Pallet81	Pallet22	Pallet20	Pallet98	Pallet21	Pallet26	Pallet89	Pallet3	Pallet58	Pallet27	Pallet2
+p367	1	Pallet16	Pallet21	Pallet74
+p368	6	Pallet13	Pallet21	Pallet23	Pallet1
+p369	1	Pallet13	Pallet24	Pallet6	Pallet75	Pallet10	Pallet46	Pallet100	Pallet8	Pallet37	Pallet79	Pallet47	Pallet76	Pallet99	Pallet61	Pallet3	Pallet64	Pallet78	Pallet15
+p370	1	Pallet23	Pallet44	Pallet39	Pallet18	Pallet23	Pallet59	Pallet60	Pallet52	Pallet80	Pallet55	Pallet66	Pallet9	Pallet29	Pallet54	Pallet4	Pallet62	Pallet38	Pallet84	Pallet78	Pallet77	Pallet7	Pallet75	Pallet100	Pallet32	Pallet40	Pallet74	Pallet8	Pallet92	Pallet76	Pallet35	Pallet26	Pallet49	Pallet89	Pallet63	Pallet27	Pallet69	Pallet97	Pallet83	Pallet15	Pallet2
+p371	5	Pallet31
+p372	1	Pallet73
+p373	1	Pallet77	Pallet42	Pallet39	Pallet18	Pallet59	Pallet88	Pallet55	Pallet31	Pallet9	Pallet67	Pallet47	Pallet11	Pallet29	Pallet1	Pallet13	Pallet14	Pallet84	Pallet40	Pallet22	Pallet8	Pallet37	Pallet98	Pallet76	Pallet26	Pallet21	Pallet86	Pallet49	Pallet64	Pallet63	Pallet58	Pallet69	Pallet25	Pallet27	Pallet48	Pallet16	Pallet12
+p374	32760151	Pallet14	Pallet15
+p375	465	Pallet7
+p376	1	Pallet27
+p377	1	Pallet37	Pallet24	Pallet7	Pallet42	Pallet73	Pallet23	Pallet40	Pallet60	Pallet74	Pallet37	Pallet79	Pallet50	Pallet61	Pallet78	Pallet51	Pallet48
+p378	8214639	Pallet78	Pallet6	Pallet39	Pallet46	Pallet23	Pallet96	Pallet19	Pallet66	Pallet45	Pallet50	Pallet9	Pallet67	Pallet5	Pallet29	Pallet71	Pallet1	Pallet62	Pallet24	Pallet56	Pallet81	Pallet70	Pallet20	Pallet35	Pallet76	Pallet26	Pallet49	Pallet3	Pallet25	Pallet69	Pallet83	Pallet82	Pallet12
+p379	1	Pallet99	Pallet14
+p380	1	Pallet24
+p381	1	Pallet15
+p382	81686973	Pallet88	Pallet44	Pallet6	Pallet46	Pallet18	Pallet59	Pallet60	Pallet50	Pallet45	Pallet90	Pallet54	Pallet29	Pallet13	Pallet1	Pallet71	Pallet14	Pallet38	Pallet84	Pallet78	Pallet94	Pallet43	Pallet7	Pallet24	Pallet100	Pallet32	Pallet70	Pallet92	Pallet68	Pallet35	Pallet65	Pallet49	Pallet64	Pallet25	Pallet69	Pallet51	Pallet17	Pallet82	Pallet12	Pallet10	Pallet87	Pallet73	Pallet96	Pallet34	Pallet31	Pallet55	Pallet36	Pallet67	Pallet5	Pallet11	Pallet61	Pallet93	Pallet72	Pallet57	Pallet77	Pallet56	Pallet74	Pallet81	Pallet22	Pallet28	Pallet37	Pallet20	Pallet33	Pallet26	Pallet89	Pallet27	Pallet97
+p383	678	Pallet87
+p384	140636660	Pallet26	Pallet42	Pallet10	Pallet39	Pallet73	Pallet18	Pallet46	Pallet23	Pallet34	Pallet59	Pallet30	Pallet88	Pallet31	Pallet85	Pallet45	Pallet47	Pallet90	Pallet53	Pallet1	Pallet13	Pallet4	Pallet93	Pallet62	Pallet38	Pallet72	Pallet57	Pallet84	Pallet94	Pallet78	Pallet77	Pallet24	Pallet40	Pallet41	Pallet92	Pallet35	Pallet26	Pallet63	Pallet3	Pallet58	Pallet25	Pallet91	Pallet51	Pallet16	Pallet2	Pallet17
+p385	3	Pallet90	Pallet44	Pallet42	Pallet18	Pallet46	Pallet73	Pallet34	Pallet19	Pallet80	Pallet52	Pallet30	Pallet55	Pallet31	Pallet45	Pallet5	Pallet53	Pallet11	Pallet13	Pallet62	Pallet14	Pallet78	Pallet43	Pallet7	Pallet56	Pallet81	Pallet8	Pallet68	Pallet35	Pallet26	Pallet86	Pallet65	Pallet89	Pallet64	Pallet25	Pallet69	Pallet27	Pallet51	Pallet83	Pallet16
+p386	76414	Pallet54	Pallet87	Pallet6	Pallet53	Pallet65	Pallet41
+p387	655587503	Pallet44
+p388	1	Pallet74	Pallet44	Pallet87	Pallet42	Pallet10	Pallet18	Pallet73	Pallet96	Pallet19	Pallet60	Pallet52	Pallet80	Pallet30	Pallet31	Pallet55	Pallet66	Pallet9	Pallet36	Pallet90	Pallet5	Pallet54	Pallet99	Pallet13	Pallet93	Pallet4	Pallet72	Pallet38	Pallet94	Pallet56	Pallet22	Pallet79	Pallet33	Pallet68	Pallet35	Pallet21	Pallet89	Pallet58	Pallet27	Pallet83	Pallet16	Pallet82
+p389	1	Pallet16	Pallet49	Pallet58	Pallet55
+p390	328037860	Pallet4	Pallet36	Pallet5	Pallet53
+p391	561888	Pallet15
+p392	143209	Pallet64
+p393	6484	Pallet16	Pallet47
+p394	11183	Pallet61
+p395	2	Pallet18
+p396	402	Pallet82
+p397	51	Pallet4	Pallet44	Pallet42	Pallet34	Pallet19	Pallet60	Pallet59	Pallet52	Pallet45	Pallet11	Pallet54	Pallet99	Pallet93	Pallet38	Pallet57	Pallet94	Pallet24	Pallet75	Pallet56	Pallet32	Pallet40	Pallet70	Pallet37	Pallet79	Pallet98	Pallet76	Pallet86	Pallet64	Pallet27	Pallet91	Pallet97	Pallet48	Pallet17
+p398	378	Pallet77
+p399	7820913	Pallet75
+p400	35487	Pallet69	Pallet44	Pallet6	Pallet18	Pallet88	Pallet95	Pallet66	Pallet50	Pallet45	Pallet47	Pallet71	Pallet14	Pallet62	Pallet4	Pallet38	Pallet94	Pallet43	Pallet7	Pallet24	Pallet8	Pallet68	Pallet76	Pallet86	Pallet25	Pallet51	Pallet15	Pallet17	Pallet12	Pallet10	Pallet87	Pallet39	Pallet73	Pallet34	Pallet52	Pallet30	Pallet55	Pallet9	Pallet36	Pallet61	Pallet93	Pallet72	Pallet40	Pallet74	Pallet22	Pallet28	Pallet41	Pallet20	Pallet79	Pallet33	Pallet63	Pallet58	Pallet27	Pallet2
+p401	1012	Pallet13
+p402	1	Pallet12
+p403	1	Pallet72	Pallet42	Pallet87	Pallet46	Pallet19	Pallet52	Pallet30	Pallet45	Pallet36	Pallet71	Pallet13	Pallet4	Pallet72	Pallet43	Pallet28	Pallet8	Pallet41	Pallet92	Pallet98	Pallet76	Pallet63	Pallet58	Pallet27	Pallet51	Pallet48	Pallet83	Pallet16	Pallet15	Pallet17	Pallet82
+p404	26073354	Pallet83	Pallet73	Pallet34	Pallet80	Pallet55	Pallet95	Pallet50	Pallet45	Pallet9	Pallet47	Pallet71	Pallet99	Pallet62	Pallet4	Pallet84	Pallet77	Pallet100	Pallet92	Pallet89	Pallet69	Pallet25	Pallet27	Pallet97	Pallet48	Pallet16	Pallet17
+p405	1	Pallet81	Pallet44	Pallet60	Pallet66	Pallet85	Pallet50	Pallet90	Pallet29	Pallet13	Pallet99	Pallet71	Pallet62	Pallet4	Pallet38	Pallet94	Pallet7	Pallet32	Pallet92	Pallet76	Pallet35	Pallet49	Pallet25	Pallet51	Pallet83	Pallet16	Pallet82	Pallet12	Pallet10	Pallet73	Pallet96	Pallet19	Pallet34	Pallet80	Pallet52	Pallet31	Pallet9	Pallet36	Pallet67	Pallet11	Pallet93	Pallet72	Pallet77	Pallet75	Pallet56	Pallet81	Pallet28	Pallet37	Pallet79	Pallet26	Pallet21	Pallet89	Pallet58	Pallet97
+p406	122114	Pallet13	Pallet6	Pallet5	Pallet59	Pallet4
+p407	1	Pallet53	Pallet44	Pallet73	Pallet95	Pallet45	Pallet98	Pallet76	Pallet26	Pallet86	Pallet65	Pallet25	Pallet27	Pallet78	Pallet82
+p408	1	Pallet70	Pallet46	Pallet96	Pallet23	Pallet81	Pallet30	Pallet20	Pallet50	Pallet45	Pallet9	Pallet76	Pallet47	Pallet13	Pallet62	Pallet58	Pallet84	Pallet48	Pallet77	Pallet12	Pallet17
+p409	1	Pallet95
+p410	1	Pallet24
+p411	1077328002	Pallet2
+p412	1	Pallet16	Pallet61	Pallet20
+p413	96401	Pallet2	Pallet42	Pallet6	Pallet39	Pallet46	Pallet73	Pallet96	Pallet34	Pallet59	Pallet52	Pallet88	Pallet55	Pallet45	Pallet47	Pallet53	Pallet11	Pallet1	Pallet71	Pallet13	Pallet99	Pallet38	Pallet94	Pallet43	Pallet77	Pallet75	Pallet100	Pallet56	Pallet32	Pallet40	Pallet22	Pallet70	Pallet8	Pallet37	Pallet33	Pallet92	Pallet76	Pallet64	Pallet63	Pallet58	Pallet27	Pallet25	Pallet48	Pallet83	Pallet16	Pallet12	Pallet2	Pallet82	Pallet17
+p414	1	Pallet8	Pallet39	Pallet100	Pallet49	Pallet28
+p415	1	Pallet85
+p416	94104026	Pallet39	Pallet73	Pallet23	Pallet34	Pallet59	Pallet88	Pallet95	Pallet85	Pallet50	Pallet9	Pallet90	Pallet5	Pallet53	Pallet11	Pallet29	Pallet54	Pallet99	Pallet13	Pallet61	Pallet14	Pallet62	Pallet93	Pallet4	Pallet57	Pallet77	Pallet43	Pallet24	Pallet75	Pallet100	Pallet40	Pallet74	Pallet8	Pallet37	Pallet41	Pallet92	Pallet68	Pallet26	Pallet21	Pallet89	Pallet63	Pallet25	Pallet27	Pallet48	Pallet16	Pallet12	Pallet2
+p417	1	Pallet32	Pallet18	Pallet19	Pallet40	Pallet34	Pallet52	Pallet22	Pallet8	Pallet37	Pallet79	Pallet85	Pallet92	Pallet36	Pallet47	Pallet35	Pallet21	Pallet90	Pallet13	Pallet65	Pallet99	Pallet93	Pallet84	Pallet16	Pallet43
+p418	394	Pallet21
+p419	1	Pallet17
+p420	1	Pallet80	Pallet21	Pallet56	Pallet1	Pallet61	Pallet25	Pallet97	Pallet15	Pallet98
+p421	547	Pallet20	Pallet67	Pallet11	Pallet52
+p422	22091799	Pallet79
+p423	62	Pallet39	Pallet10	Pallet42	Pallet40	Pallet60	Pallet74	Pallet55	Pallet21	Pallet1	Pallet63	Pallet38	Pallet69	Pallet15
+p424	5400431	Pallet89	Pallet75	Pallet46	Pallet60	Pallet62	Pallet83	Pallet77
+p425	417583	Pallet5	Pallet44	Pallet5	Pallet20
+p426	590461	Pallet20
+p427	196	Pallet57
+p428	3672693	Pallet9	Pallet71	Pallet28	Pallet27	Pallet85	Pallet12
+p429	1	Pallet40	Pallet24	Pallet6	Pallet73	Pallet56	Pallet19	Pallet60	Pallet74	Pallet81	Pallet80	Pallet31	Pallet95	Pallet66	Pallet98	Pallet47	Pallet5	Pallet54	Pallet99	Pallet89	Pallet64	Pallet63	Pallet97	Pallet78	Pallet83
+p430	23521	Pallet16	Pallet44	Pallet42	Pallet10	Pallet96	Pallet59	Pallet52	Pallet80	Pallet88	Pallet31	Pallet55	Pallet95	Pallet36	Pallet53	Pallet90	Pallet29	Pallet1	Pallet4	Pallet84	Pallet24	Pallet7	Pallet75	Pallet81	Pallet79	Pallet68	Pallet92	Pallet98	Pallet35	Pallet26	Pallet49	Pallet64	Pallet3	Pallet97	Pallet51	Pallet82	Pallet12
+p431	272009	Pallet84
+p432	1	Pallet51	Pallet10	Pallet23	Pallet31	Pallet97	Pallet16	Pallet68
+p433	1086334	Pallet35	Pallet87	Pallet73	Pallet95	Pallet15	Pallet77
+p434	2547	Pallet74	Pallet1
+p435	160552	Pallet72	Pallet44	Pallet42	Pallet6	Pallet18	Pallet46	Pallet60	Pallet88	Pallet95	Pallet66	Pallet45	Pallet47	Pallet90	Pallet54	Pallet29	Pallet1	Pallet71	Pallet99	Pallet14	Pallet4	Pallet38	Pallet78	Pallet43	Pallet24	Pallet76	Pallet35	Pallet86	Pallet49	Pallet64	Pallet25	Pallet51	Pallet15	Pallet16	Pallet82	Pallet12	Pallet10	Pallet39	Pallet23	Pallet96	Pallet19	Pallet34	Pallet80	Pallet52	Pallet31	Pallet55	Pallet9	Pallet36	Pallet5	Pallet61	Pallet93	Pallet72	Pallet77	Pallet56	Pallet40	Pallet81	Pallet74	Pallet22	Pallet28	Pallet41	Pallet37	Pallet26	Pallet21	Pallet89	Pallet63	Pallet58	Pallet27	Pallet97	Pallet2
+p436	1	Pallet68
+p437	5	Pallet35
+p438	1	Pallet10
+p439	3116	Pallet34	Pallet6	Pallet96	Pallet52	Pallet45	Pallet50	Pallet36	Pallet53	Pallet71	Pallet1	Pallet14	Pallet4	Pallet94	Pallet78	Pallet77	Pallet7	Pallet100	Pallet28	Pallet8	Pallet37	Pallet68	Pallet86	Pallet89	Pallet63	Pallet25	Pallet15	Pallet17	Pallet2
+p440	707294	Pallet54
+p441	1	Pallet51	Pallet42	Pallet6	Pallet96	Pallet8	Pallet79	Pallet36	Pallet67	Pallet76	Pallet47	Pallet29	Pallet54	Pallet61	Pallet3	Pallet4	Pallet14	Pallet83	Pallet82
+p442	16	Pallet76	Pallet100	Pallet61	Pallet15
+p443	11756	Pallet22	Pallet21	Pallet58
+p444	18	Pallet98
+p445	33	Pallet83
+p446	1	Pallet8	Pallet100
+p447	345839	Pallet12	Pallet6	Pallet39	Pallet60	Pallet80	Pallet55	Pallet95	Pallet9	Pallet36	Pallet90	Pallet13	Pallet99	Pallet1	Pallet14	Pallet62	Pallet43	Pallet7	Pallet24	Pallet75	Pallet22	Pallet70	Pallet41	Pallet20	Pallet92	Pallet76	Pallet35	Pallet49	Pallet65	Pallet64	Pallet91	Pallet48	Pallet15	Pallet12
+p448	2	Pallet64	Pallet47	Pallet56	Pallet71
+p449	826	Pallet74	Pallet24	Pallet62	Pallet72	Pallet41	Pallet17
+p450	11492	Pallet11
+p451	2824557	Pallet30
+p452	23479	Pallet46
+p453	1	Pallet78
+p454	46160463	Pallet54	Pallet87	Pallet21	Pallet90	Pallet100	Pallet86	Pallet40	Pallet93	Pallet83	Pallet2
+p455	1	Pallet81	Pallet42	Pallet46	Pallet59	Pallet88	Pallet66	Pallet45	Pallet90	Pallet29	Pallet13	Pallet99	Pallet84	Pallet78	Pallet94	Pallet43	Pallet7	Pallet24	Pallet100	Pallet92	Pallet76	Pallet35	Pallet86	Pallet65	Pallet49	Pallet25	Pallet48	Pallet51	Pallet83	Pallet16	Pallet12	Pallet10	Pallet39	Pallet96	Pallet23	Pallet34	Pallet55	Pallet9	Pallet36	Pallet67	Pallet53	Pallet5	Pallet11	Pallet77	Pallet75	Pallet74	Pallet81	Pallet22	Pallet79	Pallet33	Pallet98	Pallet89	Pallet3	Pallet63	Pallet58	Pallet91	Pallet2
+p456	1	Pallet63	Pallet73	Pallet32	Pallet23	Pallet59	Pallet52	Pallet55	Pallet37	Pallet41	Pallet33	Pallet68	Pallet26	Pallet5	Pallet49	Pallet89	Pallet64	Pallet62	Pallet69	Pallet97	Pallet91	Pallet94	Pallet82
+p457	1	Pallet99	Pallet87	Pallet10	Pallet42	Pallet73	Pallet23	Pallet19	Pallet34	Pallet60	Pallet31	Pallet95	Pallet66	Pallet85	Pallet45	Pallet9	Pallet67	Pallet90	Pallet53	Pallet29	Pallet13	Pallet4	Pallet14	Pallet93	Pallet38	Pallet57	Pallet84	Pallet78	Pallet77	Pallet43	Pallet32	Pallet81	Pallet41	Pallet92	Pallet26	Pallet86	Pallet65	Pallet89	Pallet64	Pallet25	Pallet91	Pallet15	Pallet2	Pallet82	Pallet17
+p458	12	Pallet26	Pallet10	Pallet46	Pallet32	Pallet40	Pallet34	Pallet60	Pallet79	Pallet68	Pallet86	Pallet54	Pallet1	Pallet97	Pallet48	Pallet43
+p459	1	Pallet26	Pallet44	Pallet88	Pallet66	Pallet50	Pallet47	Pallet54	Pallet71	Pallet4	Pallet62	Pallet14	Pallet38	Pallet84	Pallet78	Pallet94	Pallet43	Pallet7	Pallet24	Pallet100	Pallet8	Pallet68	Pallet92	Pallet35	Pallet76	Pallet86	Pallet49	Pallet64	Pallet69	Pallet25	Pallet51	Pallet83	Pallet15	Pallet17	Pallet12	Pallet82	Pallet10	Pallet87	Pallet39	Pallet73	Pallet96	Pallet19	Pallet34	Pallet80	Pallet31	Pallet55	Pallet36	Pallet5	Pallet53	Pallet11	Pallet93	Pallet72	Pallet57	Pallet77	Pallet75	Pallet74	Pallet28	Pallet37	Pallet41	Pallet33	Pallet89	Pallet3	Pallet63	Pallet27	Pallet91	Pallet2
+p460	628	Pallet27
+p461	67	Pallet44	Pallet87	Pallet11	Pallet32	Pallet81	Pallet63	Pallet58	Pallet37	Pallet85
+p462	214859	Pallet93
+p463	16487683	Pallet67	Pallet46	Pallet18	Pallet60	Pallet88	Pallet95	Pallet85	Pallet47	Pallet54	Pallet13	Pallet71	Pallet1	Pallet62	Pallet4	Pallet38	Pallet7	Pallet92	Pallet35	Pallet86	Pallet49	Pallet25	Pallet51	Pallet83	Pallet15	Pallet82	Pallet10	Pallet87	Pallet39	Pallet73	Pallet96	Pallet34	Pallet19	Pallet30	Pallet9	Pallet36	Pallet53	Pallet72	Pallet75	Pallet22	Pallet28	Pallet41	Pallet37	Pallet79	Pallet98	Pallet26	Pallet21	Pallet89	Pallet3	Pallet97
+p464	166	Pallet63
+p465	1	Pallet41
+p466	32203	Pallet2	Pallet47	Pallet60
+p467	13945170	Pallet60	Pallet36	Pallet95	Pallet33	Pallet9
+p468	1	Pallet44	Pallet57
+p469	1	Pallet45	Pallet21	Pallet53	Pallet54	Pallet93	Pallet58	Pallet25	Pallet85	Pallet79	Pallet92	Pallet9
+p470	211266244	Pallet86	Pallet44	Pallet42	Pallet60	Pallet88	Pallet85	Pallet47	Pallet90	Pallet1	Pallet13	Pallet62	Pallet14	Pallet94	Pallet43	Pallet32	Pallet8	Pallet92	Pallet86	Pallet49	Pallet69	Pallet15	Pallet12	Pallet82	Pallet17	Pallet39	Pallet73	Pallet23	Pallet19	Pallet80	Pallet52	Pallet30	Pallet31	Pallet55	Pallet67	Pallet5	Pallet11	Pallet61	Pallet93	Pallet57	Pallet77	Pallet75	Pallet40	Pallet28	Pallet22	Pallet20	Pallet79	Pallet33	Pallet21	Pallet26	Pallet89	Pallet2
+p471	27	Pallet91
+p472	501371209	Pallet95	Pallet44	Pallet87	Pallet10	Pallet23	Pallet34	Pallet60	Pallet80	Pallet30	Pallet31	Pallet45	Pallet9	Pallet36	Pallet67	Pallet5	Pallet11	Pallet61	Pallet4	Pallet93	Pallet38	Pallet94	Pallet78	Pallet100	Pallet40	Pallet37	Pallet20	Pallet79	Pallet98	Pallet26	Pallet89	Pallet64	Pallet3	Pallet16
+p473	1	Pallet82
+p474	64776636	Pallet32	Pallet21
+p475	20420948	Pallet7
+p476	1	Pallet26	Pallet40	Pallet19	Pallet60	Pallet81	Pallet20	Pallet33	Pallet5	Pallet54	Pallet1	Pallet89	Pallet57	Pallet17
+p477	44787474	Pallet58	Pallet44	Pallet7	Pallet34	Pallet1	Pallet97	Pallet98
+p478	1246	Pallet65	Pallet76	Pallet90	Pallet1	Pallet89	Pallet51	Pallet17
+p479	1286846	Pallet83	Pallet42	Pallet39	Pallet46	Pallet73	Pallet23	Pallet59	Pallet52	Pallet80	Pallet36	Pallet90	Pallet5	Pallet11	Pallet54	Pallet57	Pallet77	Pallet75	Pallet56	Pallet100	Pallet32	Pallet40	Pallet81	Pallet28	Pallet79	Pallet92	Pallet65	Pallet89	Pallet91	Pallet97	Pallet48	Pallet16	Pallet82
+p480	1	Pallet10	Pallet56	Pallet100	Pallet34	Pallet41	Pallet37	Pallet85	Pallet92	Pallet9	Pallet36	Pallet47	Pallet49	Pallet14	Pallet72	Pallet84	Pallet16	Pallet12	Pallet17
+p481	310238	Pallet55
+p482	1452	Pallet59
+p483	163466823	Pallet89	Pallet6	Pallet18	Pallet60	Pallet66	Pallet85	Pallet90	Pallet13	Pallet99	Pallet4	Pallet62	Pallet84	Pallet94	Pallet7	Pallet100	Pallet8	Pallet92	Pallet68	Pallet49	Pallet64	Pallet48	Pallet83	Pallet12	Pallet82	Pallet87	Pallet73	Pallet19	Pallet30	Pallet36	Pallet67	Pallet53	Pallet61	Pallet93	Pallet57	Pallet75	Pallet56	Pallet40	Pallet22	Pallet79	Pallet98	Pallet21	Pallet26	Pallet89	Pallet3	Pallet63	Pallet27	Pallet97	Pallet91	Pallet2
+p484	657709973	Pallet13	Pallet24	Pallet44	Pallet75	Pallet40	Pallet74	Pallet95	Pallet85	Pallet35	Pallet21	Pallet90	Pallet89	Pallet58	Pallet25	Pallet77
+p485	526765	Pallet51
+p486	108	Pallet32
+p487	641474	Pallet62	Pallet73	Pallet52	Pallet50	Pallet11	Pallet65	Pallet61	Pallet14	Pallet72	Pallet58	Pallet25	Pallet97	Pallet12
+p488	325741244	Pallet98	Pallet24	Pallet44	Pallet35	Pallet11	Pallet71	Pallet89	Pallet88	Pallet20	Pallet17
+p489	2	Pallet93	Pallet42	Pallet34	Pallet80	Pallet31	Pallet85	Pallet50	Pallet5	Pallet29	Pallet1	Pallet61	Pallet93	Pallet57	Pallet78	Pallet77	Pallet24	Pallet40	Pallet28	Pallet41	Pallet37	Pallet20	Pallet79	Pallet92	Pallet35	Pallet21	Pallet86	Pallet69	Pallet15
+p490	1	Pallet4	Pallet6	Pallet46	Pallet59	Pallet95	Pallet66	Pallet90	Pallet99	Pallet84	Pallet43	Pallet7	Pallet100	Pallet92	Pallet68	Pallet35	Pallet49	Pallet65	Pallet64	Pallet25	Pallet48	Pallet51	Pallet83	Pallet17	Pallet10	Pallet39	Pallet23	Pallet96	Pallet19	Pallet34	Pallet80	Pallet9	Pallet53	Pallet11	Pallet93	Pallet72	Pallet57	Pallet56	Pallet40	Pallet81	Pallet74	Pallet22	Pallet41	Pallet37	Pallet33	Pallet21	Pallet63	Pallet58	Pallet97	Pallet91	Pallet2
+p491	1478623	Pallet57	Pallet6	Pallet39	Pallet18	Pallet100	Pallet56	Pallet80	Pallet22	Pallet33	Pallet35	Pallet5	Pallet11	Pallet71	Pallet1	Pallet63	Pallet25	Pallet97	Pallet78	Pallet15	Pallet12
+p492	1	Pallet84	Pallet26	Pallet61
+p493	33683394	Pallet78	Pallet6	Pallet42	Pallet18	Pallet60	Pallet95	Pallet85	Pallet50	Pallet45	Pallet29	Pallet13	Pallet99	Pallet1	Pallet4	Pallet38	Pallet84	Pallet78	Pallet94	Pallet24	Pallet32	Pallet92	Pallet86	Pallet65	Pallet49	Pallet25	Pallet51	Pallet16	Pallet15	Pallet17	Pallet12	Pallet23	Pallet52	Pallet31	Pallet67	Pallet5	Pallet11	Pallet61	Pallet93	Pallet72	Pallet57	Pallet77	Pallet40	Pallet74	Pallet41	Pallet79	Pallet33	Pallet26	Pallet21	Pallet89	Pallet3	Pallet63	Pallet58	Pallet97	Pallet2
+p494	16	Pallet1	Pallet6	Pallet18	Pallet88	Pallet50	Pallet47	Pallet90	Pallet29	Pallet99	Pallet14	Pallet62	Pallet38	Pallet94	Pallet43	Pallet7	Pallet100	Pallet32	Pallet35	Pallet76	Pallet86	Pallet49	Pallet64	Pallet25	Pallet48	Pallet83	Pallet16	Pallet15	Pallet82	Pallet17	Pallet39	Pallet23	Pallet34	Pallet31	Pallet67	Pallet11	Pallet72	Pallet57	Pallet56	Pallet40	Pallet74	Pallet81	Pallet41	Pallet20	Pallet79	Pallet98	Pallet26	Pallet63	Pallet58	Pallet27
+p495	1	Pallet26
+p496	1	Pallet100
+p497	1	Pallet72
+p498	1952	Pallet2	Pallet78
+p499	1	Pallet90	Pallet53	Pallet33
+p500	1463655388	Pallet85	Pallet87	Pallet32	Pallet19	Pallet81	Pallet22	Pallet70	Pallet37	Pallet95	Pallet66	Pallet33	Pallet35	Pallet1	Pallet14	Pallet63	Pallet62	Pallet58	Pallet57	Pallet97	Pallet94	Pallet48	Pallet43	Pallet12
+p501	1	Pallet59	Pallet42	Pallet46	Pallet59	Pallet95	Pallet66	Pallet85	Pallet45	Pallet90	Pallet54	Pallet14	Pallet62	Pallet4	Pallet38	Pallet84	Pallet94	Pallet78	Pallet43	Pallet100	Pallet8	Pallet70	Pallet68	Pallet92	Pallet76	Pallet49	Pallet64	Pallet69	Pallet51	Pallet16	Pallet82	Pallet17	Pallet10	Pallet73	Pallet96	Pallet19	Pallet80	Pallet52	Pallet55	Pallet31	Pallet9	Pallet67	Pallet11	Pallet61	Pallet93	Pallet75	Pallet56	Pallet40	Pallet74	Pallet81	Pallet37	Pallet20	Pallet79	Pallet33	Pallet26	Pallet21	Pallet89	Pallet63	Pallet3
+p502	165266833	Pallet10
+p503	1	Pallet62
+p504	4303	Pallet100
+p505	36393784	Pallet64
+p506	57017	Pallet81	Pallet42	Pallet76
+p507	589438	Pallet95	Pallet44	Pallet6	Pallet39	Pallet18	Pallet46	Pallet59	Pallet30	Pallet50	Pallet36	Pallet29	Pallet1	Pallet61	Pallet93	Pallet57	Pallet100	Pallet74	Pallet28	Pallet70	Pallet20	Pallet79	Pallet26	Pallet49	Pallet89	Pallet64	Pallet3	Pallet58	Pallet27	Pallet51	Pallet2
+p508	1	Pallet38
+p509	1321293	Pallet74	Pallet46	Pallet96	Pallet19	Pallet91	Pallet78
+p510	18538575	Pallet24
+p511	139368870	Pallet34
+p512	1	Pallet25
+p513	5996	Pallet27
+p514	1	Pallet90	Pallet44	Pallet42	Pallet6	Pallet18	Pallet59	Pallet66	Pallet85	Pallet50	Pallet45	Pallet47	Pallet54	Pallet29	Pallet99	Pallet71	Pallet62	Pallet38	Pallet94	Pallet78	Pallet43	Pallet32	Pallet70	Pallet8	Pallet35	Pallet86	Pallet49	Pallet25	Pallet69	Pallet16	Pallet17	Pallet10	Pallet73	Pallet96	Pallet19	Pallet34	Pallet80	Pallet30	Pallet31	Pallet9	Pallet67	Pallet5	Pallet11	Pallet61	Pallet93	Pallet57	Pallet75	Pallet40	Pallet81	Pallet74	Pallet22	Pallet28	Pallet41	Pallet79	Pallet33	Pallet26	Pallet3	Pallet63	Pallet27
+p515	51977959	Pallet30
+p516	180579	Pallet54	Pallet87	Pallet6	Pallet42	Pallet59	Pallet8	Pallet70	Pallet37	Pallet55	Pallet41	Pallet79	Pallet33	Pallet67	Pallet71	Pallet49	Pallet14	Pallet3	Pallet38	Pallet51	Pallet94	Pallet48	Pallet43	Pallet15
+p517	1	Pallet44
+p518	28220706	Pallet78
+p519	3	Pallet70	Pallet44	Pallet42	Pallet6	Pallet18	Pallet46	Pallet60	Pallet59	Pallet88	Pallet95	Pallet66	Pallet85	Pallet29	Pallet54	Pallet1	Pallet71	Pallet13	Pallet78	Pallet94	Pallet43	Pallet24	Pallet7	Pallet100	Pallet32	Pallet65	Pallet49	Pallet48	Pallet51	Pallet16	Pallet34	Pallet80	Pallet30	Pallet9	Pallet53	Pallet5	Pallet11	Pallet61	Pallet57	Pallet77	Pallet56	Pallet28	Pallet37	Pallet41	Pallet79	Pallet33	Pallet21	Pallet3	Pallet63	Pallet91	Pallet2
+p520	1	Pallet19	Pallet24	Pallet80	Pallet8	Pallet16
+p521	1	Pallet51	Pallet44	Pallet18	Pallet46	Pallet59	Pallet88	Pallet95	Pallet45	Pallet47	Pallet90	Pallet99	Pallet1	Pallet62	Pallet38	Pallet84	Pallet78	Pallet7	Pallet100	Pallet32	Pallet70	Pallet35	Pallet76	Pallet86	Pallet49	Pallet65	Pallet69	Pallet25	Pallet51	Pallet83	Pallet16	Pallet23	Pallet96	Pallet34	Pallet80	Pallet52	Pallet30	Pallet9	Pallet53	Pallet5	Pallet11	Pallet61	Pallet93	Pallet72	Pallet77	Pallet74	Pallet22	Pallet37	Pallet41	Pallet79	Pallet26	Pallet89	Pallet63	Pallet91	Pallet2
+p522	1	Pallet64
+p523	543212	Pallet69
+p524	1	Pallet6	Pallet44	Pallet10	Pallet87	Pallet46	Pallet23	Pallet30	Pallet88	Pallet95	Pallet9	Pallet47	Pallet90	Pallet5	Pallet11	Pallet99	Pallet71	Pallet13	Pallet93	Pallet4	Pallet38	Pallet84	Pallet78	Pallet94	Pallet100	Pallet40	Pallet70	Pallet41	Pallet37	Pallet76	Pallet35	Pallet65	Pallet63	Pallet58	Pallet25	Pallet48	Pallet16	Pallet2
+p525	1	Pallet81
+p526	989275051	Pallet85	Pallet42	Pallet54	Pallet19	Pallet74	Pallet59	Pallet62	Pallet14	Pallet8	Pallet88	Pallet33
+p527	1454	Pallet3	Pallet75	Pallet56	Pallet40	Pallet22	Pallet4	Pallet38	Pallet70	Pallet27	Pallet16	Pallet15
+p528	24	Pallet7
+p529	1	Pallet26
+p530	1	Pallet58
+p531	1	Pallet27	Pallet42	Pallet73	Pallet88	Pallet70	Pallet31	Pallet95	Pallet85	Pallet3	Pallet64	Pallet38	Pallet94	Pallet43	Pallet16
+p532	12	Pallet45	Pallet4
+p533	1	Pallet21
+p534	1	Pallet89
+p535	1	Pallet41	Pallet44	Pallet100	Pallet46	Pallet4	Pallet31
+p536	3743	Pallet30	Pallet44	Pallet7	Pallet42	Pallet10	Pallet100	Pallet73	Pallet40	Pallet34	Pallet60	Pallet28	Pallet52	Pallet8	Pallet37	Pallet47	Pallet21	Pallet5	Pallet65	Pallet71	Pallet72	Pallet91	Pallet48
+p537	939500544	Pallet60
+p538	2439271	Pallet14
+p539	1	Pallet93
+p540	11786880	Pallet76	Pallet44	Pallet7	Pallet6	Pallet96	Pallet74	Pallet22	Pallet30	Pallet70	Pallet35	Pallet86	Pallet1	Pallet27	Pallet84	Pallet97	Pallet15	Pallet12
+p541	19987	Pallet88	Pallet44	Pallet6	Pallet59	Pallet88	Pallet95	Pallet85	Pallet50	Pallet90	Pallet54	Pallet29	Pallet71	Pallet99	Pallet62	Pallet14	Pallet4	Pallet78	Pallet94	Pallet43	Pallet7	Pallet24	Pallet32	Pallet92	Pallet68	Pallet35	Pallet76	Pallet86	Pallet64	Pallet69	Pallet25	Pallet17	Pallet82	Pallet87	Pallet73	Pallet96	Pallet23	Pallet19	Pallet34	Pallet30	Pallet55	Pallet9	Pallet36	Pallet67	Pallet5	Pallet61	Pallet93	Pallet72	Pallet77	Pallet22	Pallet41	Pallet79	Pallet26	Pallet21	Pallet58	Pallet91	Pallet2
+p542	1	Pallet60	Pallet65	Pallet33	Pallet92
+p543	1	Pallet17	Pallet18	Pallet46	Pallet96	Pallet23	Pallet19	Pallet30	Pallet55	Pallet45	Pallet47	Pallet5	Pallet61	Pallet14	Pallet72	Pallet38	Pallet78	Pallet94	Pallet77	Pallet43	Pallet100	Pallet74	Pallet28	Pallet8	Pallet37	Pallet20	Pallet21	Pallet49	Pallet63	Pallet58	Pallet69	Pallet97	Pallet83	Pallet2
+p544	155	Pallet90	Pallet87	Pallet21	Pallet73	Pallet19	Pallet65	Pallet49	Pallet14	Pallet95	Pallet51	Pallet33
+p545	4401	Pallet26
+p546	28383	Pallet3	Pallet44	Pallet39	Pallet18	Pallet73	Pallet80	Pallet30	Pallet95	Pallet66	Pallet85	Pallet47	Pallet67	Pallet90	Pallet11	Pallet54	Pallet29	Pallet99	Pallet1	Pallet62	Pallet93	Pallet4	Pallet78	Pallet94	Pallet77	Pallet75	Pallet32	Pallet40	Pallet22	Pallet70	Pallet20	Pallet92	Pallet76	Pallet26	Pallet21	Pallet86	Pallet49	Pallet65	Pallet63	Pallet27	Pallet97	Pallet12	Pallet82	Pallet17
+p547	41610108	Pallet90	Pallet44	Pallet87	Pallet73	Pallet23	Pallet96	Pallet19	Pallet59	Pallet80	Pallet52	Pallet30	Pallet55	Pallet9	Pallet67	Pallet29	Pallet13	Pallet99	Pallet14	Pallet62	Pallet93	Pallet38	Pallet84	Pallet94	Pallet77	Pallet7	Pallet56	Pallet100	Pallet40	Pallet28	Pallet8	Pallet70	Pallet20	Pallet33	Pallet68	Pallet35	Pallet21	Pallet86	Pallet64	Pallet3	Pallet69	Pallet27	Pallet15	Pallet12
+p548	1	Pallet72
+p549	1301553	Pallet37
+p550	88161870	Pallet84
+p551	102	Pallet24	Pallet2
+p552	26853889	Pallet9	Pallet32
+p553	1	Pallet31
+p554	27856	Pallet86	Pallet39	Pallet53	Pallet73	Pallet13	Pallet1	Pallet37	Pallet55	Pallet25	Pallet68	Pallet82
+p555	741	Pallet87	Pallet44	Pallet6	Pallet42	Pallet46	Pallet18	Pallet60	Pallet59	Pallet88	Pallet95	Pallet66	Pallet85	Pallet50	Pallet45	Pallet47	Pallet90	Pallet54	Pallet29	Pallet1	Pallet13	Pallet62	Pallet4	Pallet38	Pallet84	Pallet94	Pallet43	Pallet24	Pallet7	Pallet8	Pallet68	Pallet76	Pallet49	Pallet64	Pallet25	Pallet48	Pallet83	Pallet16	Pallet12	Pallet87	Pallet39	Pallet96	Pallet34	Pallet52	Pallet30	Pallet55	Pallet67	Pallet11	Pallet61	Pallet72	Pallet57	Pallet77	Pallet56	Pallet81	Pallet28	Pallet41	Pallet37	Pallet79	Pallet33	Pallet98	Pallet26	Pallet58	Pallet27	Pallet2
+p556	24	Pallet32	Pallet10	Pallet73	Pallet18	Pallet19	Pallet74	Pallet60	Pallet84	Pallet25	Pallet43
+p557	315018	Pallet61	Pallet42	Pallet56	Pallet74	Pallet70	Pallet20	Pallet79	Pallet92	Pallet98	Pallet67	Pallet1	Pallet89	Pallet72	Pallet25	Pallet43	Pallet2
+p558	7	Pallet83	Pallet6	Pallet73	Pallet40	Pallet64	Pallet72	Pallet97	Pallet20	Pallet51
+p559	63890	Pallet86
+p560	6344811	Pallet22	Pallet54	Pallet55	Pallet95	Pallet77	Pallet50
+p561	672722	Pallet7	Pallet50	Pallet43
+p562	1	Pallet84	Pallet49	Pallet3	Pallet25	Pallet33	Pallet2
+p563	31390	Pallet23
+p564	1	Pallet93	Pallet44	Pallet19	Pallet80	Pallet30	Pallet55	Pallet95	Pallet66	Pallet67	Pallet53	Pallet29	Pallet71	Pallet62	Pallet93	Pallet4	Pallet38	Pallet84	Pallet7	Pallet32	Pallet81	Pallet22	Pallet37	Pallet98	Pallet35	Pallet76	Pallet49	Pallet65	Pallet3	Pallet58	Pallet91	Pallet2
+p565	435025328	Pallet98	Pallet46	Pallet29	Pallet92	Pallet98
+p566	11786	Pallet15	Pallet56	Pallet71	Pallet38
+p567	2	Pallet61	Pallet44	Pallet7	Pallet42	Pallet87	Pallet39	Pallet22	Pallet88	Pallet95	Pallet85	Pallet98	Pallet21	Pallet3	Pallet84	Pallet25	Pallet91
+p568	9623726	Pallet8	Pallet44	Pallet10	Pallet100	Pallet56	Pallet32	Pallet96	Pallet19	Pallet60	Pallet52	Pallet79	Pallet85	Pallet33	Pallet98	Pallet76	Pallet26	Pallet1	Pallet63	Pallet72	Pallet25	Pallet97	Pallet51	Pallet43
+p569	4907161	Pallet35	Pallet44	Pallet26	Pallet21	Pallet60	Pallet72
+p570	1	Pallet58
+p571	1	Pallet19
+p572	14691	Pallet29	Pallet10	Pallet32	Pallet40	Pallet34	Pallet22	Pallet88	Pallet85	Pallet79	Pallet50	Pallet33	Pallet47	Pallet26	Pallet90	Pallet54	Pallet65	Pallet99	Pallet63	Pallet58	Pallet27	Pallet91	Pallet94	Pallet78
+p573	2130907	Pallet20	Pallet10	Pallet100	Pallet74	Pallet52	Pallet31	Pallet20	Pallet53	Pallet71	Pallet89	Pallet61	Pallet63	Pallet82
+p574	231781264	Pallet22	Pallet40	Pallet34	Pallet59	Pallet33	Pallet9	Pallet47	Pallet29	Pallet54	Pallet99	Pallet49	Pallet13	Pallet1	Pallet61	Pallet63	Pallet64	Pallet38	Pallet48	Pallet82
+p575	1724011584	Pallet26	Pallet28	Pallet70	Pallet55	Pallet79	Pallet9	Pallet26	Pallet21	Pallet5	Pallet1	Pallet89	Pallet63	Pallet69	Pallet91	Pallet83	Pallet2	Pallet12
+p576	36634	Pallet48	Pallet42	Pallet39	Pallet73	Pallet46	Pallet19	Pallet59	Pallet50	Pallet45	Pallet29	Pallet14	Pallet72	Pallet94	Pallet24	Pallet56	Pallet40	Pallet37	Pallet33	Pallet68	Pallet76	Pallet49	Pallet64	Pallet3	Pallet69	Pallet91	Pallet51
+p577	1	Pallet27	Pallet52	Pallet85	Pallet2
+p578	7169091	Pallet100	Pallet6	Pallet18	Pallet46	Pallet59	Pallet66	Pallet85	Pallet50	Pallet47	Pallet71	Pallet1	Pallet99	Pallet4	Pallet14	Pallet84	Pallet43	Pallet7	Pallet24	Pallet35	Pallet86	Pallet64	Pallet25	Pallet48	Pallet83	Pallet16	Pallet15	Pallet17	Pallet39	Pallet73	Pallet23	Pallet34	Pallet80	Pallet52	Pallet30	Pallet31	Pallet55	Pallet11	Pallet93	Pallet72	Pallet40	Pallet81	Pallet74	Pallet28	Pallet41	Pallet33	Pallet21	Pallet89	Pallet63	Pallet58	Pallet97	Pallet91
+p579	1	Pallet66	Pallet87	Pallet21	Pallet54	Pallet64	Pallet70	Pallet58	Pallet55	Pallet41	Pallet20
+p580	1	Pallet13	Pallet54	Pallet83
+p581	58604073	Pallet93
+p582	385814617	Pallet49	Pallet89	Pallet20	Pallet78	Pallet50
+p583	4045350	Pallet31	Pallet87	Pallet39	Pallet18	Pallet100	Pallet73	Pallet19	Pallet37	Pallet20	Pallet66	Pallet85	Pallet92	Pallet9	Pallet54	Pallet86	Pallet4	Pallet58	Pallet57	Pallet27	Pallet51	Pallet15
+p584	7205	Pallet37
+p585	1	Pallet48	Pallet44	Pallet87	Pallet23	Pallet96	Pallet31	Pallet55	Pallet45	Pallet50	Pallet47	Pallet90	Pallet53	Pallet1	Pallet61	Pallet84	Pallet57	Pallet43	Pallet24	Pallet100	Pallet74	Pallet20	Pallet79	Pallet92	Pallet76	Pallet89	Pallet64	Pallet58	Pallet27	Pallet25	Pallet48	Pallet83	Pallet2
+p586	1	Pallet2
+p587	1	Pallet6	Pallet89
+p588	7057	Pallet11	Pallet44	Pallet42	Pallet18	Pallet73	Pallet34	Pallet60	Pallet59	Pallet85	Pallet5	Pallet53	Pallet11	Pallet1	Pallet61	Pallet62	Pallet84	Pallet57	Pallet77	Pallet24	Pallet75	Pallet40	Pallet74	Pallet70	Pallet41	Pallet79	Pallet98	Pallet68	Pallet92	Pallet26	Pallet89	Pallet63	Pallet64	Pallet25	Pallet27	Pallet15	Pallet82	Pallet2	Pallet12
+p589	3	Pallet81
+p590	73153607	Pallet5
+p591	33160	Pallet72	Pallet10	Pallet23	Pallet1	Pallet65	Pallet34	Pallet81	Pallet72	Pallet37	Pallet94	Pallet51	Pallet92
+p592	1586667356	Pallet42	Pallet87	Pallet10	Pallet6	Pallet39	Pallet73	Pallet23	Pallet19	Pallet55	Pallet95	Pallet66	Pallet85	Pallet9	Pallet11	Pallet54	Pallet62	Pallet14	Pallet38	Pallet57	Pallet78	Pallet77	Pallet43	Pallet7	Pallet56	Pallet32	Pallet74	Pallet8	Pallet37	Pallet20	Pallet33	Pallet68	Pallet76	Pallet21	Pallet49	Pallet89	Pallet58	Pallet69	Pallet51	Pallet15	Pallet17	Pallet82
+p593	1710	Pallet94	Pallet34	Pallet64	Pallet55	Pallet48	Pallet79
+p594	265998	Pallet73	Pallet53	Pallet86
+p595	1	Pallet59	Pallet44	Pallet18	Pallet59	Pallet60	Pallet88	Pallet95	Pallet66	Pallet85	Pallet45	Pallet50	Pallet47	Pallet90	Pallet29	Pallet54	Pallet14	Pallet38	Pallet84	Pallet78	Pallet7	Pallet24	Pallet32	Pallet70	Pallet68	Pallet86	Pallet65	Pallet64	Pallet25	Pallet48	Pallet16	Pallet15	Pallet12	Pallet17	Pallet87	Pallet10	Pallet73	Pallet23	Pallet96	Pallet34	Pallet80	Pallet52	Pallet30	Pallet9	Pallet67	Pallet53	Pallet11	Pallet61	Pallet93	Pallet77	Pallet56	Pallet40	Pallet81	Pallet37	Pallet79	Pallet33	Pallet21	Pallet63	Pallet27	Pallet91	Pallet97
+p596	89501	Pallet28	Pallet60	Pallet93	Pallet58	Pallet51	Pallet77	Pallet82
+p597	1	Pallet90
+p598	240727372	Pallet99	Pallet7	Pallet47	Pallet35	Pallet18	Pallet13	Pallet74	Pallet14	Pallet28	Pallet27	Pallet20
+p599	1	Pallet72
+p600	13005420	Pallet29	Pallet18	Pallet59	Pallet60	Pallet66	Pallet85	Pallet50	Pallet47	Pallet90	Pallet13	Pallet1	Pallet71	Pallet62	Pallet4	Pallet84	Pallet78	Pallet43	Pallet7	Pallet8	Pallet70	Pallet92	Pallet68	Pallet76	Pallet35	Pallet65	Pallet64	Pallet51	Pallet16	Pallet82	Pallet17	Pallet87	Pallet39	Pallet73	Pallet96	Pallet31	Pallet55	Pallet9	Pallet11	Pallet93	Pallet72	Pallet56	Pallet40	Pallet74	Pallet22	Pallet26	Pallet63	Pallet3	Pallet27	Pallet2
+p601	1053	Pallet89	Pallet44	Pallet42	Pallet6	Pallet18	Pallet59	Pallet95	Pallet66	Pallet50	Pallet99	Pallet1	Pallet4	Pallet62	Pallet84	Pallet78	Pallet94	Pallet43	Pallet100	Pallet32	Pallet70	Pallet8	Pallet68	Pallet35	Pallet86	Pallet49	Pallet51	Pallet10	Pallet87	Pallet39	Pallet73	Pallet96	Pallet34	Pallet19	Pallet36	Pallet67	Pallet53	Pallet5	Pallet61	Pallet93	Pallet57	Pallet77	Pallet75	Pallet56	Pallet74	Pallet81	Pallet20	Pallet79	Pallet63	Pallet58	Pallet27	Pallet91
+p602	1373007	Pallet24
+p603	1	Pallet16
+p604	209	Pallet14	Pallet32	Pallet96	Pallet49	Pallet51	Pallet83	Pallet16	Pallet33
+p605	1	Pallet96
+p606	5882	Pallet50	Pallet44	Pallet6	Pallet42	Pallet60	Pallet88	Pallet85	Pallet45	Pallet90	Pallet29	Pallet99	Pallet13	Pallet71	Pallet62	Pallet94	Pallet24	Pallet7	Pallet32	Pallet8	Pallet70	Pallet92	Pallet35	Pallet86	Pallet69	Pallet51	Pallet83	Pallet16	Pallet15	Pallet39	Pallet73	Pallet23	Pallet34	Pallet52	Pallet80	Pallet31	Pallet53	Pallet11	Pallet72	Pallet77	Pallet40	Pallet74	Pallet81	Pallet37	Pallet41	Pallet20	Pallet33	Pallet26	Pallet63	Pallet91
+p607	1	Pallet90	Pallet75	Pallet39	Pallet23	Pallet40	Pallet60	Pallet59	Pallet81	Pallet28	Pallet52	Pallet88	Pallet85	Pallet92	Pallet68	Pallet65	Pallet99	Pallet58	Pallet72	Pallet91	Pallet12
+p608	4	Pallet26	Pallet90	Pallet5	Pallet73	Pallet13	Pallet14	Pallet57	Pallet95	Pallet16	Pallet43
+p609	161	Pallet42
+p610	4969	Pallet41	Pallet6	Pallet55
+p611	19336323	Pallet54
+p612	15510	Pallet31
+p613	1	Pallet22	Pallet3	Pallet8	Pallet78	Pallet83
+p614	27617594	Pallet35	Pallet39	Pallet18	Pallet40	Pallet74	Pallet28	Pallet66	Pallet50	Pallet33	Pallet36	Pallet26	Pallet21	Pallet29	Pallet54	Pallet1	Pallet38	Pallet72	Pallet51	Pallet78	Pallet83	Pallet77	Pallet12
+p615	1	Pallet43	Pallet44	Pallet87	Pallet39	Pallet46	Pallet23	Pallet60	Pallet52	Pallet30	Pallet31	Pallet47	Pallet5	Pallet99	Pallet93	Pallet4	Pallet38	Pallet57	Pallet77	Pallet43	Pallet24	Pallet56	Pallet22	Pallet41	Pallet79	Pallet35	Pallet21	Pallet65	Pallet64	Pallet69	Pallet16
+p616	8	Pallet35	Pallet6	Pallet39	Pallet23	Pallet59	Pallet80	Pallet30	Pallet95	Pallet66	Pallet5	Pallet53	Pallet11	Pallet14	Pallet62	Pallet84	Pallet78	Pallet74	Pallet81	Pallet28	Pallet8	Pallet37	Pallet20	Pallet35	Pallet76	Pallet49	Pallet65	Pallet64	Pallet58	Pallet17
+p617	24	Pallet55	Pallet18	Pallet32	Pallet19	Pallet60	Pallet80	Pallet30	Pallet88	Pallet33	Pallet67	Pallet21	Pallet71	Pallet65	Pallet3	Pallet72	Pallet69	Pallet27	Pallet91	Pallet78	Pallet77
+p618	245	Pallet9	Pallet6	Pallet10	Pallet18	Pallet100	Pallet73	Pallet74	Pallet60	Pallet70	Pallet50	Pallet33	Pallet90	Pallet29	Pallet49	Pallet99	Pallet61	Pallet93	Pallet72	Pallet27	Pallet77
+p619	2075000	Pallet92	Pallet52	Pallet91
+p620	1	Pallet34	Pallet18
+p621	17742380	Pallet60	Pallet75	Pallet87	Pallet67
+p622	1	Pallet63	Pallet44	Pallet87	Pallet18	Pallet73	Pallet23	Pallet19	Pallet59	Pallet30	Pallet85	Pallet36	Pallet90	Pallet29	Pallet99	Pallet4	Pallet84	Pallet77	Pallet43	Pallet100	Pallet32	Pallet40	Pallet74	Pallet28	Pallet22	Pallet41	Pallet79	Pallet68	Pallet86	Pallet51	Pallet15	Pallet2	Pallet17	Pallet12
+p623	48724	Pallet24	Pallet6	Pallet18	Pallet59	Pallet88	Pallet95	Pallet85	Pallet45	Pallet29	Pallet62	Pallet4	Pallet38	Pallet84	Pallet94	Pallet78	Pallet7	Pallet24	Pallet100	Pallet68	Pallet92	Pallet35	Pallet76	Pallet49	Pallet65	Pallet64	Pallet48	Pallet51	Pallet83	Pallet15	Pallet12	Pallet17	Pallet19	Pallet30	Pallet55	Pallet31	Pallet9	Pallet36	Pallet67	Pallet5	Pallet93	Pallet57	Pallet56	Pallet40	Pallet74	Pallet81	Pallet22	Pallet41	Pallet79	Pallet33	Pallet98	Pallet26	Pallet58	Pallet97	Pallet2
+p624	48024068	Pallet34	Pallet56	Pallet53	Pallet63	Pallet84	Pallet41	Pallet27	Pallet68	Pallet92
+p625	208037249	Pallet20	Pallet7	Pallet18	Pallet96	Pallet88	Pallet70	Pallet41	Pallet95	Pallet36	Pallet35	Pallet61	Pallet14	Pallet63	Pallet97
+p626	39291168	Pallet4
+p627	1	Pallet79	Pallet29	Pallet69	Pallet15
+p628	1	Pallet52	Pallet6	Pallet18	Pallet46	Pallet59	Pallet95	Pallet85	Pallet54	Pallet99	Pallet13	Pallet1	Pallet14	Pallet62	Pallet38	Pallet84	Pallet78	Pallet32	Pallet70	Pallet68	Pallet86	Pallet64	Pallet69	Pallet25	Pallet51	Pallet48	Pallet83	Pallet15	Pallet16	Pallet17	Pallet39	Pallet23	Pallet19	Pallet80	Pallet52	Pallet30	Pallet9	Pallet36	Pallet5	Pallet53	Pallet57	Pallet77	Pallet56	Pallet40	Pallet74	Pallet37	Pallet41	Pallet79	Pallet98	Pallet26	Pallet89	Pallet58	Pallet27	Pallet97	Pallet91	Pallet2
+p629	12928287	Pallet1	Pallet46	Pallet88	Pallet50	Pallet36	Pallet67	Pallet90	Pallet62	Pallet64	Pallet84	Pallet91	Pallet77	Pallet12
+p630	1	Pallet18
+p631	44717828	Pallet5	Pallet42	Pallet39	Pallet100	Pallet73	Pallet32	Pallet40	Pallet19	Pallet74	Pallet28	Pallet52	Pallet80	Pallet31	Pallet9	Pallet36	Pallet90	Pallet3	Pallet4	Pallet69	Pallet84	Pallet91	Pallet78	Pallet51	Pallet2
+p632	490796	Pallet37
+p633	1	Pallet23
+p634	1	Pallet62	Pallet44	Pallet96	Pallet34	Pallet52	Pallet80	Pallet30	Pallet9	Pallet47	Pallet5	Pallet29	Pallet61	Pallet93	Pallet62	Pallet72	Pallet75	Pallet32	Pallet41	Pallet37	Pallet20	Pallet68	Pallet98	Pallet89	Pallet58	Pallet25	Pallet2	Pallet17
+p635	238	Pallet40	Pallet44	Pallet42	Pallet18	Pallet88	Pallet95	Pallet66	Pallet45	Pallet54	Pallet29	Pallet99	Pallet71	Pallet84	Pallet78	Pallet94	Pallet43	Pallet24	Pallet100	Pallet32	Pallet70	Pallet76	Pallet35	Pallet65	Pallet25	Pallet48	Pallet51	Pallet83	Pallet16	Pallet82	Pallet17	Pallet87	Pallet10	Pallet39	Pallet73	Pallet96	Pallet34	Pallet19	Pallet52	Pallet30	Pallet31	Pallet55	Pallet9	Pallet67	Pallet53	Pallet61	Pallet93	Pallet72	Pallet57	Pallet75	Pallet40	Pallet81	Pallet28	Pallet41	Pallet37	Pallet20	Pallet33	Pallet26	Pallet21	Pallet89	Pallet3	Pallet58	Pallet97	Pallet91	Pallet2
+p636	61174044	Pallet80
+p637	1	Pallet82
+p638	5055764	Pallet1	Pallet81	Pallet8	Pallet30	Pallet41	Pallet33	Pallet53	Pallet90	Pallet71	Pallet63	Pallet62	Pallet3	Pallet57	Pallet84	Pallet51	Pallet15	Pallet16	Pallet17
+p639	42133108	Pallet19	Pallet47	Pallet10	Pallet21	Pallet84	Pallet48	Pallet78	Pallet50	Pallet68
+p640	671832721	Pallet51
+p641	1	Pallet45	Pallet73	Pallet11	Pallet94	Pallet50
+p642	1014	Pallet43
+p643	1	Pallet86	Pallet90	Pallet56	Pallet54	Pallet74	Pallet63	Pallet30	Pallet88	Pallet79	Pallet92	Pallet12
+p644	287	Pallet53	Pallet87	Pallet10	Pallet46	Pallet18	Pallet23	Pallet55	Pallet95	Pallet50	Pallet67	Pallet53	Pallet71	Pallet99	Pallet61	Pallet14	Pallet62	Pallet72	Pallet84	Pallet77	Pallet32	Pallet40	Pallet22	Pallet8	Pallet41	Pallet92	Pallet65	Pallet64	Pallet3	Pallet91	Pallet48	Pallet83	Pallet82	Pallet2	Pallet12
+p645	1	Pallet99
+p646	1	Pallet42
+p647	1	Pallet38	Pallet78	Pallet2
+p648	10522094	Pallet38	Pallet18	Pallet73	Pallet59	Pallet88	Pallet95	Pallet36	Pallet67	Pallet29	Pallet54	Pallet99	Pallet4	Pallet84	Pallet57	Pallet94	Pallet77	Pallet100	Pallet40	Pallet74	Pallet81	Pallet22	Pallet28	Pallet92	Pallet76	Pallet3	Pallet16	Pallet82	Pallet17
+p649	1866555	Pallet62	Pallet64
+p650	466	Pallet27
+p651	1	Pallet71	Pallet31
+p652	94481	Pallet13	Pallet44	Pallet87	Pallet39	Pallet19	Pallet88	Pallet95	Pallet9	Pallet67	Pallet47	Pallet5	Pallet14	Pallet93	Pallet72	Pallet57	Pallet78	Pallet94	Pallet77	Pallet24	Pallet32	Pallet74	Pallet81	Pallet8	Pallet41	Pallet68	Pallet35	Pallet26	Pallet86	Pallet89	Pallet64	Pallet58	Pallet27	Pallet97
+p653	91473	Pallet28
+p654	2	Pallet2	Pallet21	Pallet61	Pallet14	Pallet41	Pallet91	Pallet66	Pallet94	Pallet85	Pallet45	Pallet98
+p655	556418147	Pallet68	Pallet87	Pallet10	Pallet39	Pallet19	Pallet88	Pallet66	Pallet9	Pallet67	Pallet53	Pallet11	Pallet29	Pallet61	Pallet4	Pallet93	Pallet94	Pallet77	Pallet24	Pallet100	Pallet22	Pallet41	Pallet37	Pallet33	Pallet68	Pallet98	Pallet21	Pallet89	Pallet63	Pallet51	Pallet15	Pallet16	Pallet17
+p656	2175	Pallet30	Pallet78	Pallet17
+p657	360	Pallet29	Pallet39	Pallet73	Pallet46	Pallet23	Pallet34	Pallet60	Pallet45	Pallet9	Pallet90	Pallet54	Pallet99	Pallet13	Pallet61	Pallet4	Pallet14	Pallet62	Pallet93	Pallet84	Pallet78	Pallet43	Pallet7	Pallet74	Pallet41	Pallet33	Pallet68	Pallet76	Pallet21	Pallet89	Pallet58	Pallet91	Pallet51	Pallet48	Pallet12	Pallet17	Pallet82
+p658	742236	Pallet64
+p659	704	Pallet55	Pallet39	Pallet73	Pallet19	Pallet88	Pallet30	Pallet31	Pallet85	Pallet36	Pallet90	Pallet54	Pallet61	Pallet38	Pallet57	Pallet78	Pallet100	Pallet81	Pallet28	Pallet70	Pallet20	Pallet79	Pallet98	Pallet92	Pallet76	Pallet86	Pallet89	Pallet64	Pallet58	Pallet25	Pallet27	Pallet97	Pallet48
+p660	1	Pallet99	Pallet18	Pallet34	Pallet45	Pallet50	Pallet9	Pallet29	Pallet14	Pallet38	Pallet94	Pallet78	Pallet77	Pallet100	Pallet70	Pallet37	Pallet20	Pallet79	Pallet21	Pallet65	Pallet3	Pallet63	Pallet25	Pallet48	Pallet83	Pallet2	Pallet82
+p661	1	Pallet10	Pallet44	Pallet42	Pallet6	Pallet39	Pallet18	Pallet23	Pallet19	Pallet34	Pallet80	Pallet88	Pallet95	Pallet66	Pallet50	Pallet36	Pallet67	Pallet53	Pallet11	Pallet71	Pallet1	Pallet14	Pallet72	Pallet77	Pallet7	Pallet24	Pallet56	Pallet40	Pallet22	Pallet28	Pallet8	Pallet70	Pallet37	Pallet68	Pallet98	Pallet76	Pallet26	Pallet21	Pallet49	Pallet89	Pallet63	Pallet3	Pallet58	Pallet69	Pallet48	Pallet16	Pallet17	Pallet12	Pallet2
+p662	1	Pallet91	Pallet44	Pallet6	Pallet18	Pallet46	Pallet73	Pallet96	Pallet80	Pallet88	Pallet55	Pallet66	Pallet45	Pallet50	Pallet36	Pallet5	Pallet29	Pallet71	Pallet62	Pallet4	Pallet38	Pallet43	Pallet75	Pallet56	Pallet40	Pallet68	Pallet76	Pallet3	Pallet27	Pallet97	Pallet51	Pallet83	Pallet82	Pallet17
+p663	1272879152	Pallet54	Pallet96	Pallet64	Pallet70	Pallet78	Pallet2
+p664	1	Pallet66	Pallet6	Pallet32	Pallet86	Pallet34	Pallet14
+p665	1401832	Pallet18
+p666	48973062	Pallet32
+p667	4286488	Pallet22	Pallet44	Pallet42	Pallet34	Pallet60	Pallet59	Pallet80	Pallet52	Pallet30	Pallet88	Pallet31	Pallet85	Pallet36	Pallet67	Pallet47	Pallet90	Pallet54	Pallet61	Pallet62	Pallet72	Pallet84	Pallet7	Pallet75	Pallet56	Pallet74	Pallet22	Pallet8	Pallet41	Pallet79	Pallet35	Pallet26	Pallet49	Pallet65	Pallet64	Pallet25	Pallet91	Pallet51	Pallet16	Pallet15	Pallet82
+p668	112818	Pallet76	Pallet10	Pallet42	Pallet23	Pallet60	Pallet88	Pallet85	Pallet45	Pallet50	Pallet9	Pallet5	Pallet90	Pallet11	Pallet29	Pallet13	Pallet1	Pallet14	Pallet93	Pallet38	Pallet72	Pallet94	Pallet40	Pallet74	Pallet81	Pallet22	Pallet37	Pallet20	Pallet79	Pallet98	Pallet21	Pallet49	Pallet3	Pallet63	Pallet64	Pallet58	Pallet91	Pallet48	Pallet83	Pallet15	Pallet82
+p669	1	Pallet15	Pallet7	Pallet6	Pallet96	Pallet28	Pallet41	Pallet37	Pallet79	Pallet76	Pallet5	Pallet54	Pallet62	Pallet3	Pallet78	Pallet94	Pallet51	Pallet48	Pallet43	Pallet2	Pallet17
+p670	246	Pallet34	Pallet73	Pallet23	Pallet96	Pallet60	Pallet88	Pallet95	Pallet50	Pallet47	Pallet90	Pallet11	Pallet54	Pallet62	Pallet38	Pallet94	Pallet7	Pallet32	Pallet81	Pallet74	Pallet22	Pallet33	Pallet98	Pallet35	Pallet21	Pallet89	Pallet3	Pallet58	Pallet27
+p671	23	Pallet65
+p672	7	Pallet75	Pallet24	Pallet76	Pallet81	Pallet58
+p673	15131	Pallet17	Pallet6	Pallet18	Pallet59	Pallet88	Pallet95	Pallet66	Pallet85	Pallet47	Pallet90	Pallet29	Pallet54	Pallet71	Pallet14	Pallet84	Pallet94	Pallet43	Pallet7	Pallet24	Pallet100	Pallet70	Pallet68	Pallet76	Pallet35	Pallet86	Pallet65	Pallet64	Pallet69	Pallet25	Pallet15	Pallet82	Pallet39	Pallet73	Pallet96	Pallet19	Pallet34	Pallet80	Pallet30	Pallet55	Pallet31	Pallet36	Pallet5	Pallet57	Pallet77	Pallet75	Pallet56	Pallet74	Pallet81	Pallet33	Pallet89	Pallet3	Pallet58	Pallet27	Pallet97	Pallet2
+p674	39331	Pallet30
+p675	1	Pallet21	Pallet10	Pallet96	Pallet19	Pallet88	Pallet31	Pallet50	Pallet9	Pallet67	Pallet11	Pallet29	Pallet61	Pallet64	Pallet25	Pallet57	Pallet94	Pallet15	Pallet43	Pallet82	Pallet2	Pallet17
+p676	1	Pallet19
+p677	1	Pallet27
+p678	1	Pallet64	Pallet44	Pallet42	Pallet10	Pallet23	Pallet34	Pallet19	Pallet60	Pallet52	Pallet30	Pallet95	Pallet36	Pallet47	Pallet67	Pallet53	Pallet11	Pallet29	Pallet54	Pallet99	Pallet71	Pallet4	Pallet72	Pallet38	Pallet84	Pallet24	Pallet100	Pallet22	Pallet37	Pallet20	Pallet68	Pallet35	Pallet26	Pallet21	Pallet65	Pallet3	Pallet63	Pallet58	Pallet27	Pallet97	Pallet91	Pallet48	Pallet51	Pallet15	Pallet82	Pallet2
+p679	1	Pallet60
+p680	801	Pallet77	Pallet87	Pallet46	Pallet32	Pallet34	Pallet22	Pallet45	Pallet11	Pallet29	Pallet1	Pallet27	Pallet91	Pallet51	Pallet83	Pallet15
+p681	456	Pallet23
+p682	26257	Pallet72	Pallet35	Pallet62
+p683	1	Pallet12	Pallet44	Pallet87	Pallet42	Pallet39	Pallet46	Pallet96	Pallet34	Pallet19	Pallet60	Pallet88	Pallet31	Pallet45	Pallet36	Pallet53	Pallet11	Pallet29	Pallet1	Pallet13	Pallet61	Pallet62	Pallet84	Pallet32	Pallet40	Pallet81	Pallet74	Pallet41	Pallet37	Pallet79	Pallet92	Pallet21	Pallet86	Pallet58	Pallet69	Pallet97	Pallet15
+p684	963462761	Pallet40	Pallet87	Pallet39	Pallet46	Pallet18	Pallet96	Pallet59	Pallet60	Pallet52	Pallet80	Pallet88	Pallet66	Pallet85	Pallet50	Pallet9	Pallet90	Pallet11	Pallet54	Pallet99	Pallet4	Pallet14	Pallet72	Pallet84	Pallet94	Pallet24	Pallet7	Pallet100	Pallet56	Pallet32	Pallet40	Pallet74	Pallet41	Pallet20	Pallet76	Pallet86	Pallet65	Pallet49	Pallet64	Pallet63	Pallet58	Pallet97	Pallet51	Pallet48	Pallet83	Pallet16	Pallet15
+p685	1	Pallet12
+p686	1	Pallet31
+p687	293	Pallet85	Pallet42	Pallet46	Pallet80	Pallet93	Pallet38	Pallet91	Pallet51
+p688	269390052	Pallet24	Pallet10	Pallet42	Pallet6	Pallet39	Pallet18	Pallet34	Pallet19	Pallet60	Pallet52	Pallet85	Pallet50	Pallet67	Pallet47	Pallet5	Pallet90	Pallet29	Pallet54	Pallet71	Pallet13	Pallet99	Pallet93	Pallet14	Pallet4	Pallet38	Pallet72	Pallet84	Pallet78	Pallet77	Pallet24	Pallet22	Pallet28	Pallet37	Pallet33	Pallet98	Pallet92	Pallet35	Pallet49	Pallet63	Pallet27	Pallet69	Pallet25	Pallet51	Pallet15	Pallet2	Pallet82
+p689	31	Pallet41
+p690	1	Pallet17
+p691	421	Pallet44	Pallet39	Pallet56	Pallet100	Pallet31	Pallet41	Pallet33	Pallet5	Pallet89	Pallet93	Pallet64	Pallet58	Pallet91	Pallet97	Pallet78	Pallet2
+p692	5030595	Pallet30	Pallet67	Pallet61	Pallet31
+p693	453588	Pallet75	Pallet37	Pallet78
+p694	768616389	Pallet21	Pallet38
+p695	1	Pallet84	Pallet21	Pallet1	Pallet80	Pallet52
+p696	123486	Pallet6	Pallet44	Pallet46	Pallet18	Pallet23	Pallet59	Pallet80	Pallet88	Pallet95	Pallet66	Pallet85	Pallet50	Pallet9	Pallet67	Pallet11	Pallet1	Pallet99	Pallet61	Pallet93	Pallet38	Pallet43	Pallet77	Pallet75	Pallet37	Pallet79	Pallet33	Pallet68	Pallet21	Pallet26	Pallet63	Pallet25	Pallet69	Pallet91	Pallet83	Pallet16	Pallet12	Pallet17
+p697	19456	Pallet53
+p698	1168	Pallet64	Pallet57	Pallet45
+p699	758957	Pallet35
+p700	1	Pallet90	Pallet42	Pallet10	Pallet39	Pallet46	Pallet96	Pallet52	Pallet55	Pallet66	Pallet85	Pallet50	Pallet45	Pallet9	Pallet90	Pallet13	Pallet4	Pallet14	Pallet57	Pallet24	Pallet7	Pallet32	Pallet81	Pallet74	Pallet22	Pallet33	Pallet26	Pallet21	Pallet86	Pallet65	Pallet3	Pallet25	Pallet97	Pallet83	Pallet15	Pallet16	Pallet82
+p701	1	Pallet81	Pallet18	Pallet46	Pallet60	Pallet59	Pallet88	Pallet66	Pallet85	Pallet50	Pallet45	Pallet90	Pallet29	Pallet54	Pallet1	Pallet99	Pallet14	Pallet78	Pallet43	Pallet7	Pallet32	Pallet92	Pallet35	Pallet49	Pallet64	Pallet51	Pallet48	Pallet83	Pallet82	Pallet12	Pallet17	Pallet10	Pallet87	Pallet39	Pallet73	Pallet19	Pallet52	Pallet80	Pallet31	Pallet55	Pallet9	Pallet36	Pallet67	Pallet5	Pallet11	Pallet93	Pallet57	Pallet77	Pallet75	Pallet40	Pallet81	Pallet74	Pallet28	Pallet41	Pallet37	Pallet33	Pallet21	Pallet26	Pallet89	Pallet63	Pallet58	Pallet91	Pallet2
+p702	25714	Pallet19	Pallet6	Pallet71	Pallet80	Pallet37	Pallet84	Pallet69	Pallet57	Pallet50	Pallet92
+p703	1	Pallet37	Pallet36	Pallet35	Pallet13	Pallet45
+p704	1	Pallet93
+p705	391382	Pallet41	Pallet24	Pallet6	Pallet18	Pallet73	Pallet8	Pallet30	Pallet95	Pallet79	Pallet85	Pallet76	Pallet35	Pallet67	Pallet26	Pallet29	Pallet49	Pallet99	Pallet64	Pallet14	Pallet72	Pallet58	Pallet84	Pallet51	Pallet82
+p706	179434126	Pallet7
+p707	31147	Pallet22	Pallet6	Pallet87	Pallet73	Pallet60	Pallet30	Pallet88	Pallet31	Pallet66	Pallet47	Pallet90	Pallet5	Pallet29	Pallet71	Pallet93	Pallet62	Pallet57	Pallet84	Pallet28	Pallet8	Pallet79	Pallet98	Pallet35	Pallet76	Pallet49	Pallet63	Pallet3	Pallet48	Pallet12
+p708	130867722	Pallet51	Pallet44	Pallet87	Pallet10	Pallet6	Pallet39	Pallet34	Pallet19	Pallet52	Pallet30	Pallet31	Pallet66	Pallet85	Pallet45	Pallet50	Pallet9	Pallet36	Pallet67	Pallet47	Pallet29	Pallet99	Pallet61	Pallet14	Pallet84	Pallet43	Pallet100	Pallet81	Pallet28	Pallet70	Pallet41	Pallet20	Pallet98	Pallet92	Pallet89	Pallet63	Pallet58	Pallet91	Pallet83	Pallet15	Pallet16
+p709	1	Pallet2
+p710	5763	Pallet26	Pallet10	Pallet42	Pallet73	Pallet46	Pallet18	Pallet19	Pallet34	Pallet60	Pallet52	Pallet88	Pallet95	Pallet85	Pallet67	Pallet90	Pallet53	Pallet11	Pallet29	Pallet54	Pallet13	Pallet1	Pallet4	Pallet14	Pallet93	Pallet72	Pallet84	Pallet78	Pallet94	Pallet43	Pallet100	Pallet40	Pallet81	Pallet22	Pallet8	Pallet41	Pallet98	Pallet92	Pallet21	Pallet65	Pallet89	Pallet27	Pallet15	Pallet17	Pallet82
+p711	75469442	Pallet98
+p712	1	Pallet6
+p713	31967259	Pallet70
+p714	107	Pallet50
+p715	5107908	Pallet55	Pallet40	Pallet74	Pallet52	Pallet41	Pallet92	Pallet98	Pallet9	Pallet11	Pallet62	Pallet64	Pallet38	Pallet91	Pallet48	Pallet51	Pallet83	Pallet82	Pallet17
+p716	373	Pallet25
+p717	1	Pallet24	Pallet38	Pallet25
+p718	1	Pallet25
+p719	1	Pallet90
+p720	1	Pallet9	Pallet70
+p721	53378	Pallet52	Pallet21	Pallet17
+p722	1	Pallet44	Pallet6	Pallet10	Pallet39	Pallet46	Pallet96	Pallet23	Pallet19	Pallet60	Pallet59	Pallet80	Pallet52	Pallet55	Pallet31	Pallet85	Pallet9	Pallet67	Pallet11	Pallet29	Pallet99	Pallet61	Pallet93	Pallet62	Pallet38	Pallet72	Pallet77	Pallet43	Pallet24	Pallet32	Pallet81	Pallet41	Pallet68	Pallet65	Pallet89	Pallet3	Pallet64	Pallet58	Pallet91	Pallet51	Pallet83	Pallet2
+p723	24327	Pallet24
+p724	79909	Pallet28	Pallet6	Pallet42	Pallet10	Pallet18	Pallet46	Pallet70	Pallet55	Pallet95	Pallet85	Pallet50	Pallet45	Pallet68	Pallet76	Pallet67	Pallet11	Pallet54	Pallet29	Pallet71	Pallet1	Pallet64	Pallet69	Pallet77	Pallet17
+p725	3293737	Pallet38	Pallet6	Pallet87	Pallet10	Pallet42	Pallet73	Pallet23	Pallet96	Pallet34	Pallet52	Pallet30	Pallet55	Pallet95	Pallet66	Pallet85	Pallet11	Pallet29	Pallet1	Pallet71	Pallet99	Pallet14	Pallet62	Pallet72	Pallet38	Pallet57	Pallet84	Pallet43	Pallet77	Pallet7	Pallet28	Pallet8	Pallet41	Pallet20	Pallet79	Pallet76	Pallet35	Pallet26	Pallet86	Pallet89	Pallet64	Pallet3	Pallet63	Pallet91	Pallet97	Pallet83	Pallet16	Pallet2	Pallet82
+p726	162271712	Pallet87
+p727	547611681	Pallet77	Pallet91	Pallet16
+p728	102193	Pallet47
+p729	1	Pallet50
+p730	1	Pallet92	Pallet42	Pallet10	Pallet18	Pallet96	Pallet60	Pallet52	Pallet30	Pallet55	Pallet95	Pallet9	Pallet36	Pallet67	Pallet90	Pallet71	Pallet1	Pallet61	Pallet14	Pallet57	Pallet7	Pallet24	Pallet75	Pallet56	Pallet100	Pallet81	Pallet74	Pallet8	Pallet37	Pallet41	Pallet20	Pallet79	Pallet68	Pallet92	Pallet35	Pallet26	Pallet89	Pallet58	Pallet27	Pallet69	Pallet91	Pallet97	Pallet51	Pallet48	Pallet83	Pallet16	Pallet15	Pallet2
+p731	266069626	Pallet74	Pallet7	Pallet24	Pallet10	Pallet46	Pallet23	Pallet74	Pallet80	Pallet88	Pallet31	Pallet79	Pallet9	Pallet47	Pallet35	Pallet26	Pallet90	Pallet11	Pallet72	Pallet58	Pallet97	Pallet48	Pallet94	Pallet83
+p732	259586754	Pallet16	Pallet18	Pallet86	Pallet31	Pallet91
+p733	1	Pallet57	Pallet44	Pallet73	Pallet60	Pallet30	Pallet55	Pallet85	Pallet45	Pallet5	Pallet54	Pallet61	Pallet62	Pallet14	Pallet4	Pallet38	Pallet72	Pallet78	Pallet100	Pallet32	Pallet74	Pallet22	Pallet20	Pallet79	Pallet98	Pallet76	Pallet35	Pallet86	Pallet65	Pallet49	Pallet25	Pallet83	Pallet12
+p734	1	Pallet46	Pallet44	Pallet10	Pallet100	Pallet46	Pallet23	Pallet74	Pallet59	Pallet80	Pallet55	Pallet20	Pallet95	Pallet67	Pallet63	Pallet4	Pallet48	Pallet82
+p735	139602438	Pallet64	Pallet42	Pallet18	Pallet59	Pallet88	Pallet95	Pallet66	Pallet29	Pallet71	Pallet13	Pallet94	Pallet43	Pallet7	Pallet100	Pallet32	Pallet8	Pallet92	Pallet68	Pallet35	Pallet76	Pallet65	Pallet64	Pallet25	Pallet48	Pallet51	Pallet16	Pallet15	Pallet82	Pallet12	Pallet17	Pallet10	Pallet73	Pallet23	Pallet30	Pallet36	Pallet5	Pallet53	Pallet61	Pallet57	Pallet77	Pallet75	Pallet81	Pallet22	Pallet41	Pallet37	Pallet79	Pallet33	Pallet98	Pallet26	Pallet97	Pallet2
+p736	42898696	Pallet87	Pallet89	Pallet3	Pallet28	Pallet25	Pallet48	Pallet16
+p737	35623602	Pallet83
+p738	292	Pallet71
+p739	8066	Pallet18	Pallet18	Pallet50
+p740	936216293	Pallet38	Pallet10	Pallet18	Pallet32	Pallet88	Pallet8	Pallet37	Pallet95	Pallet66	Pallet85	Pallet98	Pallet47	Pallet5	Pallet86	Pallet13	Pallet64	Pallet38	Pallet57	Pallet48	Pallet15	Pallet82
+p741	468065	Pallet94	Pallet87	Pallet42	Pallet56	Pallet46	Pallet59	Pallet60	Pallet30	Pallet98	Pallet9	Pallet35	Pallet47	Pallet67	Pallet53	Pallet5	Pallet13	Pallet61	Pallet72	Pallet84	Pallet91	Pallet94
+p742	116684	Pallet65	Pallet44	Pallet87	Pallet10	Pallet42	Pallet23	Pallet96	Pallet59	Pallet28	Pallet22	Pallet30	Pallet55	Pallet21	Pallet90	Pallet5	Pallet13	Pallet89	Pallet58	Pallet57	Pallet97	Pallet51	Pallet78	Pallet17
+p743	46847788	Pallet37
+p744	26577484	Pallet66
+p745	1	Pallet79	Pallet44	Pallet42	Pallet87	Pallet18	Pallet23	Pallet34	Pallet19	Pallet60	Pallet52	Pallet88	Pallet55	Pallet66	Pallet85	Pallet45	Pallet50	Pallet9	Pallet13	Pallet93	Pallet72	Pallet84	Pallet94	Pallet24	Pallet7	Pallet100	Pallet56	Pallet74	Pallet28	Pallet37	Pallet79	Pallet33	Pallet68	Pallet35	Pallet64	Pallet63	Pallet51	Pallet15	Pallet2	Pallet82
+p746	6	Pallet93	Pallet7	Pallet54	Pallet57
+p747	1	Pallet13
+p748	1	Pallet24	Pallet42	Pallet47	Pallet54	Pallet23	Pallet96	Pallet1	Pallet60	Pallet4	Pallet30	Pallet70	Pallet94
+p749	1	Pallet92	Pallet6	Pallet46	Pallet18	Pallet59	Pallet60	Pallet85	Pallet50	Pallet47	Pallet54	Pallet1	Pallet71	Pallet62	Pallet84	Pallet43	Pallet24	Pallet100	Pallet70	Pallet92	Pallet68	Pallet76	Pallet35	Pallet86	Pallet64	Pallet25	Pallet48	Pallet83	Pallet16	Pallet12	Pallet87	Pallet39	Pallet34	Pallet80	Pallet30	Pallet31	Pallet9	Pallet67	Pallet53	Pallet61	Pallet93	Pallet57	Pallet56	Pallet74	Pallet22	Pallet28	Pallet37	Pallet41	Pallet79	Pallet98	Pallet26	Pallet89	Pallet63	Pallet58	Pallet91	Pallet97	Pallet2
+p750	1	Pallet50	Pallet67	Pallet37	Pallet31
+p751	1141053	Pallet15
+p752	4549509	Pallet88
+p753	1	Pallet67
+p754	2080	Pallet64	Pallet24	Pallet42	Pallet96	Pallet59	Pallet98	Pallet36	Pallet90	Pallet5	Pallet65	Pallet64	Pallet4	Pallet17
+p755	19108	Pallet36	Pallet57
+p756	2071672	Pallet47	Pallet67	Pallet75	Pallet26	Pallet21	Pallet18	Pallet13	Pallet34	Pallet50	Pallet33	Pallet68	Pallet98
+p757	345616	Pallet78	Pallet44	Pallet87	Pallet10	Pallet40	Pallet80	Pallet37	Pallet95	Pallet79	Pallet68	Pallet76	Pallet90	Pallet49	Pallet1	Pallet64	Pallet93	Pallet97	Pallet94	Pallet77	Pallet17
+p758	1	Pallet15
+p759	432884094	Pallet70	Pallet54	Pallet14	Pallet8	Pallet66	Pallet92
+p760	1	Pallet26	Pallet6	Pallet46	Pallet22	Pallet28	Pallet20	Pallet66	Pallet47	Pallet29	Pallet63	Pallet57	Pallet27	Pallet48
+p761	219	Pallet28	Pallet7	Pallet44	Pallet6	Pallet39	Pallet18	Pallet100	Pallet60	Pallet74	Pallet80	Pallet20	Pallet79	Pallet50	Pallet53	Pallet11	Pallet71	Pallet61	Pallet89	Pallet93	Pallet78	Pallet48	Pallet16	Pallet12
+p762	128658663	Pallet2
+p763	2122439	Pallet4	Pallet44	Pallet6	Pallet46	Pallet45	Pallet50	Pallet90	Pallet29	Pallet99	Pallet13	Pallet1	Pallet71	Pallet4	Pallet62	Pallet84	Pallet94	Pallet78	Pallet43	Pallet24	Pallet32	Pallet92	Pallet65	Pallet69	Pallet25	Pallet16	Pallet15	Pallet12	Pallet17	Pallet73	Pallet23	Pallet96	Pallet34	Pallet80	Pallet30	Pallet55	Pallet36	Pallet67	Pallet11	Pallet61	Pallet93	Pallet72	Pallet57	Pallet40	Pallet81	Pallet22	Pallet41	Pallet20	Pallet98	Pallet89	Pallet3	Pallet97
+p764	18357081	Pallet72	Pallet34	Pallet40	Pallet52	Pallet30	Pallet88	Pallet70	Pallet20	Pallet45	Pallet92	Pallet36	Pallet26	Pallet65	Pallet13	Pallet3	Pallet64	Pallet25	Pallet17
+p765	9081	Pallet51
+p766	1	Pallet77	Pallet87	Pallet42	Pallet10	Pallet6	Pallet39	Pallet73	Pallet23	Pallet34	Pallet60	Pallet55	Pallet85	Pallet50	Pallet47	Pallet11	Pallet29	Pallet54	Pallet71	Pallet99	Pallet61	Pallet62	Pallet72	Pallet78	Pallet24	Pallet75	Pallet100	Pallet56	Pallet32	Pallet40	Pallet74	Pallet28	Pallet22	Pallet41	Pallet37	Pallet20	Pallet98	Pallet68	Pallet76	Pallet26	Pallet65	Pallet63	Pallet69	Pallet91	Pallet48	Pallet83	Pallet15	Pallet17
+p767	97840593	Pallet35	Pallet74	Pallet22	Pallet52	Pallet31	Pallet79	Pallet36	Pallet47	Pallet29	Pallet71	Pallet13	Pallet58	Pallet91
+p768	524	Pallet79	Pallet7	Pallet47	Pallet94	Pallet51	Pallet48	Pallet78	Pallet17	Pallet68
+p769	1	Pallet26
+p770	5451696	Pallet59	Pallet6	Pallet18	Pallet90	Pallet3	Pallet31
+p771	695356	Pallet55
+p772	1	Pallet75	Pallet81	Pallet93	Pallet68
+p773	3368387	Pallet72
+p774	102190	Pallet89	Pallet44	Pallet6	Pallet42	Pallet18	Pallet59	Pallet95	Pallet85	Pallet45	Pallet50	Pallet54	Pallet1	Pallet99	Pallet13	Pallet84	Pallet78	Pallet32	Pallet8	Pallet70	Pallet35	Pallet65	Pallet25	Pallet51	Pallet15	Pallet17	Pallet82	Pallet10	Pallet39	Pallet73	Pallet19	Pallet34	Pallet80	Pallet52	Pallet30	Pallet31	Pallet55	Pallet36	Pallet67	Pallet56	Pallet40	Pallet74	Pallet81	Pallet28	Pallet20	Pallet98	Pallet21	Pallet26	Pallet3	Pallet63	Pallet27	Pallet97	Pallet91	Pallet2
+p775	1	Pallet81	Pallet32	Pallet23	Pallet81	Pallet37	Pallet66	Pallet43	Pallet12
+p776	1	Pallet51	Pallet79
+p777	1	Pallet1
+p778	3186580	Pallet10
+p779	152	Pallet91	Pallet10	Pallet87	Pallet39	Pallet18	Pallet46	Pallet23	Pallet96	Pallet52	Pallet30	Pallet31	Pallet55	Pallet95	Pallet66	Pallet5	Pallet54	Pallet14	Pallet77	Pallet24	Pallet40	Pallet28	Pallet8	Pallet41	Pallet20	Pallet98	Pallet86	Pallet89	Pallet69	Pallet27	Pallet91	Pallet83	Pallet15	Pallet12
+p780	68	Pallet9	Pallet44	Pallet24	Pallet23	Pallet40	Pallet60	Pallet81	Pallet70	Pallet95	Pallet79	Pallet53	Pallet54	Pallet86	Pallet99	Pallet62	Pallet64	Pallet14	Pallet38	Pallet69	Pallet16	Pallet17
+p781	1	Pallet5
+p782	32525	Pallet7	Pallet98
+p783	1	Pallet12	Pallet44	Pallet6	Pallet42	Pallet60	Pallet95	Pallet66	Pallet85	Pallet45	Pallet47	Pallet90	Pallet54	Pallet1	Pallet71	Pallet99	Pallet38	Pallet94	Pallet78	Pallet43	Pallet24	Pallet7	Pallet32	Pallet70	Pallet92	Pallet35	Pallet86	Pallet49	Pallet65	Pallet64	Pallet69	Pallet48	Pallet83	Pallet17	Pallet12	Pallet10	Pallet39	Pallet73	Pallet23	Pallet80	Pallet30	Pallet55	Pallet31	Pallet67	Pallet5	Pallet93	Pallet72	Pallet57	Pallet56	Pallet40	Pallet81	Pallet22	Pallet41	Pallet37	Pallet79	Pallet33	Pallet98	Pallet26	Pallet89	Pallet63	Pallet27	Pallet2
+p784	1656444090	Pallet81	Pallet44	Pallet42	Pallet10	Pallet6	Pallet73	Pallet23	Pallet80	Pallet88	Pallet30	Pallet55	Pallet31	Pallet95	Pallet66	Pallet45	Pallet47	Pallet5	Pallet54	Pallet29	Pallet93	Pallet14	Pallet4	Pallet72	Pallet38	Pallet57	Pallet84	Pallet94	Pallet77	Pallet75	Pallet81	Pallet74	Pallet28	Pallet8	Pallet20	Pallet79	Pallet68	Pallet76	Pallet21	Pallet86	Pallet49	Pallet64	Pallet58	Pallet91	Pallet51	Pallet16	Pallet17
+p785	1	Pallet80
+p786	8665913	Pallet4
+p787	43319	Pallet4
+p788	1	Pallet71	Pallet35	Pallet47	Pallet39	Pallet100	Pallet59	Pallet89	Pallet88
+p789	34582	Pallet55
+p790	41976312	Pallet21	Pallet29	Pallet41	Pallet51	Pallet50	Pallet92
+p791	1	Pallet78
+p792	2362	Pallet55	Pallet7	Pallet75	Pallet87	Pallet96	Pallet19	Pallet60	Pallet80	Pallet47	Pallet76	Pallet21	Pallet26	Pallet86	Pallet71	Pallet93	Pallet64	Pallet72	Pallet27	Pallet97	Pallet2
+p793	7402722	Pallet50	Pallet44	Pallet42	Pallet10	Pallet6	Pallet73	Pallet46	Pallet19	Pallet80	Pallet95	Pallet45	Pallet47	Pallet11	Pallet13	Pallet1	Pallet62	Pallet77	Pallet43	Pallet7	Pallet75	Pallet22	Pallet28	Pallet8	Pallet41	Pallet20	Pallet33	Pallet68	Pallet92	Pallet98	Pallet21	Pallet26	Pallet86	Pallet64	Pallet63	Pallet58	Pallet25	Pallet27	Pallet91	Pallet97	Pallet83	Pallet15	Pallet12	Pallet82
+p794	79727414	Pallet75	Pallet46	Pallet96	Pallet34	Pallet59	Pallet30	Pallet95	Pallet90	Pallet11	Pallet61	Pallet4	Pallet62	Pallet93	Pallet72	Pallet57	Pallet75	Pallet40	Pallet74	Pallet81	Pallet22	Pallet8	Pallet41	Pallet20	Pallet79	Pallet33	Pallet98	Pallet35	Pallet76	Pallet27	Pallet82	Pallet12
+p795	9431059	Pallet39	Pallet44	Pallet42	Pallet10	Pallet18	Pallet23	Pallet34	Pallet59	Pallet52	Pallet55	Pallet31	Pallet85	Pallet9	Pallet36	Pallet5	Pallet11	Pallet29	Pallet13	Pallet99	Pallet61	Pallet38	Pallet72	Pallet57	Pallet94	Pallet77	Pallet7	Pallet75	Pallet100	Pallet32	Pallet40	Pallet81	Pallet22	Pallet28	Pallet8	Pallet70	Pallet37	Pallet79	Pallet33	Pallet92	Pallet76	Pallet64	Pallet58	Pallet25	Pallet69	Pallet51	Pallet2
+p796	370244	Pallet77
+p797	1	Pallet11
+p798	1	Pallet24
+p799	24935	Pallet68	Pallet42	Pallet10	Pallet56	Pallet73	Pallet34	Pallet81	Pallet74	Pallet8	Pallet9	Pallet35	Pallet5	Pallet29	Pallet1	Pallet4	Pallet69	Pallet48	Pallet51	Pallet15	Pallet16	Pallet2
+p800	4366299	Pallet92
+p801	9175160	Pallet56	Pallet10	Pallet42	Pallet46	Pallet79	Pallet50	Pallet92	Pallet1	Pallet99	Pallet89	Pallet93	Pallet57	Pallet91	Pallet48
+p802	1	Pallet15	Pallet76	Pallet19	Pallet78	Pallet9	Pallet68	Pallet98
+p803	1	Pallet25	Pallet97
+p804	57417977	Pallet26	Pallet44	Pallet6	Pallet39	Pallet52	Pallet88	Pallet31	Pallet55	Pallet66	Pallet9	Pallet67	Pallet53	Pallet11	Pallet29	Pallet61	Pallet93	Pallet4	Pallet14	Pallet62	Pallet57	Pallet94	Pallet43	Pallet77	Pallet75	Pallet100	Pallet32	Pallet81	Pallet28	Pallet22	Pallet92	Pallet68	Pallet65	Pallet63	Pallet3	Pallet64	Pallet58	Pallet25	Pallet83	Pallet15	Pallet16	Pallet2	Pallet82
+p805	1	Pallet67	Pallet20	Pallet77
+p806	12868	Pallet6
+p807	28930145	Pallet65
+p808	7565389	Pallet36	Pallet76
+p809	1	Pallet40
+p810	1	Pallet78	Pallet6	Pallet46	Pallet96	Pallet23	Pallet60	Pallet59	Pallet30	Pallet88	Pallet31	Pallet9	Pallet71	Pallet93	Pallet38	Pallet84	Pallet81	Pallet8	Pallet37	Pallet33	Pallet68	Pallet92	Pallet86	Pallet48	Pallet51	Pallet15
+p811	1	Pallet61
+p812	5605	Pallet20
+p813	201	Pallet1	Pallet42	Pallet74	Pallet31	Pallet68	Pallet92	Pallet36	Pallet53	Pallet54	Pallet29	Pallet14	Pallet72	Pallet25	Pallet84	Pallet83	Pallet2	Pallet12
+p814	1	Pallet6	Pallet35	Pallet73	Pallet49	Pallet89	Pallet66	Pallet48	Pallet78	Pallet51	Pallet68	Pallet2	Pallet92
+p815	1551	Pallet68	Pallet5	Pallet52	Pallet93	Pallet27	Pallet78	Pallet43
+p816	3621	Pallet10
+p817	10643733	Pallet96
+p818	4500	Pallet41	Pallet87	Pallet42	Pallet6	Pallet39	Pallet18	Pallet73	Pallet23	Pallet30	Pallet55	Pallet95	Pallet66	Pallet9	Pallet47	Pallet90	Pallet11	Pallet29	Pallet54	Pallet1	Pallet71	Pallet61	Pallet72	Pallet84	Pallet94	Pallet43	Pallet77	Pallet24	Pallet81	Pallet74	Pallet8	Pallet20	Pallet33	Pallet68	Pallet76	Pallet21	Pallet26	Pallet65	Pallet49	Pallet63	Pallet58	Pallet25	Pallet91	Pallet15	Pallet2	Pallet17
+p819	1	Pallet39	Pallet6	Pallet96	Pallet34	Pallet60	Pallet59	Pallet80	Pallet52	Pallet66	Pallet47	Pallet54	Pallet71	Pallet99	Pallet14	Pallet78	Pallet94	Pallet43	Pallet7	Pallet40	Pallet74	Pallet28	Pallet70	Pallet8	Pallet41	Pallet79	Pallet98	Pallet49	Pallet89	Pallet58	Pallet27	Pallet25	Pallet91	Pallet97	Pallet48	Pallet51	Pallet83	Pallet15
+p820	1	Pallet38
+p821	1	Pallet92	Pallet100
+p822	1	Pallet39	Pallet46	Pallet60	Pallet80	Pallet52	Pallet95	Pallet66	Pallet50	Pallet45	Pallet36	Pallet53	Pallet90	Pallet54	Pallet13	Pallet72	Pallet43	Pallet77	Pallet40	Pallet74	Pallet22	Pallet37	Pallet41	Pallet33	Pallet92	Pallet35	Pallet26	Pallet49	Pallet89	Pallet91	Pallet83	Pallet16	Pallet2	Pallet12
+p823	9	Pallet14
+p824	6507052	Pallet56	Pallet42	Pallet60	Pallet85	Pallet45	Pallet54	Pallet71	Pallet1	Pallet99	Pallet14	Pallet38	Pallet43	Pallet24	Pallet100	Pallet32	Pallet70	Pallet68	Pallet76	Pallet49	Pallet64	Pallet25	Pallet51	Pallet83	Pallet15	Pallet82	Pallet12	Pallet17	Pallet10	Pallet39	Pallet73	Pallet96	Pallet34	Pallet80	Pallet9	Pallet67	Pallet11	Pallet93	Pallet72	Pallet77	Pallet56	Pallet40	Pallet74	Pallet22	Pallet37	Pallet41	Pallet20	Pallet79	Pallet33	Pallet98	Pallet3	Pallet27	Pallet97	Pallet91
+p825	12647887	Pallet2	Pallet36	Pallet61	Pallet38	Pallet16	Pallet2	Pallet12
+p826	167	Pallet42	Pallet44	Pallet42	Pallet46	Pallet88	Pallet95	Pallet45	Pallet50	Pallet47	Pallet90	Pallet54	Pallet71	Pallet99	Pallet1	Pallet4	Pallet14	Pallet84	Pallet94	Pallet78	Pallet43	Pallet24	Pallet8	Pallet49	Pallet64	Pallet25	Pallet69	Pallet48	Pallet16	Pallet82	Pallet12	Pallet17	Pallet10	Pallet23	Pallet96	Pallet34	Pallet31	Pallet36	Pallet67	Pallet53	Pallet5	Pallet11	Pallet75	Pallet56	Pallet40	Pallet74	Pallet37	Pallet41	Pallet79	Pallet33	Pallet89	Pallet3	Pallet58	Pallet97	Pallet91	Pallet2
+p827	1	Pallet44	Pallet46	Pallet56	Pallet11	Pallet88	Pallet20	Pallet97	Pallet43
+p828	622068727	Pallet98	Pallet29
+p829	55	Pallet89
+p830	287	Pallet28
+p831	1	Pallet96
+p832	1	Pallet27
+p833	153236344	Pallet36
+p834	1	Pallet7
+p835	25632	Pallet55	Pallet44	Pallet87	Pallet39	Pallet46	Pallet23	Pallet19	Pallet60	Pallet55	Pallet45	Pallet50	Pallet67	Pallet90	Pallet53	Pallet11	Pallet54	Pallet29	Pallet1	Pallet61	Pallet84	Pallet7	Pallet100	Pallet81	Pallet28	Pallet22	Pallet70	Pallet8	Pallet37	Pallet33	Pallet92	Pallet21	Pallet65	Pallet49	Pallet27	Pallet69	Pallet97	Pallet48	Pallet83	Pallet12	Pallet82
+p836	1	Pallet58	Pallet39
+p837	19542830	Pallet18	Pallet7	Pallet52	Pallet63	Pallet55	Pallet68
+p838	69847134	Pallet81	Pallet44	Pallet42	Pallet56	Pallet59	Pallet28	Pallet8	Pallet71	Pallet65	Pallet3	Pallet14	Pallet83	Pallet15	Pallet77
+p839	247514	Pallet70
+p840	11	Pallet78	Pallet39	Pallet73	Pallet96	Pallet55	Pallet95	Pallet36	Pallet90	Pallet11	Pallet54	Pallet13	Pallet72	Pallet57	Pallet84	Pallet94	Pallet77	Pallet79	Pallet33	Pallet92	Pallet68	Pallet35	Pallet89	Pallet63	Pallet16	Pallet82
+p841	1	Pallet43	Pallet35	Pallet88	Pallet84	Pallet41	Pallet83
+p842	1	Pallet25	Pallet63
+p843	2164	Pallet61	Pallet44	Pallet87	Pallet42	Pallet39	Pallet59	Pallet60	Pallet80	Pallet88	Pallet30	Pallet66	Pallet67	Pallet53	Pallet5	Pallet54	Pallet1	Pallet99	Pallet57	Pallet24	Pallet56	Pallet32	Pallet40	Pallet74	Pallet22	Pallet41	Pallet33	Pallet68	Pallet35	Pallet86	Pallet58	Pallet69	Pallet25	Pallet97	Pallet51	Pallet16
+p844	1	Pallet22	Pallet24	Pallet23	Pallet40	Pallet74	Pallet22	Pallet55	Pallet66	Pallet79	Pallet33	Pallet68	Pallet35	Pallet76	Pallet71	Pallet63	Pallet58	Pallet94	Pallet77
+p845	689793	Pallet84
+p846	122873856	Pallet84	Pallet44	Pallet75	Pallet42	Pallet60	Pallet28	Pallet80	Pallet70	Pallet55	Pallet79	Pallet29	Pallet86	Pallet99	Pallet1	Pallet93	Pallet62	Pallet63	Pallet58	Pallet25	Pallet91	Pallet78
+p847	385321549	Pallet42	Pallet44	Pallet87	Pallet39	Pallet80	Pallet52	Pallet55	Pallet31	Pallet95	Pallet11	Pallet54	Pallet13	Pallet1	Pallet62	Pallet94	Pallet43	Pallet24	Pallet40	Pallet74	Pallet81	Pallet28	Pallet8	Pallet70	Pallet37	Pallet41	Pallet33	Pallet98	Pallet65	Pallet89	Pallet3	Pallet63	Pallet58	Pallet27	Pallet69	Pallet48	Pallet16	Pallet17
+p848	650002483	Pallet77	Pallet24	Pallet53	Pallet81	Pallet69	Pallet51	Pallet16
+p849	179	Pallet50	Pallet47	Pallet18	Pallet52
+p850	6357	Pallet5
+p851	1	Pallet25	Pallet44	Pallet42	Pallet23	Pallet55	Pallet45	Pallet47	Pallet53	Pallet54	Pallet1	Pallet93	Pallet72	Pallet7	Pallet32	Pallet28	Pallet76	Pallet21	Pallet26	Pallet86	Pallet65	Pallet69	Pallet97	Pallet48	Pallet17	Pallet2
+p852	1	Pallet16
+p853	236	Pallet11	Pallet21	Pallet5	Pallet46	Pallet90	Pallet34	Pallet31	Pallet94
+p854	1253851106	Pallet87	Pallet6	Pallet46	Pallet18	Pallet60	Pallet88	Pallet95	Pallet85	Pallet50	Pallet47	Pallet29	Pallet54	Pallet99	Pallet4	Pallet62	Pallet7	Pallet32	Pallet68	Pallet92	Pallet86	Pallet49	Pallet65	Pallet64	Pallet16	Pallet12	Pallet17	Pallet87	Pallet10	Pallet96	Pallet19	Pallet80	Pallet31	Pallet67	Pallet61	Pallet72	Pallet77	Pallet75	Pallet56	Pallet40	Pallet74	Pallet81	Pallet28	Pallet22	Pallet41	Pallet20	Pallet33	Pallet98	Pallet26	Pallet3	Pallet58	Pallet97
+p855	2696	Pallet16	Pallet90	Pallet100	Pallet19	Pallet52	Pallet63	Pallet93	Pallet97	Pallet85	Pallet82	Pallet17
+p856	369311001	Pallet64	Pallet75	Pallet51
+p857	137716207	Pallet41	Pallet6	Pallet46	Pallet18	Pallet60	Pallet59	Pallet95	Pallet66	Pallet50	Pallet29	Pallet54	Pallet13	Pallet14	Pallet62	Pallet84	Pallet24	Pallet100	Pallet32	Pallet70	Pallet86	Pallet65	Pallet64	Pallet25	Pallet69	Pallet83	Pallet16	Pallet82	Pallet17	Pallet12	Pallet73	Pallet96	Pallet23	Pallet34	Pallet31	Pallet55	Pallet5	Pallet53	Pallet77	Pallet75	Pallet56	Pallet40	Pallet37	Pallet98	Pallet21	Pallet26	Pallet89	Pallet3	Pallet63	Pallet58	Pallet91	Pallet2
+p858	5	Pallet47	Pallet44	Pallet42	Pallet87	Pallet39	Pallet73	Pallet23	Pallet34	Pallet30	Pallet54	Pallet29	Pallet71	Pallet61	Pallet4	Pallet72	Pallet57	Pallet43	Pallet77	Pallet24	Pallet56	Pallet32	Pallet37	Pallet33	Pallet86	Pallet65	Pallet64	Pallet27	Pallet69	Pallet97	Pallet16	Pallet82
+p859	2824	Pallet32	Pallet87	Pallet6	Pallet42	Pallet39	Pallet96	Pallet60	Pallet59	Pallet66	Pallet50	Pallet36	Pallet29	Pallet1	Pallet13	Pallet14	Pallet4	Pallet93	Pallet72	Pallet94	Pallet7	Pallet75	Pallet56	Pallet22	Pallet20	Pallet79	Pallet92	Pallet35	Pallet26	Pallet86	Pallet27	Pallet97	Pallet83	Pallet82	Pallet12
+p860	325440	Pallet17	Pallet67	Pallet81	Pallet61	Pallet4	Pallet72	Pallet88	Pallet41	Pallet16
+p861	5375	Pallet13
+p862	1	Pallet33	Pallet36	Pallet10	Pallet35	Pallet67	Pallet39	Pallet29	Pallet60	Pallet16	Pallet82
+p863	4706825	Pallet52
+p864	1894899	Pallet94	Pallet6	Pallet46	Pallet80	Pallet55	Pallet95	Pallet66	Pallet45	Pallet67	Pallet90	Pallet99	Pallet14	Pallet93	Pallet72	Pallet57	Pallet24	Pallet100	Pallet32	Pallet40	Pallet22	Pallet8	Pallet37	Pallet20	Pallet79	Pallet63	Pallet3	Pallet58	Pallet69	Pallet97	Pallet48	Pallet16
+p865	15840006	Pallet31	Pallet31
+p866	1	Pallet72
+p867	16	Pallet18
+p868	25673233	Pallet60	Pallet44	Pallet6	Pallet18	Pallet60	Pallet55	Pallet95	Pallet50	Pallet67	Pallet53	Pallet54	Pallet13	Pallet1	Pallet4	Pallet78	Pallet94	Pallet24	Pallet7	Pallet56	Pallet100	Pallet28	Pallet22	Pallet70	Pallet37	Pallet98	Pallet68	Pallet49	Pallet89	Pallet64	Pallet3	Pallet63	Pallet58	Pallet97
+p869	28	Pallet97
+p870	117541	Pallet17
+p871	1	Pallet45
+p872	148425	Pallet89
+p873	560443	Pallet96	Pallet44	Pallet32	Pallet23	Pallet40	Pallet88	Pallet8	Pallet41	Pallet85	Pallet50	Pallet98	Pallet9	Pallet67	Pallet86	Pallet89	Pallet4	Pallet15	Pallet17
+p874	2529	Pallet97	Pallet9	Pallet12
+p875	1	Pallet59	Pallet19	Pallet58
+p876	1670264	Pallet18	Pallet90	Pallet46	Pallet32	Pallet64
+p877	662	Pallet54	Pallet56
+p878	1	Pallet72
+p879	357985110	Pallet12	Pallet42	Pallet6	Pallet13	Pallet99	Pallet81	Pallet80	Pallet22	Pallet58	Pallet48
+p880	36640805	Pallet28	Pallet44	Pallet42	Pallet6	Pallet46	Pallet60	Pallet88	Pallet95	Pallet85	Pallet47	Pallet90	Pallet54	Pallet13	Pallet99	Pallet62	Pallet94	Pallet78	Pallet43	Pallet7	Pallet24	Pallet32	Pallet8	Pallet68	Pallet92	Pallet49	Pallet65	Pallet69	Pallet51	Pallet16	Pallet12	Pallet39	Pallet73	Pallet19	Pallet55	Pallet36	Pallet67	Pallet93	Pallet57	Pallet56	Pallet40	Pallet74	Pallet81	Pallet28	Pallet22	Pallet79	Pallet98	Pallet89	Pallet3	Pallet63	Pallet58	Pallet27	Pallet97
+p881	1	Pallet13
+p882	1	Pallet70	Pallet6	Pallet46	Pallet18	Pallet60	Pallet90	Pallet54	Pallet29	Pallet71	Pallet1	Pallet4	Pallet62	Pallet84	Pallet94	Pallet43	Pallet7	Pallet100	Pallet32	Pallet8	Pallet70	Pallet68	Pallet92	Pallet86	Pallet69	Pallet25	Pallet16	Pallet17	Pallet82	Pallet12	Pallet10	Pallet96	Pallet23	Pallet19	Pallet80	Pallet30	Pallet9	Pallet36	Pallet67	Pallet11	Pallet61	Pallet72	Pallet77	Pallet75	Pallet56	Pallet40	Pallet81	Pallet74	Pallet22	Pallet28	Pallet41	Pallet79	Pallet89	Pallet3	Pallet63	Pallet97	Pallet91	Pallet2
+p883	33356266	Pallet74
+p884	123396749	Pallet86
+p885	1	Pallet3
+p886	8	Pallet54
+p887	1415	Pallet90	Pallet36	Pallet47	Pallet10	Pallet26	Pallet13	Pallet72	Pallet84	Pallet95	Pallet94	Pallet85
+p888	6874058	Pallet59	Pallet84
+p889	6271	Pallet48	Pallet47	Pallet31
+p890	6292241	Pallet14	Pallet15
+p891	1	Pallet92	Pallet6
+p892	43724786	Pallet39
+p893	1	Pallet62	Pallet44	Pallet6	Pallet18	Pallet60	Pallet88	Pallet95	Pallet66	Pallet50	Pallet45	Pallet47	Pallet99	Pallet1	Pallet4	Pallet38	Pallet84	Pallet78	Pallet43	Pallet24	Pallet32	Pallet70	Pallet92	Pallet76	Pallet69	Pallet48	Pallet83	Pallet16	Pallet10	Pallet23	Pallet34	Pallet52	Pallet80	Pallet30	Pallet55	Pallet9	Pallet36	Pallet67	Pallet5	Pallet93	Pallet72	Pallet57	Pallet75	Pallet74	Pallet22	Pallet28	Pallet41	Pallet89	Pallet58	Pallet91
+p894	9425613	Pallet77	Pallet42	Pallet46	Pallet73	Pallet96	Pallet23	Pallet34	Pallet59	Pallet52	Pallet31	Pallet55	Pallet85	Pallet50	Pallet67	Pallet29	Pallet54	Pallet71	Pallet62	Pallet38	Pallet57	Pallet78	Pallet24	Pallet75	Pallet56	Pallet40	Pallet81	Pallet74	Pallet22	Pallet70	Pallet41	Pallet79	Pallet21	Pallet86	Pallet65	Pallet63	Pallet58	Pallet69	Pallet25	Pallet97	Pallet83	Pallet16	Pallet2	Pallet12
+p895	1	Pallet38	Pallet7	Pallet19	Pallet88	Pallet41	Pallet98	Pallet36	Pallet5	Pallet86	Pallet65	Pallet63	Pallet69	Pallet94	Pallet43
+p896	1071	Pallet26
+p897	1	Pallet94	Pallet10	Pallet6	Pallet42	Pallet46	Pallet23	Pallet96	Pallet95	Pallet66	Pallet36	Pallet11	Pallet29	Pallet13	Pallet61	Pallet14	Pallet38	Pallet94	Pallet78	Pallet77	Pallet24	Pallet56	Pallet100	Pallet32	Pallet40	Pallet81	Pallet28	Pallet22	Pallet8	Pallet70	Pallet41	Pallet20	Pallet79	Pallet98	Pallet68	Pallet76	Pallet26	Pallet86	Pallet89	Pallet64	Pallet58	Pallet69	Pallet91	Pallet15	Pallet12	Pallet82	Pallet2
+p898	1	Pallet85
+p899	9178	Pallet87	Pallet5	Pallet4
+p900	33	Pallet67
+p901	17269380	Pallet92	Pallet63
+p902	1	Pallet80
+p903	31	Pallet46	Pallet87	Pallet10	Pallet42	Pallet39	Pallet46	Pallet55	Pallet9	Pallet29	Pallet4	Pallet62	Pallet72	Pallet38	Pallet94	Pallet78	Pallet100	Pallet74	Pallet79	Pallet68	Pallet76	Pallet26	Pallet21	Pallet65	Pallet64	Pallet3	Pallet63	Pallet58	Pallet69	Pallet51	Pallet2	Pallet12
+p904	1	Pallet73	Pallet6	Pallet46	Pallet85	Pallet45	Pallet29	Pallet54	Pallet99	Pallet1	Pallet13	Pallet62	Pallet14	Pallet38	Pallet84	Pallet94	Pallet7	Pallet24	Pallet100	Pallet32	Pallet70	Pallet8	Pallet76	Pallet35	Pallet86	Pallet65	Pallet49	Pallet64	Pallet25	Pallet83	Pallet16	Pallet12	Pallet82	Pallet17	Pallet10	Pallet73	Pallet96	Pallet80	Pallet52	Pallet55	Pallet9	Pallet36	Pallet5	Pallet11	Pallet93	Pallet72	Pallet56	Pallet40	Pallet81	Pallet74	Pallet22	Pallet41	Pallet37	Pallet79	Pallet33	Pallet21	Pallet26	Pallet89	Pallet63	Pallet27	Pallet97	Pallet2
+p905	1	Pallet50	Pallet39	Pallet40	Pallet62	Pallet72
+p906	1	Pallet2	Pallet7	Pallet24	Pallet44	Pallet39	Pallet56	Pallet40	Pallet74	Pallet80	Pallet30	Pallet37	Pallet79	Pallet33	Pallet36	Pallet53	Pallet99	Pallet61	Pallet62	Pallet84	Pallet94	Pallet48	Pallet82
+p907	82803427	Pallet27	Pallet44	Pallet42	Pallet18	Pallet60	Pallet59	Pallet88	Pallet66	Pallet54	Pallet71	Pallet99	Pallet4	Pallet14	Pallet62	Pallet38	Pallet84	Pallet78	Pallet43	Pallet24	Pallet7	Pallet100	Pallet32	Pallet68	Pallet92	Pallet35	Pallet76	Pallet86	Pallet65	Pallet64	Pallet25	Pallet48	Pallet83	Pallet16	Pallet17	Pallet82	Pallet10	Pallet39	Pallet96	Pallet19	Pallet52	Pallet30	Pallet55	Pallet31	Pallet67	Pallet11	Pallet93	Pallet72	Pallet57	Pallet77	Pallet75	Pallet81	Pallet74	Pallet22	Pallet41	Pallet20	Pallet33	Pallet98	Pallet21	Pallet26	Pallet58
+p908	15489	Pallet49
+p909	1	Pallet9
+p910	1	Pallet74	Pallet42	Pallet46	Pallet96	Pallet23	Pallet60	Pallet52	Pallet80	Pallet31	Pallet95	Pallet66	Pallet85	Pallet45	Pallet36	Pallet67	Pallet5	Pallet13	Pallet71	Pallet1	Pallet4	Pallet93	Pallet62	Pallet72	Pallet77	Pallet43	Pallet24	Pallet100	Pallet40	Pallet22	Pallet8	Pallet41	Pallet79	Pallet92	Pallet76	Pallet26	Pallet86	Pallet65	Pallet3	Pallet64	Pallet25	Pallet91	Pallet97	Pallet51	Pallet16	Pallet17
+p911	19620	Pallet90	Pallet6	Pallet18	Pallet59	Pallet85	Pallet50	Pallet45	Pallet47	Pallet90	Pallet54	Pallet13	Pallet71	Pallet99	Pallet62	Pallet14	Pallet84	Pallet94	Pallet78	Pallet7	Pallet24	Pallet70	Pallet8	Pallet92	Pallet68	Pallet35	Pallet86	Pallet25	Pallet51	Pallet16	Pallet15	Pallet17	Pallet12	Pallet10	Pallet73	Pallet23	Pallet19	Pallet52	Pallet80	Pallet30	Pallet55	Pallet9	Pallet36	Pallet67	Pallet5	Pallet11	Pallet93	Pallet72	Pallet57	Pallet40	Pallet81	Pallet28	Pallet22	Pallet41	Pallet20	Pallet26	Pallet89	Pallet27	Pallet91	Pallet2
+p912	1	Pallet79	Pallet87	Pallet6	Pallet56	Pallet18	Pallet23	Pallet60	Pallet70	Pallet95	Pallet33	Pallet21	Pallet53	Pallet71	Pallet89	Pallet64	Pallet14	Pallet38	Pallet72	Pallet57	Pallet25	Pallet97	Pallet51	Pallet17
+p913	1	Pallet3
+p914	3	Pallet60	Pallet32	Pallet34	Pallet60	Pallet41	Pallet85	Pallet92	Pallet71	Pallet99	Pallet63	Pallet25	Pallet97	Pallet16	Pallet43	Pallet82
+p915	1	Pallet28	Pallet42	Pallet6	Pallet46	Pallet18	Pallet60	Pallet88	Pallet95	Pallet45	Pallet50	Pallet47	Pallet1	Pallet99	Pallet4	Pallet14	Pallet94	Pallet7	Pallet32	Pallet70	Pallet68	Pallet92	Pallet76	Pallet35	Pallet49	Pallet65	Pallet64	Pallet25	Pallet51	Pallet83	Pallet12	Pallet87	Pallet10	Pallet73	Pallet23	Pallet96	Pallet34	Pallet80	Pallet52	Pallet30	Pallet9	Pallet67	Pallet5	Pallet11	Pallet61	Pallet72	Pallet57	Pallet77	Pallet75	Pallet56	Pallet40	Pallet74	Pallet81	Pallet22	Pallet37	Pallet79	Pallet33	Pallet98	Pallet21	Pallet26	Pallet63	Pallet58	Pallet27	Pallet2
+p916	31092	Pallet60
+p917	1	Pallet44
+p918	108476324	Pallet20	Pallet73	Pallet18	Pallet96	Pallet19	Pallet34	Pallet60	Pallet30	Pallet31	Pallet55	Pallet5	Pallet29	Pallet99	Pallet93	Pallet57	Pallet43	Pallet24	Pallet75	Pallet56	Pallet74	Pallet41	Pallet20	Pallet35	Pallet63	Pallet64	Pallet3	Pallet58	Pallet27	Pallet25	Pallet69	Pallet97	Pallet12
+p919	2	Pallet25	Pallet39	Pallet81	Pallet80	Pallet8	Pallet95	Pallet53	Pallet90	Pallet5	Pallet54	Pallet49	Pallet99	Pallet97	Pallet48	Pallet12
+p920	1	Pallet36	Pallet44	Pallet42	Pallet6	Pallet18	Pallet95	Pallet66	Pallet85	Pallet45	Pallet50	Pallet47	Pallet90	Pallet29	Pallet54	Pallet1	Pallet13	Pallet62	Pallet4	Pallet38	Pallet84	Pallet94	Pallet24	Pallet100	Pallet8	Pallet76	Pallet64	Pallet25	Pallet69	Pallet48	Pallet16	Pallet15	Pallet17	Pallet12	Pallet73	Pallet96	Pallet34	Pallet52	Pallet55	Pallet9	Pallet36	Pallet67	Pallet5	Pallet53	Pallet61	Pallet72	Pallet57	Pallet75	Pallet74	Pallet28	Pallet41	Pallet37	Pallet33	Pallet98	Pallet21	Pallet27	Pallet2
+p921	120	Pallet23	Pallet44	Pallet42	Pallet87	Pallet73	Pallet34	Pallet19	Pallet60	Pallet59	Pallet80	Pallet95	Pallet9	Pallet36	Pallet5	Pallet54	Pallet72	Pallet78	Pallet94	Pallet24	Pallet75	Pallet100	Pallet56	Pallet32	Pallet28	Pallet41	Pallet20	Pallet68	Pallet26	Pallet63	Pallet69	Pallet27	Pallet83	Pallet2	Pallet82	Pallet12
+p922	1	Pallet74
+p923	4509799	Pallet2	Pallet21	Pallet5	Pallet56	Pallet86	Pallet40	Pallet4	Pallet84	Pallet41	Pallet55	Pallet31	Pallet17
+p924	35166802	Pallet44
+p925	73	Pallet17	Pallet44	Pallet6	Pallet18	Pallet59	Pallet95	Pallet66	Pallet50	Pallet47	Pallet90	Pallet54	Pallet1	Pallet14	Pallet38	Pallet84	Pallet7	Pallet24	Pallet32	Pallet68	Pallet35	Pallet86	Pallet64	Pallet51	Pallet12	Pallet82	Pallet73	Pallet96	Pallet34	Pallet19	Pallet30	Pallet55	Pallet9	Pallet36	Pallet53	Pallet11	Pallet93	Pallet40	Pallet74	Pallet81	Pallet28	Pallet37	Pallet79	Pallet33	Pallet98	Pallet26	Pallet21	Pallet89	Pallet3	Pallet91
+p926	97788797	Pallet11	Pallet24	Pallet42	Pallet87	Pallet60	Pallet52	Pallet8	Pallet55	Pallet31	Pallet79	Pallet76	Pallet13	Pallet71	Pallet3	Pallet63	Pallet93	Pallet69	Pallet94	Pallet83	Pallet12
+p927	1	Pallet29
+p928	187634	Pallet97
+p929	1	Pallet38
+p930	82711	Pallet7	Pallet44	Pallet24	Pallet10	Pallet100	Pallet80	Pallet8	Pallet31	Pallet85	Pallet33	Pallet98	Pallet68	Pallet29	Pallet14	Pallet62	Pallet27	Pallet51	Pallet83	Pallet77
+p931	1668392	Pallet49	Pallet44	Pallet46	Pallet34	Pallet19	Pallet80	Pallet30	Pallet31	Pallet55	Pallet66	Pallet85	Pallet90	Pallet54	Pallet99	Pallet71	Pallet93	Pallet14	Pallet38	Pallet77	Pallet56	Pallet32	Pallet81	Pallet70	Pallet8	Pallet20	Pallet33	Pallet68	Pallet21	Pallet26	Pallet49	Pallet65	Pallet64	Pallet69	Pallet27	Pallet51	Pallet48	Pallet83	Pallet2
+p932	507125	Pallet45
+p933	724	Pallet72
+p934	1	Pallet40	Pallet7	Pallet5	Pallet32	Pallet54	Pallet38	Pallet12
+p935	1	Pallet51	Pallet56	Pallet5
+p936	1	Pallet19
+p937	14719973	Pallet16
+p938	18892797	Pallet31	Pallet44	Pallet59	Pallet88	Pallet45	Pallet50	Pallet90	Pallet54	Pallet29	Pallet71	Pallet1	Pallet13	Pallet62	Pallet84	Pallet78	Pallet43	Pallet24	Pallet100	Pallet32	Pallet70	Pallet8	Pallet68	Pallet92	Pallet86	Pallet49	Pallet48	Pallet83	Pallet87	Pallet10	Pallet73	Pallet96	Pallet19	Pallet52	Pallet80	Pallet30	Pallet31	Pallet11	Pallet61	Pallet93	Pallet72	Pallet56	Pallet40	Pallet74	Pallet79	Pallet33	Pallet3	Pallet63	Pallet58	Pallet27	Pallet97	Pallet2
+p939	1	Pallet98	Pallet32	Pallet96	Pallet34	Pallet19	Pallet59	Pallet81	Pallet28	Pallet31	Pallet41	Pallet37	Pallet20	Pallet66	Pallet85	Pallet50	Pallet47	Pallet67	Pallet35	Pallet21	Pallet54	Pallet99	Pallet89	Pallet3	Pallet14
+p940	1	Pallet35	Pallet46	Pallet59	Pallet95	Pallet66	Pallet85	Pallet71	Pallet99	Pallet62	Pallet4	Pallet38	Pallet94	Pallet43	Pallet24	Pallet7	Pallet70	Pallet35	Pallet49	Pallet69	Pallet51	Pallet48	Pallet83	Pallet16	Pallet15	Pallet82	Pallet87	Pallet10	Pallet73	Pallet96	Pallet30	Pallet31	Pallet55	Pallet9	Pallet36	Pallet67	Pallet5	Pallet53	Pallet61	Pallet93	Pallet72	Pallet56	Pallet81	Pallet37	Pallet98	Pallet26	Pallet21	Pallet3	Pallet63	Pallet58	Pallet97
+p941	84914576	Pallet47
+p942	1	Pallet38	Pallet46	Pallet34	Pallet62	Pallet27	Pallet83	Pallet50	Pallet98	Pallet17
+p943	1	Pallet32
+p944	1591	Pallet84	Pallet10	Pallet42	Pallet46	Pallet34	Pallet52	Pallet36	Pallet54	Pallet1	Pallet4	Pallet62	Pallet38	Pallet7	Pallet40	Pallet74	Pallet22	Pallet8	Pallet33	Pallet98	Pallet21	Pallet26	Pallet3	Pallet48	Pallet83	Pallet16	Pallet12	Pallet17	Pallet82
+p945	39214	Pallet55	Pallet60	Pallet62	Pallet3	Pallet33	Pallet17
+p946	1	Pallet90	Pallet6	Pallet18	Pallet46	Pallet96	Pallet60	Pallet80	Pallet67	Pallet47	Pallet5	Pallet11	Pallet1	Pallet62	Pallet57	Pallet94	Pallet75	Pallet22	Pallet28	Pallet8	Pallet20	Pallet79	Pallet68	Pallet92	Pallet35	Pallet63	Pallet58	Pallet51	Pallet12
+p947	1	Pallet32
+p948	8222223	Pallet98
+p949	1	Pallet75
+p950	89353	Pallet63
+p951	1	Pallet38	Pallet52
+p952	1	Pallet95	Pallet53	Pallet32	Pallet19	Pallet60	Pallet63	Pallet12
+p953	720054	Pallet14
+p954	4560	Pallet90
+p955	611890590	Pallet96
+p956	16	Pallet79
+p957	3850105	Pallet96	Pallet10	Pallet65	Pallet40	Pallet62	Pallet22	Pallet27	Pallet98
+p958	1	Pallet47
+p959	1	Pallet52	Pallet10	Pallet39	Pallet46	Pallet96	Pallet34	Pallet19	Pallet30	Pallet66	Pallet29	Pallet1	Pallet99	Pallet62	Pallet4	Pallet57	Pallet84	Pallet94	Pallet77	Pallet40	Pallet22	Pallet49	Pallet3	Pallet64	Pallet97	Pallet16
+p960	86923	Pallet36
+p961	1	Pallet68	Pallet44	Pallet18	Pallet46	Pallet60	Pallet85	Pallet50	Pallet47	Pallet90	Pallet54	Pallet29	Pallet71	Pallet1	Pallet99	Pallet13	Pallet14	Pallet62	Pallet7	Pallet100	Pallet8	Pallet68	Pallet86	Pallet65	Pallet25	Pallet69	Pallet51	Pallet15	Pallet82	Pallet87	Pallet39	Pallet73	Pallet34	Pallet80	Pallet30	Pallet36	Pallet67	Pallet5	Pallet11	Pallet61	Pallet93	Pallet77	Pallet75	Pallet40	Pallet74	Pallet81	Pallet41	Pallet37	Pallet33	Pallet98	Pallet26	Pallet21	Pallet89	Pallet3	Pallet63	Pallet58	Pallet27	Pallet91
+p962	1	Pallet3	Pallet44	Pallet6	Pallet60	Pallet59	Pallet88	Pallet95	Pallet85	Pallet50	Pallet47	Pallet54	Pallet71	Pallet1	Pallet62	Pallet4	Pallet84	Pallet94	Pallet43	Pallet24	Pallet100	Pallet32	Pallet8	Pallet70	Pallet68	Pallet92	Pallet76	Pallet35	Pallet86	Pallet49	Pallet69	Pallet48	Pallet51	Pallet15	Pallet16	Pallet82	Pallet17	Pallet87	Pallet39	Pallet73	Pallet96	Pallet34	Pallet19	Pallet52	Pallet80	Pallet30	Pallet31	Pallet55	Pallet9	Pallet61	Pallet72	Pallet56	Pallet81	Pallet22	Pallet41	Pallet37	Pallet20	Pallet79	Pallet33	Pallet89	Pallet63	Pallet3	Pallet27	Pallet91	Pallet2
+p963	730	Pallet76	Pallet44	Pallet42	Pallet60	Pallet88	Pallet95	Pallet45	Pallet47	Pallet90	Pallet29	Pallet71	Pallet4	Pallet14	Pallet38	Pallet84	Pallet78	Pallet43	Pallet7	Pallet24	Pallet32	Pallet8	Pallet70	Pallet92	Pallet68	Pallet76	Pallet65	Pallet49	Pallet64	Pallet69	Pallet25	Pallet16	Pallet10	Pallet87	Pallet73	Pallet23	Pallet96	Pallet19	Pallet34	Pallet9	Pallet36	Pallet67	Pallet5	Pallet11	Pallet61	Pallet75	Pallet74	Pallet81	Pallet22	Pallet37	Pallet20	Pallet98	Pallet58	Pallet27	Pallet97	Pallet91	Pallet2
+p964	1	Pallet23	Pallet35	Pallet76	Pallet68
+p965	142330	Pallet81	Pallet6	Pallet75	Pallet81	Pallet22	Pallet55	Pallet20	Pallet85	Pallet33	Pallet36	Pallet35	Pallet93	Pallet83	Pallet77
+p966	1	Pallet99
+p967	10658944	Pallet20	Pallet36	Pallet76	Pallet18	Pallet23	Pallet13	Pallet61	Pallet93	Pallet14	Pallet66	Pallet48	Pallet68
+p968	84547	Pallet37	Pallet44	Pallet46	Pallet18	Pallet88	Pallet47	Pallet90	Pallet54	Pallet29	Pallet71	Pallet13	Pallet14	Pallet62	Pallet38	Pallet84	Pallet94	Pallet43	Pallet24	Pallet7	Pallet100	Pallet8	Pallet92	Pallet68	Pallet35	Pallet76	Pallet86	Pallet65	Pallet25	Pallet51	Pallet48	Pallet83	Pallet15	Pallet82	Pallet17	Pallet12	Pallet10	Pallet87	Pallet39	Pallet73	Pallet23	Pallet96	Pallet19	Pallet34	Pallet80	Pallet30	Pallet31	Pallet55	Pallet53	Pallet5	Pallet61	Pallet72	Pallet57	Pallet77	Pallet75	Pallet56	Pallet40	Pallet81	Pallet22	Pallet20	Pallet33	Pallet98	Pallet26	Pallet21	Pallet89	Pallet63	Pallet3	Pallet27	Pallet91
+p969	5390049	Pallet42
+p970	1	Pallet68
+p971	10376948	Pallet66	Pallet39	Pallet100	Pallet22	Pallet28	Pallet30	Pallet70	Pallet88	Pallet41	Pallet37	Pallet98	Pallet68	Pallet47	Pallet86	Pallet49	Pallet13	Pallet3	Pallet58	Pallet72	Pallet27
+p972	324315652	Pallet35	Pallet42	Pallet96	Pallet49	Pallet3	Pallet57	Pallet45
+p973	1	Pallet79	Pallet68
+p974	1	Pallet98	Pallet56	Pallet40
+p975	1	Pallet90	Pallet24	Pallet23	Pallet59	Pallet74	Pallet55	Pallet33	Pallet35	Pallet21	Pallet5	Pallet86	Pallet51	Pallet43
+p976	9079796	Pallet52
+p977	1	Pallet50
+p978	1	Pallet23	Pallet44	Pallet10	Pallet6	Pallet42	Pallet39	Pallet80	Pallet66	Pallet36	Pallet5	Pallet53	Pallet54	Pallet71	Pallet93	Pallet57	Pallet24	Pallet100	Pallet32	Pallet81	Pallet74	Pallet28	Pallet70	Pallet37	Pallet92	Pallet35	Pallet49	Pallet65	Pallet63	Pallet3	Pallet64	Pallet83	Pallet16	Pallet82
+p979	17135968	Pallet22	Pallet6	Pallet39	Pallet100	Pallet88	Pallet31	Pallet45	Pallet67	Pallet21	Pallet49	Pallet99	Pallet13	Pallet61	Pallet64	Pallet27	Pallet25	Pallet78	Pallet94	Pallet51	Pallet83	Pallet15	Pallet12
+p980	1	Pallet76	Pallet42	Pallet96	Pallet34	Pallet95	Pallet85	Pallet67	Pallet54	Pallet29	Pallet71	Pallet13	Pallet62	Pallet72	Pallet43	Pallet24	Pallet100	Pallet32	Pallet74	Pallet8	Pallet70	Pallet20	Pallet76	Pallet35	Pallet26	Pallet86	Pallet65	Pallet64	Pallet97	Pallet16	Pallet82
+p981	904565	Pallet7
+p982	4078738	Pallet95
+p983	32361001	Pallet81	Pallet34	Pallet80	Pallet88	Pallet9	Pallet71	Pallet13	Pallet61	Pallet14	Pallet72	Pallet83	Pallet17	Pallet2
+p984	2	Pallet48	Pallet87	Pallet10	Pallet100	Pallet74	Pallet88	Pallet95	Pallet79	Pallet9	Pallet98	Pallet36	Pallet90	Pallet93	Pallet43
+p985	90	Pallet31
+p986	10460	Pallet7
+p987	1	Pallet3
+p988	8994060	Pallet3
+p989	144831	Pallet66
+p990	6771	Pallet52
+p991	5405	Pallet1	Pallet18	Pallet100	Pallet3	Pallet62	Pallet55	Pallet31	Pallet92	Pallet68
+p992	450128	Pallet95	Pallet63
+p993	2	Pallet55
+p994	1	Pallet99	Pallet75	Pallet47	Pallet46	Pallet53	Pallet100	Pallet74	Pallet62	Pallet37	Pallet51
+p995	4312790	Pallet46	Pallet44	Pallet6	Pallet42	Pallet46	Pallet18	Pallet95	Pallet66	Pallet85	Pallet50	Pallet45	Pallet47	Pallet54	Pallet99	Pallet38	Pallet84	Pallet78	Pallet43	Pallet7	Pallet24	Pallet32	Pallet70	Pallet68	Pallet92	Pallet35	Pallet65	Pallet51	Pallet83	Pallet15	Pallet16	Pallet82	Pallet87	Pallet39	Pallet96	Pallet34	Pallet80	Pallet55	Pallet9	Pallet53	Pallet61	Pallet72	Pallet77	Pallet75	Pallet56	Pallet74	Pallet22	Pallet41	Pallet20	Pallet79	Pallet21	Pallet26	Pallet27	Pallet97	Pallet91
+p996	1641385594	Pallet16	Pallet59	Pallet60	Pallet88	Pallet66	Pallet85	Pallet50	Pallet47	Pallet90	Pallet29	Pallet54	Pallet71	Pallet14	Pallet84	Pallet78	Pallet24	Pallet8	Pallet70	Pallet92	Pallet68	Pallet76	Pallet35	Pallet49	Pallet65	Pallet64	Pallet69	Pallet25	Pallet51	Pallet48	Pallet17	Pallet82	Pallet87	Pallet10	Pallet73	Pallet96	Pallet31	Pallet9	Pallet67	Pallet5	Pallet11	Pallet61	Pallet75	Pallet74	Pallet22	Pallet20	Pallet79	Pallet98	Pallet3	Pallet63	Pallet58	Pallet91	Pallet2
+p997	3366649	Pallet79
+p998	3	Pallet67	Pallet44	Pallet6	Pallet46	Pallet60	Pallet95	Pallet66	Pallet85	Pallet45	Pallet50	Pallet29	Pallet1	Pallet13	Pallet4	Pallet62	Pallet14	Pallet38	Pallet84	Pallet7	Pallet100	Pallet32	Pallet70	Pallet92	Pallet68	Pallet35	Pallet76	Pallet49	Pallet65	Pallet69	Pallet25	Pallet48	Pallet83	Pallet16	Pallet15	Pallet12	Pallet87	Pallet10	Pallet39	Pallet73	Pallet23	Pallet96	Pallet19	Pallet34	Pallet52	Pallet80	Pallet30	Pallet55	Pallet9	Pallet36	Pallet67	Pallet11	Pallet93	Pallet57	Pallet77	Pallet75	Pallet40	Pallet81	Pallet22	Pallet28	Pallet37	Pallet41	Pallet79	Pallet33	Pallet98	Pallet21	Pallet89	Pallet27	Pallet91	Pallet97	Pallet2
+p999	1113137	Pallet51	Pallet44	Pallet10	Pallet42	Pallet39	Pallet73	Pallet18	Pallet80	Pallet55	Pallet95	Pallet66	Pallet50	Pallet45	Pallet11	Pallet29	Pallet54	Pallet71	Pallet99	Pallet13	Pallet61	Pallet62	Pallet4	Pallet38	Pallet72	Pallet57	Pallet77	Pallet7	Pallet40	Pallet28	Pallet37	Pallet41	Pallet20	Pallet33	Pallet92	Pallet98	Pallet76	Pallet35	Pallet86	Pallet49	Pallet89	Pallet3	Pallet91	Pallet51	Pallet16	Pallet17
+p1000	16166	Pallet72	Pallet90	Pallet80

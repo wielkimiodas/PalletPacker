@@ -11,7 +11,7 @@ public class Main {
 		Randomizer r = new Randomizer();
 		int palletsCount = 100;
 		int pckgsCount = 1000;
-		String fileName = "bigTest1.txt";
+		String fileName = "bigTest2.txt";
 		r.GenerateRandomInstanceFile(palletsCount, pckgsCount, fileName);
 	}
 
