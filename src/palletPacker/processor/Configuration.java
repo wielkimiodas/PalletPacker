@@ -8,17 +8,12 @@ import palletPacker.model.Package;
 
 public class Configuration {
 	private Package[] packages;
-	private boolean[] newCarriers;
 	private Result result;
 	private ArrayList<Carrier> carriers;
 	private Random random;
 	
 	public Package[] getPackages() {
 		return packages;
-	}
-
-	public boolean[] getNewCarriers() {
-		return newCarriers;
 	}
 
 	public Result getResult() {
@@ -37,9 +32,8 @@ public class Configuration {
 		this.carriers = carriers;
 	}
 
-	public Configuration(Package[] packages, boolean[] newCarriers){
+	public Configuration(Package[] packages){
 		this.packages = packages;
-		this.newCarriers = newCarriers;
 		this.carriers = new ArrayList<>();
 		this.random = new Random();
 	}
@@ -48,10 +42,7 @@ public class Configuration {
 		Package[] packages = new Package[this.packages.length];
 		System.arraycopy(this.packages, 0, packages, 0, packages.length);
 		
-		boolean[] newCarriers = new boolean[this.newCarriers.length];
-		System.arraycopy(this.newCarriers, 0, newCarriers, 0, newCarriers.length);
-		
-		return new Configuration(packages, newCarriers);
+		return new Configuration(packages);
 	}
 	
 	public void change(float temperature) {
@@ -65,19 +56,11 @@ public class Configuration {
 			}
 			swap(index, index + move);
 		}
-		
-		for(int i = 0; i < changes / 2; i++){
-			int index = random.nextInt(packages.length);
-			newCarriers[index] = !newCarriers[index];
-		}
 	}
 	
 	private void swap(int index1, int index2){
 		Package tmpPackage = packages[index1];
 		packages[index1] = packages[index2];
 		packages[index2] = tmpPackage;
-		boolean tmpBool = newCarriers[index1];
-		newCarriers[index1] = newCarriers[index2];
-		newCarriers[index2] = tmpBool;
 	}
 }

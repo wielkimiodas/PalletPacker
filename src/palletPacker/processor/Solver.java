@@ -32,7 +32,7 @@ public class Solver {
 	public void run(Configuration conf){
 		for(int i = 0; i < conf.getPackages().length; i++){
 			Package currentPackage = conf.getPackages()[i];
-			if (conf.getNewCarriers()[i] || !tryArrangeOnExistingCarrier(currentPackage)){
+			if (!tryArrangeOnExistingCarrier(currentPackage)){
 				Carrier carrier = new Carrier(carriers.size() + 1,
 						currentPackage.getDefaultPallet(),
 						pallets.length);

@@ -76,6 +76,6 @@ public class Warehouse {
 	}
 
 	public Configuration getDefaultConfiguration(){
-		return new Configuration(packages, new boolean[packages.length]);
+		return new Configuration(packages);
 	}
 }

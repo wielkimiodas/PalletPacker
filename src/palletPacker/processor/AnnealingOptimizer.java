@@ -20,14 +20,19 @@ public class AnnealingOptimizer {
 		Configuration conf = warehouse.getDefaultConfiguration();
 		Solver solver = new Solver(warehouse.getPallets());
 		
-		for(int i = 0; i < 100; i++){
+		final int iterations = 500;
+		for(int i = 0; i < iterations; i++){
 			solver.run(conf);
 			if (bestConfiguration == null || conf.getResult().compareTo(bestConfiguration.getResult()) > 0){
 				bestConfiguration = conf;
 				conf = conf.copy();
 			}
 			
-			conf.change(1);
+			if (i % 100 == 0){
+				conf = bestConfiguration.copy();
+			}
+			
+			conf.change((iterations - i) / (float)iterations);
 			solver.clear();
 		}
 	}
