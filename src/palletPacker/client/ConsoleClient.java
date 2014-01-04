@@ -15,7 +15,7 @@ public class ConsoleClient {
 			Warehouse warehouse = new Warehouse();
 	
 			try {
-				warehouse.ReadData("data/example1.txt");
+				warehouse.ReadData("data/bigTest.txt");
 			} catch (Exception e) {
 				e.printStackTrace();
 				return;

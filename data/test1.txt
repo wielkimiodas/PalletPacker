@@ -1,0 +1,22 @@
+10
+Pallet0	590	4.6	46.0
+Pallet1	967	4.7	9.4
+Pallet2	968	1.6	8.0
+Pallet3	827	2.8	5.6
+Pallet4	138	4.0	24.0
+Pallet5	824	3.3	16.5
+Pallet6	361	3.1	21.699999
+Pallet7	205	1.1	11.0
+Pallet8	469	2.5	17.5
+Pallet9	418	4.8	14.400001
+10
+p0	1075	Pallet9	Pallet2	Pallet0	Pallet8	Pallet9
+p1	8611	Pallet1	Pallet7	Pallet3	Pallet4
+p2	2223	Pallet6	Pallet2	Pallet7	Pallet3
+p3	14198	Pallet7	Pallet2	Pallet0	Pallet3	Pallet6	Pallet4
+p4	14421	Pallet4	Pallet2	Pallet0	Pallet8	Pallet9	Pallet3	Pallet6	Pallet4
+p5	1108	Pallet8	Pallet5	Pallet9	Pallet4
+p6	22830	Pallet1	Pallet7	Pallet0	Pallet1	Pallet3	Pallet8	Pallet6
+p7	4917	Pallet4	Pallet2	Pallet5	Pallet0	Pallet1	Pallet6	Pallet4
+p8	297	Pallet4
+p9	2444	Pallet2	Pallet7	Pallet9
