@@ -2,40 +2,47 @@ package palletPacker.model;
 
 public class Pallet {
 
-	int id;
-	int area;
-	float extensionHeight;
-	float maxHeight;
-	float maxVolume;
-	String name;
+	private final int id;
+	private final int area;
+	private final int extensionHeight;
+	private final int maxHeight;
+	private final int maxVolume;
+	private final int maxLoad;
+	private final String name;
 
-	public Pallet(int id, String name, int area, float height, float maxHeight) {
+	public Pallet(int id, String name, int area, int extensionHeight,
+			int maxHeight, int maxLoad) {
 		super();
 		this.id = id;
 		this.area = area;
-		this.extensionHeight = height;
+		this.extensionHeight = extensionHeight;
 		this.maxHeight = maxHeight;
 		this.maxVolume = maxHeight * area;
 		this.name = name;
-	}
-
-	public int getId() {
-		return id;
+		this.maxLoad = maxLoad;
 	}
 
 	public int getArea() {
 		return area;
 	}
 
-	public float getExtensionHeight() {
+	public int getExtensionHeight() {
 		return extensionHeight;
 	}
 
-	public float getMaxHeight() {
+	public int getId() {
+		return id;
+	}
+
+	public int getMaxHeight() {
 		return maxHeight;
 	}
 
-	public float getMaxVolume() {
+	public int getMaxLoad() {
+		return maxLoad;
+	}
+
+	public int getMaxVolume() {
 		return maxVolume;
 	}
 

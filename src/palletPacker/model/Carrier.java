@@ -3,36 +3,34 @@ package palletPacker.model;
 import java.util.ArrayList;
 
 public class Carrier {
-	private int id;
-	private Pallet palletUsed;
+	private final int id;
+	private final Pallet palletUsed;
 	private int extensionsUsed;
-	private ArrayList<Package> packagesAssigned;
+	private final ArrayList<Package> packagesAssigned;
 	private float volumeLeft;
 	private float volumeInUse;
-	private float typesArray[];
+	private final float typesArray[];
 
 	public Carrier(int id, Pallet palletUsed, int nPalletTypes) {
 		this.id = id;
 		this.palletUsed = palletUsed;
 		packagesAssigned = new ArrayList<Package>();
-		this.volumeLeft = palletUsed.maxVolume;
+		this.volumeLeft = palletUsed.getMaxVolume();
 		typesArray = new float[nPalletTypes];
 	}
 
-	public float getVolumeInUse() {
-		return volumeInUse;
-	}
-
-	public float getVolumeLeft() {
-		return volumeLeft;
-	}
-
-	public ArrayList<Package> getPackagesAssigned() {
-		return packagesAssigned;
+	public void addPackage(Package packageToAdd) {
+		this.packagesAssigned.add(packageToAdd);
+		final float packageVolume = packageToAdd.getVolume();
+		volumeLeft -= packageVolume;
+		volumeInUse += packageVolume;
+		extensionsUsed = (int) Math.ceil(volumeInUse / palletUsed.getArea()
+				/ palletUsed.getExtensionHeight());
+		typesArray[packageToAdd.getDefaultPallet().getId()] += packageVolume;
 	}
 
 	public boolean canHandlePackage(Package packageToCheck) {
-		float packageVolume = packageToCheck.getVolume();
+		final float packageVolume = packageToCheck.getVolume();
 		if (getVolumeLeft() < packageVolume) {
 			return false;
 		}
@@ -45,25 +43,27 @@ public class Carrier {
 		return true;
 	}
 
-	public void addPackage(Package packageToAdd) {
-		this.packagesAssigned.add(packageToAdd);
-		float packageVolume = packageToAdd.getVolume();
-		volumeLeft -= packageVolume;
-		volumeInUse += packageVolume;
-		extensionsUsed = (int) Math.ceil(volumeInUse / palletUsed.area
-				/ palletUsed.extensionHeight);
-		typesArray[packageToAdd.getDefaultPallet().id] += packageVolume;
+	public int getExtensionsUsed() {
+		return extensionsUsed;
 	}
 
 	public int getId() {
 		return id;
 	}
 
+	public ArrayList<Package> getPackagesAssigned() {
+		return packagesAssigned;
+	}
+
 	public Pallet getPalletUsed() {
 		return palletUsed;
 	}
 
-	public int getExtensionsUsed() {
-		return extensionsUsed;
+	public float getVolumeInUse() {
+		return volumeInUse;
+	}
+
+	public float getVolumeLeft() {
+		return volumeLeft;
 	}
 }
