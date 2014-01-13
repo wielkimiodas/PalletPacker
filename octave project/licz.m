@@ -34,6 +34,7 @@ for it=1:10,
 	end
 		
 	bladLog = bladLog / size(XT, 1);
+	blad01 = blad01 / size(XT, 1);
 
 	disp([it bladLog blad01])
 end
@@ -66,6 +67,7 @@ for it=0:2000,
 		end
 		
 		bladLog = bladLog / size(XT, 1);
+		blad01 = blad01 / size(XT, 1);
 
 		disp([it bladLog blad01])
 	endif
