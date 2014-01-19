@@ -3,15 +3,15 @@ package palletPacker.model;
 public class Pallet {
 
 	private final int id;
-	private final int area;
-	private final int extensionHeight;
-	private final int maxHeight;
-	private final int maxVolume;
-	private final int maxLoad;
+	private final float area;
+	private final float extensionHeight;
+	private final float maxHeight;
+	private final float maxVolume;
+	private final float maxLoad;
 	private final String name;
 
-	public Pallet(int id, String name, int area, int extensionHeight,
-			int maxHeight, int maxLoad) {
+	public Pallet(int id, String name, float area, float extensionHeight,
+			float maxHeight, float maxLoad) {
 		super();
 		this.id = id;
 		this.area = area;
@@ -22,11 +22,11 @@ public class Pallet {
 		this.maxLoad = maxLoad;
 	}
 
-	public int getArea() {
+	public float getArea() {
 		return area;
 	}
 
-	public int getExtensionHeight() {
+	public float getExtensionHeight() {
 		return extensionHeight;
 	}
 
@@ -34,15 +34,15 @@ public class Pallet {
 		return id;
 	}
 
-	public int getMaxHeight() {
+	public float getMaxHeight() {
 		return maxHeight;
 	}
 
-	public int getMaxLoad() {
+	public float getMaxLoad() {
 		return maxLoad;
 	}
 
-	public int getMaxVolume() {
+	public float getMaxVolume() {
 		return maxVolume;
 	}
 

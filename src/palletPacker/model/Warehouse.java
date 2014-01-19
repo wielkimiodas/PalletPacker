@@ -5,8 +5,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-import palletPacker.processor.Configuration;
-
 public class Warehouse {
 
 	private Package[] packages;
@@ -14,10 +12,6 @@ public class Warehouse {
 
 	public Warehouse() {
 
-	}
-
-	public Configuration getDefaultConfiguration() {
-		return new Configuration(packages);
 	}
 
 	public Package[] getPackages() {
@@ -37,7 +31,7 @@ public class Warehouse {
 		return pallets;
 	}
 
-	public void ReadData(String dataFilePath) throws NumberFormatException,
+	public void readData(String dataFilePath) throws NumberFormatException,
 			IOException {
 		final File dataFile = new File(dataFilePath);
 		final BufferedReader br = new BufferedReader(new FileReader(dataFile));
@@ -53,13 +47,13 @@ public class Warehouse {
 			// pallet name
 			final String name = lineSplitted[0];
 			// pallet area
-			final int area = (int) (Float.parseFloat(lineSplitted[1]) * 10);
+			final float area = Float.parseFloat(lineSplitted[1]);
 			// pallet extension height
-			final int h = (int) (Float.parseFloat(lineSplitted[2]) * 10);
+			final float h = Float.parseFloat(lineSplitted[2]);
 			// pallet max height
-			final int hMax = (int) (Float.parseFloat(lineSplitted[3]) * 10);
+			final float hMax = Float.parseFloat(lineSplitted[3]);
 			// pallet max load
-			final int loadMax = (int) (Float.parseFloat(lineSplitted[3]) * 10);
+			final float loadMax = Float.parseFloat(lineSplitted[4]);
 			// new pallet object
 			final Pallet p = new Pallet(id, name, area, h, hMax, loadMax);
 			pallets[i] = p;
@@ -73,9 +67,9 @@ public class Warehouse {
 			// package id
 			final String id = lineSplitted[0];
 			// package volume
-			final int v = (int) (Float.parseFloat(lineSplitted[1]) * 10);
+			final float v = Float.parseFloat(lineSplitted[1]);
 			// package load
-			final int load = (int) (Float.parseFloat(lineSplitted[2]) * 10);
+			final float load = Float.parseFloat(lineSplitted[2]);
 			// default pallet name for current package
 			final String defaultPalletName = lineSplitted[3];
 			// default pallet object for current package
@@ -84,6 +78,7 @@ public class Warehouse {
 			final Package p = new Package(id, v, defPallet, load);
 			packages[i] = p;
 		}
+		
 		br.close();
 	}
 }

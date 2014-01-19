@@ -3,52 +3,128 @@ package palletPacker.model;
 import java.util.ArrayList;
 
 public class Carrier {
-	private final int id;
-	private final Pallet palletUsed;
-	private int extensionsUsed;
+	private final Pallet[] allPallets;
+	private int currentPalletId;
 	private final ArrayList<Package> packagesAssigned;
-	private float volumeLeft;
-	private float volumeInUse;
-	private final float typesArray[];
+	private int volumeInUse = 0;
+	private int loadInUse = 0;
+	private final float typesVolumes[];
 
-	public Carrier(int id, Pallet palletUsed, int nPalletTypes) {
-		this.id = id;
-		this.palletUsed = palletUsed;
-		packagesAssigned = new ArrayList<Package>();
-		this.volumeLeft = palletUsed.getMaxVolume();
-		typesArray = new float[nPalletTypes];
+	public Carrier(Pallet[] pallets) {
+		this.allPallets = pallets;
+		this.currentPalletId = 0;
+		this.packagesAssigned = new ArrayList<Package>();
+		this.typesVolumes = new float[pallets.length];
 	}
 
-	public void addPackage(Package packageToAdd) {
-		this.packagesAssigned.add(packageToAdd);
+	public void addPackage(Package packageToAdd) throws Exception {
+		final int packageId = packageToAdd.getDefaultPallet().getId(); 
 		final float packageVolume = packageToAdd.getVolume();
-		volumeLeft -= packageVolume;
+		final float packageLoad = packageToAdd.getLoad();
+		
+		if (canHandlePackage(packageToAdd, packageId)){
+			currentPalletId = packageId;
+		} else if (!canHandlePackage(packageToAdd, currentPalletId)){
+			throw new Exception("Something wrong");
+		}
+		
 		volumeInUse += packageVolume;
-		extensionsUsed = (int) Math.ceil(volumeInUse / palletUsed.getArea()
-				/ palletUsed.getExtensionHeight());
-		typesArray[packageToAdd.getDefaultPallet().getId()] += packageVolume;
+		loadInUse += packageLoad;
+		typesVolumes[packageId] += packageVolume;
+		packagesAssigned.add(packageToAdd);
+	}
+	
+	public void show(){
+		for(Package p : packagesAssigned){
+			System.out.print(p.getId() + " ");
+		}
+		System.out.println();
+	}
+	
+	public boolean contains(Package pkg){
+		/*for(Package p : packagesAssigned){
+			System.out.print(p.getId() + " ");
+		}
+		System.out.println(pkg.getId());*/
+		return packagesAssigned.contains(pkg);
+	}
+	
+	public boolean removePackage(Package packageToRemove){
+		final int packageId = packageToRemove.getDefaultPallet().getId();
+		final float packageVolume = packageToRemove.getVolume();
+		
+		if (packageId == currentPalletId){
+			float secondMax = 0;
+			for(int i = 0; i < typesVolumes.length; i++){
+				if (i == packageId){
+					continue;
+				}
+				if (secondMax < typesVolumes[i]){
+					secondMax = typesVolumes[i];
+				}
+			}
+			
+			if (secondMax > typesVolumes[packageId] - packageVolume){
+				return false;
+			}
+		}
+		
+		final float packageLoad = packageToRemove.getLoad();
+		
+		volumeInUse -= packageVolume;
+		loadInUse -= packageLoad;
+		typesVolumes[packageId] -= packageVolume;
+		packagesAssigned.remove(packageToRemove);
+		
+		return true;
+	}
+	
+	private boolean canHandlePackage(Package packageToCheck, int palletId){
+		if (packagesAssigned.size() == 0){
+			return true;
+		}
+		
+		final int packageId = packageToCheck.getDefaultPallet().getId();
+		final float packageVolume = packageToCheck.getVolume();
+		final float packageLoad = packageToCheck.getLoad();
+		
+		if (loadInUse + packageLoad > allPallets[palletId].getMaxLoad()){
+			return false;
+		}
+		
+		if (palletId == packageId){
+			if (typesVolumes[packageId] + packageVolume < typesVolumes[currentPalletId]){
+				return false;
+			}
+			
+			return true;
+		}
+		if (palletId == currentPalletId){
+			if (typesVolumes[packageId] + packageVolume > typesVolumes[currentPalletId]){
+				return false;
+			}
+			
+			return true;
+		}
+		
+		return false;
 	}
 
 	public boolean canHandlePackage(Package packageToCheck) {
-		final float packageVolume = packageToCheck.getVolume();
-		if (getVolumeLeft() < packageVolume) {
-			return false;
+		if (canHandlePackage(packageToCheck, packageToCheck.getDefaultPallet().getId())){
+			return true;
+		}
+		if (canHandlePackage(packageToCheck, currentPalletId)){
+			return true;
 		}
 
-		if (typesArray[packageToCheck.getDefaultPallet().getId()]
-				+ packageVolume > typesArray[palletUsed.getId()]) {
-			return false;
-		}
-
-		return true;
+		return false;
 	}
 
 	public int getExtensionsUsed() {
-		return extensionsUsed;
-	}
-
-	public int getId() {
-		return id;
+		Pallet palletUsed = getPalletUsed();
+		return (int) Math.ceil(volumeInUse / palletUsed.getArea()
+				/ palletUsed.getExtensionHeight());
 	}
 
 	public ArrayList<Package> getPackagesAssigned() {
@@ -56,14 +132,10 @@ public class Carrier {
 	}
 
 	public Pallet getPalletUsed() {
-		return palletUsed;
+		return allPallets[currentPalletId];
 	}
 
-	public float getVolumeInUse() {
+	public int getVolumeInUse() {
 		return volumeInUse;
-	}
-
-	public float getVolumeLeft() {
-		return volumeLeft;
 	}
 }

@@ -3,13 +3,13 @@ package palletPacker.model;
 public class Package {
 
 	private final String id;
-	private final int volume;
+	private final float volume;
 	private final Pallet defaultPallet;
-	private final int load;
+	private final float load;
 
 	// obolete private Set<Pallet> compatiblePallets;
 
-	public Package(String id, int volume, Pallet defaultPallet, int load) {
+	public Package(String id, float volume, Pallet defaultPallet, float load) {
 		super();
 		this.id = id;
 		this.volume = volume;
@@ -25,15 +25,11 @@ public class Package {
 		return id;
 	}
 
-	// public Set<Pallet> getCompatiblePallets() {
-	// return compatiblePallets;
-	// }
-
-	public int getLoad() {
+	public float getLoad() {
 		return load;
 	}
 
-	public int getVolume() {
+	public float getVolume() {
 		return volume;
 	}
 }
