@@ -1,0 +1,20 @@
+1
+384	480.0
+4
+n1	epal	4
+n2	epal	3
+n3	epal	3
+n4	epal	2
+12
+p8	n1
+p3	n1
+p10	n1
+p11	n1
+p5	n2
+p1	n2
+p6	n2
+p12	n2
+p2	n3
+p9	n3
+p4	n4
+p7	n4

@@ -1,0 +1,59 @@
+1
+240	960.0
+2
+n1	ebig	8
+n2	epal	4
+53
+p19	n1
+p29	n1
+p5	n1
+p26	n1
+p17	n1
+p49	n1
+p43	n1
+p50	n1
+p32	n1
+p27	n1
+p11	n1
+p2	n1
+p33	n1
+p28	n1
+p31	n1
+p46	n1
+p7	n1
+p44	n1
+p1	n1
+p52	n1
+p3	n2
+p15	n2
+p25	n2
+p21	n2
+p48	n2
+p39	n2
+p47	n2
+p37	n2
+p41	n2
+p8	n2
+p42	n2
+p23	n2
+p51	n2
+p6	n2
+p18	n2
+p9	n2
+p10	n2
+p20	n2
+p40	n2
+p30	n2
+p13	n2
+p34	n2
+p12	n2
+p16	n2
+p45	n2
+p35	n2
+p14	n2
+p24	n2
+p4	n2
+p22	n2
+p53	n2
+p36	n2
+p38	n2

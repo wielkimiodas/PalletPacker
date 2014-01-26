@@ -1,0 +1,40 @@
+1
+192	720.0
+2
+n1	epal	6
+n2	epal	3
+34
+p8	n1
+p16	n1
+p23	n1
+p9	n1
+p24	n1
+p2	n1
+p7	n1
+p1	n1
+p4	n1
+p33	n1
+p10	n1
+p28	n1
+p5	n1
+p29	n1
+p20	n1
+p11	n1
+p34	n1
+p22	n1
+p15	n1
+p25	n1
+p32	n1
+p21	n1
+p27	n1
+p31	n1
+p3	n1
+p26	n1
+p14	n1
+p6	n1
+p12	n2
+p17	n2
+p19	n2
+p30	n2
+p18	n2
+p13	n2

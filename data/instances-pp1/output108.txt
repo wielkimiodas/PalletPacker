@@ -1,0 +1,26 @@
+1
+288	240.0
+3
+n1	epal	6
+n2	epal	3
+n3	epal	1
+19
+p13	n1
+p7	n1
+p4	n1
+p3	n1
+p15	n1
+p9	n1
+p12	n1
+p19	n1
+p6	n1
+p2	n1
+p18	n1
+p16	n1
+p8	n1
+p10	n1
+p14	n1
+p1	n2
+p5	n2
+p11	n2
+p17	n3

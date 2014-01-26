@@ -1,0 +1,21 @@
+1
+432	1440.0
+3
+n1	ebig	8
+n2	ebig	8
+n3	ebig	4
+14
+p8	n1
+p4	n1
+p5	n1
+p9	n1
+p7	n1
+p13	n1
+p10	n1
+p14	n1
+p11	n1
+p12	n1
+p6	n1
+p1	n2
+p3	n2
+p2	n3

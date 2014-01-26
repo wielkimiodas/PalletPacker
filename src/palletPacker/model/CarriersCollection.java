@@ -1,66 +1,163 @@
 package palletPacker.model;
 
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Random;
 
 public class CarriersCollection {
-	public class Tuple<X, Y> {
-		public final X x;
-		public final Y y;
-
-		public Tuple(X x, Y y) {
-			this.x = x;
-			this.y = y;
-		}
-	}
-	
+	Random r = new Random();
 	Pallet[] pallets;
 	Package[] packages;
 	ArrayList<Carrier> carriers = new ArrayList<Carrier>();
+	HashMap<Package, Carrier> packageToCarrier = new HashMap<>();
 	
 	public CarriersCollection(Pallet[] pallets, Package[] packages){
 		this.pallets = pallets;
 		this.packages = packages;
 	}
 	
-	public void add(Package pkg) throws Exception{
+	public void setOrder(List<Package> list){
+		carriers.clear();
+		packageToCarrier.clear();
+		
+		for (Package p : list) {
+			add(p);
+		}
+	}
+	
+	public List<Package> getOrder(){
+		List<Package> result = new ArrayList<>();
+		
+		for (Carrier c : carriers) {
+			result.addAll(c.getPackagesAssigned());
+		}
+		
+		return result;
+	}
+	
+	public List<Move> random(float temperature){
+		int changes = (int)Math.max((packages.length * temperature), 3);
+		
+		List<Move> result = new ArrayList<>();
+		
+		HashSet<Integer> packagesUsed = new HashSet<>();
+		
+		for(int i = 0; i < changes; i++){
+			int index = r.nextInt(packages.length);
+
+			if (packagesUsed.contains(index)){
+				i--;
+				continue;
+			}
+			
+			Tuple<Carrier, Integer> t = remove(packages[index]); 
+			if (t == null){
+				i--;
+				continue;
+			}
+			
+			result.add(new Move(packages[index], t));
+			
+			packagesUsed.add(index);
+		}
+		
+		for(int i = result.size() - 1; i >= 0; i--){
+			Move move = result.get(i);
+			Tuple<Carrier, Integer> t = add(move.pkg);
+			move.setTo(t);
+		}
+		
+		return result;
+	}
+	
+	public Tuple<Carrier, Integer> add(Package pkg) {
 		for(Carrier c : carriers){
-			if (c.canHandlePackage(pkg)){
-				c.addPackage(pkg);
-				return;
+			int palletId = c.canAddPackage(pkg);
+			if (palletId >= 0){
+				int oldId = c.getCurrentPalletId();
+				c.addPackage(pkg, palletId);
+				packageToCarrier.put(pkg, c);
+				return new Tuple<>(c, oldId);
 			}
 		}
 		
 		Carrier carrier = new Carrier(pallets);
-		carrier.addPackage(pkg);
+		carrier.addPackage(pkg, pkg.getDefaultPallet().getId());
 		carriers.add(carrier);
+		
+		packageToCarrier.put(pkg, carrier);
+		
+		return new Tuple<>(carrier, -1);
 	}
 	
-	public void show(){
-		System.out.println("Show");
-		for(Carrier c : carriers){
-			c.show();
-		}
-		System.out.println("End show");
-	}
-	
-	private boolean remove(Package pkg){
-		for(Carrier c : carriers){
+	private Tuple<Carrier, Integer> remove(Package pkg){
+		/*for(Carrier c : carriers){
 			if (!c.contains(pkg)){
 				continue;
 			}
-			return c.removePackage(pkg);
+			int oldId = c.getCurrentPalletId();
+			int palletId = c.canRemovePackage(pkg);
+			if (palletId >= 0){
+				c.removePackage(pkg, palletId);
+				return new Tuple<>(c, oldId);
+			} else {
+				return null;
+			}
 		}
 		
 		System.out.println("Not contatins");
-		return false;
+		return null;*/
+		
+		Carrier c = packageToCarrier.get(pkg);
+		
+		int oldId = c.getCurrentPalletId();
+		int palletId = c.canRemovePackage(pkg);
+		if (palletId >= 0){
+			c.removePackage(pkg, palletId);
+			return new Tuple<>(c, oldId);
+		} else {
+			return null;
+		}
+	}
+	
+	public void commit(){
+		List<Carrier> toRemove = new ArrayList<>();
+		for(Carrier c : carriers){
+			if (c.isEmpty()){
+				toRemove.add(c);
+			}
+		}
+		
+		carriers.removeAll(toRemove);
+	}
+	
+	public void rollback(List<Move> moves){
+		for(int i = 0; i < moves.size(); i++){
+			Move move = moves.get(i);
+			Tuple<Carrier, Integer> to = move.getTo(); 
+			to.x.removePackage(move.pkg, to.y);
+			
+			if (to.y == -1){
+				carriers.remove(to.x);
+			}
+		}
+		
+		for(int i = moves.size() - 1; i >= 0; i--){
+			Move move = moves.get(i);
+			Tuple<Carrier, Integer> from = move.getFrom();
+			from.x.addPackage(move.pkg, from.y);
+			packageToCarrier.put(move.pkg, from.x);
+		}
 	}
 	
 	private int getTotalArea(){
 		int result = 0;
 		for(Carrier c : carriers){
-			result += c.getPalletUsed().getArea();
+			result += c.getArea();
 		}
 		
 		return result;
@@ -69,7 +166,13 @@ public class CarriersCollection {
 	private float getMinPalletVolume(){
 		float min = Integer.MAX_VALUE;
 		for(Carrier c : carriers) {
-			float volume = c.getExtensionsUsed() * c.getPalletUsed().getExtensionHeight() * c.getPalletUsed().getArea();
+			float volume = c.getVolume();
+			if (volume <= 0){
+				if (volume < 0){
+					System.out.println("Error: Volume < 0");
+				}
+				continue;
+			}
 			if (min > volume){
 				min = volume;
 			}
@@ -78,95 +181,70 @@ public class CarriersCollection {
 		return min;
 	}
 	
-	public Tuple<Float, Float> start(){
-		float best = Float.MAX_VALUE;
-		float best2 = 0;
-		float swaps = 0;
+	public Result start(float initTemp, float tempMul){
+		float bestArea = Float.MAX_VALUE;
+		float bestVolume = 0;
+		List<Package> bestOrder = null;
+		int count = 0;
 		
-		Random r = new Random();
-		HashSet<Integer> set = new HashSet<>();
-		for(int it = -1; it < 9; it++){
-			//System.out.println("Begin iteration: " + it);
-			long end = System.currentTimeMillis() + 10;
-			while (end > System.currentTimeMillis()){
-				swaps++;
-				set.clear();
-				
-				int a = 0;
-				
-				for(int i = 0; i < 12 - it; i++){
-					if (it == -1){
-						break;
-					}
-					if (++a > 1000){
-						return new Tuple<>(best, best2);
-					}
-					
-					int index = r.nextInt(packages.length);
-					if (set.contains(index)){
-						i--;
-						continue;
-					}
-					
-					if (!remove(packages[index])){
-						i--;
-						continue;
-					}
-					
-					set.add(index);
-				}
-				
-				for(int index : set){
-					try {
-						add(packages[index]);
-					} catch (Exception e) {
-						e.printStackTrace();
-						return new Tuple<>(best, best2);
+		float temp = initTemp;
+		long end = System.currentTimeMillis() + 50;
+		
+		while (end > System.currentTimeMillis()){
+			count++;
+			List<Move> moves = random(temp);
+			
+			float current = getTotalArea();
+			if (bestArea >= current){
+				float current2 = getMinPalletVolume();
+				if (bestVolume > current2 || bestArea > current) {
+					bestArea = current;
+					bestVolume = current2;
+					bestOrder = getOrder();
+
+					if (bestVolume <= 0) {
+						System.out.println("Best2 <= 0");
 					}
 				}
 			}
 			
-			float current = getTotalArea();
-			if (best > current){
-				best = current;
-				best2 = getMinPalletVolume();
-				
-				if (best2 <= 0){
-					printResults();
-					try {
-						Thread.sleep(2000);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				}
+			if (current * (1 - temp * tempMul) <= bestArea){
+				commit();
+			} else {
+				rollback(moves);
 			}
 		}
 		
-		//System.out.println(best);
-		
-		return new Tuple<>(best, best2);
+		return new Result(bestArea, bestVolume, bestOrder);
 	}
 	
-	public void printResults() {
-		//System.out.println("1");
-		System.out.println(getTotalArea() + "\t" + getMinPalletVolume());
+	public void save(String output){
+		try {
+			printResults(new PrintStream(output));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void printResults(PrintStream printStream){
+		printStream.println("1");
+		printStream.println(getTotalArea() + "\t" + getMinPalletVolume());
 		
-		System.out.println(carriers.size());
+		printStream.println(carriers.size());
 		int pckgs = 0;
 		for (int i = 0; i < carriers.size(); i++) {
 			Carrier c = carriers.get(i);
-			System.out.println("n" + (i+1) + "\t"
+			printStream.println("n" + (i+1) + "\t"
 					+ c.getPalletUsed().getName() + "\t"
 					+ c.getExtensionsUsed());
 			pckgs += c.getPackagesAssigned().size();
 		}
 		
-		System.out.println(pckgs);
+		printStream.println(pckgs);
 		for (int i = 0; i < carriers.size(); i++) {
 			Carrier c = carriers.get(i);
 			for (final Package p : c.getPackagesAssigned()) {
-				System.out.println(p.getId() + "\t" + "n" + (i+1));
+				printStream.println(p.getId() + "\t" + "n" + (i+1));
 			}
 		}
 	}
