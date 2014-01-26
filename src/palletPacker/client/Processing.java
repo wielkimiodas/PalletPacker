@@ -3,6 +3,7 @@ package palletPacker.client;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Random;
 import java.util.concurrent.Semaphore;
 
 import palletPacker.model.CarriersCollection;
@@ -60,7 +61,7 @@ class Processing {
 		}
 	}
 	
-	public void sync(String output, float temp){
+	public void sync(String output, float temp, boolean mess){
 		for(int i = 0; i <N_THREADS; i++){
 			try {
 				threadsReady.acquire();
@@ -76,8 +77,19 @@ class Processing {
 		}
 		
 		end = temp == 0.0f;
-		currentOrder.clear();
-		currentOrder.addAll(bestResult.getPackages());
+		if (mess) {
+			Random r = new Random();
+			for(int i = 0; i < 2 * currentOrder.size(); i++){
+				int index1 = r.nextInt(currentOrder.size());
+				int index2 = r.nextInt(currentOrder.size());
+				Package p = currentOrder.get(index1);
+				currentOrder.set(index1, currentOrder.get(index2));
+				currentOrder.set(index2, p);
+			}
+		} else {
+			currentOrder.clear();
+			currentOrder.addAll(bestResult.getPackages());
+		}
 		
 		for(int i = 0; i < N_THREADS; i++){
 			processPermit.release();

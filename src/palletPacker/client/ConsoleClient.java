@@ -42,7 +42,7 @@ public class ConsoleClient {
 		
 		float N_ITER = 19;
 		for(int i = 1; i <= N_ITER; i++){
-			processing.sync(output, 1 - (float)i / N_ITER);
+			processing.sync(output, 1 - (float)i / N_ITER, ((i + 3) % 6) == 0);
 		}
 
 		long end = System.currentTimeMillis();
