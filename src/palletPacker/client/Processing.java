@@ -76,6 +76,8 @@ class Processing {
 		}
 		
 		end = temp == 0.0f;
+		currentOrder.clear();
+		currentOrder.addAll(bestResult.getPackages());
 		
 		for(int i = 0; i < N_THREADS; i++){
 			processPermit.release();
