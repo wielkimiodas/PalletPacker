@@ -1,7 +1,6 @@
 package palletPacker.model;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Carrier {
 	private final Pallet[] allPallets;

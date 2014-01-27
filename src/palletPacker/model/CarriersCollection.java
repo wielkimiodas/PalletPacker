@@ -3,8 +3,6 @@ package palletPacker.model;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 
@@ -98,13 +96,13 @@ public class CarriersCollection {
 		return result;
 	}
 	
-	public Result process(List<Package> packages, float initTemp, float tempMul) {
+	public Result process(List<Package> packages, float initTemp, float tempMul, int time) {
 		Result localBest = getResult(packages);
 		packages = new ArrayList<>(packages);
 
 		int count = 1;
 
-		long end = System.currentTimeMillis() + 52;
+		long end = System.currentTimeMillis() + time;
 
 		while (end > System.currentTimeMillis()) {
 			count++;
