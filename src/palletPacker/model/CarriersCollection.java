@@ -13,7 +13,6 @@ public class CarriersCollection {
 	Pallet[] pallets;
 	Package[] packages;
 	ArrayList<Carrier> carriers = new ArrayList<Carrier>();
-	HashMap<Package, Carrier> packageToCarrier = new HashMap<>();
 	
 	public CarriersCollection(Pallet[] pallets, Package[] packages){
 		this.pallets = pallets;
@@ -22,7 +21,6 @@ public class CarriersCollection {
 	
 	public void setOrder(List<Package> list){
 		carriers.clear();
-		packageToCarrier.clear();
 		
 		for (Package p : list) {
 			add(p);
@@ -39,102 +37,18 @@ public class CarriersCollection {
 		return result;
 	}
 	
-	public List<Move> random(float temperature){
-		int changes = (int)Math.max((packages.length * temperature), 3);
-		
-		List<Move> result = new ArrayList<>();
-		
-		HashSet<Integer> packagesUsed = new HashSet<>();
-		
-		for(int i = 0; i < changes; i++){
-			int index = r.nextInt(packages.length);
-
-			if (packagesUsed.contains(index)){
-				i--;
-				continue;
-			}
-			
-			Tuple<Carrier, Integer> t = remove(packages[index]); 
-			if (t == null){
-				i--;
-				continue;
-			}
-			
-			result.add(new Move(packages[index], t));
-			
-			packagesUsed.add(index);
-		}
-		
-		for(int i = result.size() - 1; i >= 0; i--){
-			Move move = result.get(i);
-			Tuple<Carrier, Integer> t = add(move.pkg);
-			move.setTo(t);
-		}
-		
-		return result;
-	}
-	
-	public Tuple<Carrier, Integer> add(Package pkg) {
+	public void add(Package pkg) {
 		for(Carrier c : carriers){
 			int palletId = c.canAddPackage(pkg);
 			if (palletId >= 0){
-				int oldId = c.getCurrentPalletId();
 				c.addPackage(pkg, palletId);
-				packageToCarrier.put(pkg, c);
-				return new Tuple<>(c, oldId);
+				return;
 			}
 		}
 		
 		Carrier carrier = new Carrier(pallets);
 		carrier.addPackage(pkg, pkg.getDefaultPallet().getId());
 		carriers.add(carrier);
-		
-		packageToCarrier.put(pkg, carrier);
-		
-		return new Tuple<>(carrier, -1);
-	}
-	
-	private Tuple<Carrier, Integer> remove(Package pkg){
-		Carrier c = packageToCarrier.get(pkg);
-		
-		int oldId = c.getCurrentPalletId();
-		int palletId = c.canRemovePackage(pkg);
-		if (palletId >= 0){
-			c.removePackage(pkg, palletId);
-			return new Tuple<>(c, oldId);
-		} else {
-			return null;
-		}
-	}
-	
-	public void commit(){
-		List<Carrier> toRemove = new ArrayList<>();
-		for(Carrier c : carriers){
-			if (c.isEmpty()){
-				toRemove.add(c);
-			}
-		}
-		
-		carriers.removeAll(toRemove);
-	}
-	
-	public void rollback(List<Move> moves){
-		for(int i = 0; i < moves.size(); i++){
-			Move move = moves.get(i);
-			Tuple<Carrier, Integer> to = move.getTo(); 
-			to.x.removePackage(move.pkg, to.y);
-			
-			if (to.y == -1){
-				carriers.remove(to.x);
-			}
-		}
-		
-		for(int i = moves.size() - 1; i >= 0; i--){
-			Move move = moves.get(i);
-			Tuple<Carrier, Integer> from = move.getFrom();
-			from.x.addPackage(move.pkg, from.y);
-			packageToCarrier.put(move.pkg, from.x);
-		}
 	}
 	
 	private int getTotalArea(){
@@ -164,41 +78,53 @@ public class CarriersCollection {
 		return min;
 	}
 	
-	public Result start(float initTemp, float tempMul){
-		float bestArea = Float.MAX_VALUE;
-		float bestVolume = 0;
-		List<Package> bestOrder = null;
-		int count = 0;
-		
-		float temp = initTemp;
-		long end = System.currentTimeMillis() + 50;
-		
-		while (end > System.currentTimeMillis()){
-			count++;
-			List<Move> moves = random(temp);
-			
-			float current = getTotalArea();
-			if (bestArea >= current){
-				float current2 = getMinPalletVolume();
-				if (bestVolume > current2 || bestArea > current) {
-					bestArea = current;
-					bestVolume = current2;
-					bestOrder = getOrder();
-
-					if (bestVolume <= 0) {
-						System.out.println("Best2 <= 0");
-					}
-				}
-			}
-			
-			if (current * (1 - temp * tempMul) <= bestArea){
-				commit();
+	public ArrayList<Package> random(List<Package> baseOrder, float temp){
+		ArrayList<Package> result = new ArrayList<>();
+		result.add(baseOrder.get(0));
+		for (int i = 1; i < baseOrder.size(); i++) {
+			int j;
+			if (r.nextFloat() <= temp)
+				j = r.nextInt(i + 1);
+			else
+				j = i;
+			if (i != j) {
+				result.add(result.get(j));
+				result.set(j, baseOrder.get(i));
 			} else {
-				rollback(moves);
+				result.add(baseOrder.get(i));
 			}
 		}
 		
-		return new Result(bestArea, bestVolume, bestOrder, count);
+		return result;
+	}
+	
+	public Result process(List<Package> packages, float initTemp, float tempMul) {
+		Result localBest = getResult(packages);
+		packages = new ArrayList<>(packages);
+
+		int count = 1;
+
+		long end = System.currentTimeMillis() + 52;
+
+		while (end > System.currentTimeMillis()) {
+			count++;
+
+			ArrayList<Package> tmpPackages = random(packages, initTemp);
+
+			Result result = getResult(tmpPackages);
+
+			if (result.compareTo(localBest) > 0) {
+				// znaleziono najlepszy wynik
+				localBest = result;
+				packages = new ArrayList<>(localBest.getPackages());
+			} else if (result.compareTo(localBest, initTemp * tempMul) > 0) {
+				// znaleziono calkiem niezly wynik
+				packages = tmpPackages;
+			}
+		}
+
+		localBest.count = count;
+		return localBest;
 	}
 	
 	public Result getResult(List<Package> packages){

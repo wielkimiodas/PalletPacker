@@ -22,109 +22,6 @@ public class Carrier {
 		return packagesAssigned.contains(pkg);
 	}
 	
-	public boolean isEmpty(){
-		return packagesAssigned.size() == 0;
-	}
-
-	public void removePackage(Package pkg, int newPalletId){
-		final float packageVolume = pkg.getVolume();
-
-		volumeInUse -= packageVolume;
-		loadInUse -= pkg.getLoad();
-		typesVolumes[pkg.getDefaultPallet().getId()] -= packageVolume;
-		if (!packagesAssigned.contains(pkg)) {
-			System.out.println("WRONG!!!");
-		}
-		
-		packagesAssigned.remove(pkg);
-
-		currentPalletId = newPalletId;
-	}
-
-	/**
-	 * Sprawdza, czy mo¿na usun¹æ wskazan¹ paczkê.
-	 * 
-	 * @param pkg
-	 *            Paczka do usuniêcia.
-	 * @return Id nowej palety lub -1, je¿eli nie mo¿na usun¹æ paczki.
-	 */
-	public int canRemovePackage(Package pkg) {
-		if (packagesAssigned.size() == 1){
-			return currentPalletId;
-		}
-		
-		final int pkgPalletId = pkg.getDefaultPallet().getId();
-		final float packageVolume = pkg.getVolume();
-
-		// typ palety i tak jest inny, wiêc paczkê mo¿na wyrzuciæ
-		if (pkgPalletId != currentPalletId) {
-			return currentPalletId;
-		} else {
-			float secondMax = 0;
-			List<Integer> best = new ArrayList<>();
-			// utworzenie listy typów palet z paczkami o maksymalnej objêtoœci 
-			for (int i = 0; i < typesVolumes.length; i++) {
-				if (secondMax <= typesVolumes[i]) {
-					float vol = typesVolumes[i];
-					if (i == currentPalletId){
-						vol -= packageVolume;
-					}
-					
-					if (secondMax < vol){
-						best.clear();
-					}
-					secondMax = vol;
-					best.add(i);
-				}
-			}
-			
-			if (best.size() == 0){
-				System.out.println("Best.size() == 0 !!!");
-				return -1;
-			}
-			
-			// obecny typ palety ma nadal najwiêksz¹ objêtoœæ 
-			if (best.size() == 1 && best.contains(currentPalletId)){
-				return currentPalletId;
-			}
-			
-			List<Integer> possible = new ArrayList<>();
-			
-			float newVolume = volumeInUse - packageVolume;
-			float newLoad = loadInUse - pkg.getLoad();
-			
-			// uzupe³nienie listy typów palet, które pomieszcz¹ 
-			for (Integer id : best) {
-				if (allPallets[id].getMaxVolume() < newVolume){
-					continue;
-				}
-				if (allPallets[id].getMaxLoad() < newLoad){
-					continue;
-				}
-				possible.add(id);
-			}
-			
-			if (possible.size() == 0){
-				return -1;
-			}
-			
-			if (possible.size() == 1){
-				return possible.get(0);
-			}
-			
-			float minArea = Float.MAX_VALUE;
-			int minId = -1;
-			for(Integer id : possible){
-				if (minArea > allPallets[id].getArea()){
-					minArea = allPallets[id].getArea();
-					minId = id;
-				}
-			}
-			
-			return minId;
-		}
-	}
-
 	private boolean canAddPackage(Package pcg, int palletId) {
 		Pallet pallet = allPallets[palletId];
 		if (loadInUse + pcg.getLoad() > pallet.getMaxLoad()) {
@@ -189,7 +86,6 @@ public class Carrier {
 	}
 	
 	public void addPackage(Package pkg, int newPalletId){
-		//System.out.println("Add " + newPalletId);
 		final float packageVolume = pkg.getVolume();
 
 		volumeInUse += packageVolume;
@@ -204,11 +100,7 @@ public class Carrier {
 		Pallet palletUsed = getPalletUsed();
 		int result = (int) Math.ceil(volumeInUse / palletUsed.getArea()
 				/ palletUsed.getExtensionHeight());
-		/*if (result < 0) {
-			System.out.println("Ext: " + volumeInUse + " "
-					+ palletUsed.getArea() + " "
-					+ palletUsed.getExtensionHeight());
-		}*/
+		
 		return result;
 	}
 
