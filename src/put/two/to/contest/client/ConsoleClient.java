@@ -1,11 +1,11 @@
-package palletPacker.client;
+package put.two.to.contest.client;
 
 import java.util.ArrayList;
 
-import palletPacker.model.CarriersCollection;
-import palletPacker.model.Package;
-import palletPacker.model.Result;
-import palletPacker.model.Warehouse;
+import put.two.to.contest.model.CarriersCollection;
+import put.two.to.contest.model.Package;
+import put.two.to.contest.model.Result;
+import put.two.to.contest.model.Warehouse;
 
 public class ConsoleClient {
 	public static boolean process(String input, String output, final int time, final int iterations, final boolean messing) {
