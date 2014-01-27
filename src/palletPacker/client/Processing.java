@@ -46,9 +46,11 @@ class Processing {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+		int count = bestResult.count + result.count;
 		if (result.compareTo(bestResult) > 0) {
 			bestResult = result;
 		}
+		bestResult.count = count;
 		bestResultSem.release();
 	}
 	
@@ -87,7 +89,7 @@ class Processing {
 				currentOrder.set(index2, p);
 			}
 		} else {
-			currentOrder.clear();
+			currentOrder = new ArrayList<>();
 			currentOrder.addAll(bestResult.getPackages());
 		}
 		

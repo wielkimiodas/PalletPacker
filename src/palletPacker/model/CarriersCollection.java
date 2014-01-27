@@ -95,23 +95,6 @@ public class CarriersCollection {
 	}
 	
 	private Tuple<Carrier, Integer> remove(Package pkg){
-		/*for(Carrier c : carriers){
-			if (!c.contains(pkg)){
-				continue;
-			}
-			int oldId = c.getCurrentPalletId();
-			int palletId = c.canRemovePackage(pkg);
-			if (palletId >= 0){
-				c.removePackage(pkg, palletId);
-				return new Tuple<>(c, oldId);
-			} else {
-				return null;
-			}
-		}
-		
-		System.out.println("Not contatins");
-		return null;*/
-		
 		Carrier c = packageToCarrier.get(pkg);
 		
 		int oldId = c.getCurrentPalletId();
@@ -215,7 +198,12 @@ public class CarriersCollection {
 			}
 		}
 		
-		return new Result(bestArea, bestVolume, bestOrder);
+		return new Result(bestArea, bestVolume, bestOrder, count);
+	}
+	
+	public Result getResult(List<Package> packages){
+		setOrder(packages);
+		return new Result(getTotalArea(), getMinPalletVolume(), packages, 1);
 	}
 	
 	public void save(String output){

@@ -131,7 +131,6 @@ public class Carrier {
 			return false;
 		}
 
-		//System.out.println(palletId + " " + allPallets[palletId].getId() + " V: " + volumeInUse + " " + pcg.getVolume() + " " + pallet.getMaxVolume());
 		if (volumeInUse + pcg.getVolume() > pallet.getMaxVolume()) {
 			return false;
 		}
@@ -154,7 +153,6 @@ public class Carrier {
 		final int pkgPalletId = pcg.getDefaultPallet().getId();
 
 		if (pkgPalletId == currentPalletId) {
-			//System.out.println("A");
 			return canAddPackage(pcg, currentPalletId) ? currentPalletId : -1;
 		} else {
 			float diff = typesVolumes[pkgPalletId] + pcg.getVolume()
@@ -163,37 +161,27 @@ public class Carrier {
 				if (allPallets[pkgPalletId].getArea() < allPallets[currentPalletId]
 						.getArea()) {
 					if (canAddPackage(pcg, pkgPalletId)) {
-						//System.out.println("B1");
 						return pkgPalletId;
 					}
 
 					if (canAddPackage(pcg, currentPalletId)) {
-						//System.out.println("B2");
 						return currentPalletId;
 					}
-
-					//System.out.println("B3");
 					return -1;
 				} else {
 					if (canAddPackage(pcg, currentPalletId)) {
-						//System.out.println("B4");
 						return currentPalletId;
 					}
 
 					if (canAddPackage(pcg, pkgPalletId)) {
-						//System.out.println("B5");
 						return pkgPalletId;
 					}
-
-					//System.out.println("B6");
 					return -1;
 				}
 			} else if (diff > 0) {
-				//System.out.println("B7 " + pcg.getVolume()); 
 				return canAddPackage(pcg, pkgPalletId) ? pkgPalletId : -1;
 
 			} else /* if (diff < 0) */{
-				//System.out.println("B8");
 				return canAddPackage(pcg, currentPalletId) ? currentPalletId
 						: -1;
 			}
