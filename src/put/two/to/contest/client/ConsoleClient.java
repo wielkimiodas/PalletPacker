@@ -8,7 +8,7 @@ import put.two.to.contest.model.Result;
 import put.two.to.contest.model.Warehouse;
 
 public class ConsoleClient {
-	public static boolean process(String input, String output, final int time, final int iterations, final boolean messing) {
+	public static boolean process(String input, String output, final int time, final int iterations, final boolean messing, boolean print) {
 		long start = System.currentTimeMillis();
 
 		final Warehouse warehouse = new Warehouse();
@@ -54,38 +54,32 @@ public class ConsoleClient {
 
 		long end = System.currentTimeMillis();
 
-		/*System.out.print(processing.bestResult.getArea() + "\t"
-				+ processing.bestResult.getVolume() + "\t");
-		System.out.println("Took " + (end - start) + " ms. " + processing.bestResult.count);*/
+		if (print) {
+			System.out.print(processing.bestResult.getArea() + "\t"
+					+ processing.bestResult.getVolume() + "\t");
+			System.out.println("Took " + (end - start) + " ms. "
+					+ processing.bestResult.count);
+		}
 
-		//return true;
-		return processing.bestResult.getVolume() == 1200;
+		return true;
 	}
 
 	public static void main(String[] args) {
-		for (int m = 0; m < 2; m++) {
-			for (int time = 10; time <= 50; time += 5) {
-				for (int i = 9; i <= 9; i++) {
-					String input;
-					String output;
+		for (int i = 1; i <= 10; i++) {
+			String input;
+			String output;
 
-					if (i < 10) {
-						input = "data/instances-pp1/pp10" + i + ".in";
-						output = "data/instances-pp1/output10" + i + ".txt";
-					} else {
-						input = "data/instances-pp1/pp1" + i + ".in";
-						output = "data/instances-pp1/output1" + i + ".txt";
-					}
-
-					final int N = 50;
-					int count = 0;
-					for (int it = 0; it < N; it++)
-						if (process(input, output, time, 20, m == 1))
-							count++;
-
-					System.out.println(time + ":\t" + (100.0f * count / N));
-				}
+			if (i < 10) {
+				input = "data/instances-pp1/pp10" + i + ".in";
+				output = "data/instances-pp1/output10" + i + ".txt";
+			} else {
+				input = "data/instances-pp1/pp1" + i + ".in";
+				output = "data/instances-pp1/output1" + i + ".txt";
 			}
+
+			final int N = 11;
+			for (int it = 0; it < N; it++)
+				process(input, output, 49, 20, true, true);
 		}
 	}
 }
