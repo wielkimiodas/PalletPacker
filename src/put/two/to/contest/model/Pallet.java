@@ -1,4 +1,4 @@
-package palletPacker.model;
+package put.two.to.contest.model;
 
 public class Pallet {
 

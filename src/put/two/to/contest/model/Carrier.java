@@ -1,4 +1,4 @@
-package palletPacker.model;
+package put.two.to.contest.model;
 
 import java.util.ArrayList;
 
@@ -35,11 +35,11 @@ public class Carrier {
 	}
 
 	/**
-	 * Sprawdza, czy mo¿na dodaæ wskazan¹ paczkê.
+	 * Sprawdza, czy moï¿½na dodaï¿½ wskazanï¿½ paczkï¿½.
 	 * 
 	 * @param pcg
 	 *            Paczka do dodania.
-	 * @return ID nowej palety lub -1, je¿eli nie mo¿na dodaæ paczki.
+	 * @return ID nowej palety lub -1, jeï¿½eli nie moï¿½na dodaï¿½ paczki.
 	 */
 	public int canAddPackage(Package pcg) {
 		if (packagesAssigned.size() == 0) {

@@ -1,4 +1,4 @@
-package palletPacker.model;
+package put.two.to.contest.model;
 
 public class Tuple<X, Y> {
 	public final X x;

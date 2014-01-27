@@ -1,4 +1,4 @@
-package palletPacker.model;
+package put.two.to.contest.model;
 
 import java.io.FileNotFoundException;
 import java.io.PrintStream;

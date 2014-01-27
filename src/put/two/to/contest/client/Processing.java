@@ -1,14 +1,14 @@
-package palletPacker.client;
+package put.two.to.contest.client;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.concurrent.Semaphore;
 
-import palletPacker.model.CarriersCollection;
-import palletPacker.model.Package;
-import palletPacker.model.Result;
-import palletPacker.model.Warehouse;
+import put.two.to.contest.model.CarriersCollection;
+import put.two.to.contest.model.Package;
+import put.two.to.contest.model.Result;
+import put.two.to.contest.model.Warehouse;
 
 class Processing {
 	public final int N_THREADS = 4;
