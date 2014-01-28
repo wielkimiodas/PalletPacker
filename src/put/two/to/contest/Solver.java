@@ -13,7 +13,7 @@ public class Solver {
 	public void solve(InputStream problemInput,
 			SolutionAcceptor solutionAcceptor, long timeout, int solutionsLimit) {
 		ConsoleClient.process(problemInput,
-				solutionAcceptor.newSolutionOutputStream(), solutionsLimit,
+				solutionAcceptor, solutionsLimit,
 				solutionsLimit, true, false);
 	}
 

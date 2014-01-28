@@ -7,13 +7,38 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
 
+import put.two.to.contest.SolutionAcceptor;
 import put.two.to.contest.model.CarriersCollection;
 import put.two.to.contest.model.Package;
 import put.two.to.contest.model.Result;
 import put.two.to.contest.model.Warehouse;
 
 public class ConsoleClient {
-	public static boolean process(InputStream input, OutputStream outputStream,
+	static class SolutionAcceptorImplementation implements SolutionAcceptor {
+		String path;
+		int callsCount = 0;
+		
+		public SolutionAcceptorImplementation(String path){
+			this.path = path;
+		}
+		
+		@Override
+		public OutputStream newSolutionOutputStream() {
+			if (++callsCount > 20){
+				return null;
+			}
+			
+			try {
+				return new FileOutputStream(path);
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+				return null;
+			}
+		}
+		
+	}
+	
+	public static boolean process(InputStream input, SolutionAcceptor solutionAcceptor,
 			final int time, final int iterations, final boolean messing,
 			boolean print) {
 		long start = System.currentTimeMillis();
@@ -57,7 +82,7 @@ public class ConsoleClient {
 
 		float N_ITER = iterations;
 		for (int i = 1; i <= N_ITER; i++) {
-			processing.sync(outputStream, 1 - (float) i / N_ITER);
+			processing.sync(solutionAcceptor, 1 - (float) i / N_ITER);
 		}
 
 		long end = System.currentTimeMillis();
@@ -85,13 +110,11 @@ public class ConsoleClient {
 				output = "data/instances-pp1/output1" + i + ".txt";
 			}
 
-			final int N = 11;
+			final int N = 1;
 			for (int it = 0; it < N; it++)
 				try {
-					process(new FileInputStream(input), new FileOutputStream(
-							output), 49, 20, true, true);
+					process(new FileInputStream(input), new SolutionAcceptorImplementation(output), 49, 20, true, true);
 				} catch (FileNotFoundException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 		}
