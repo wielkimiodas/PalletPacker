@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.concurrent.Semaphore;
 
+import put.two.to.contest.SolutionAcceptor;
 import put.two.to.contest.model.CarriersCollection;
 import put.two.to.contest.model.Package;
 import put.two.to.contest.model.Result;
@@ -63,7 +64,7 @@ class Processing {
 		}
 	}
 
-	public void sync(OutputStream outputStream, float temp) {
+	public void sync(SolutionAcceptor solutionAcceptor, float temp) {
 		for (int i = 0; i < N_THREADS; i++) {
 			try {
 				threadsReady.acquire();
@@ -85,11 +86,16 @@ class Processing {
 		for (int i = 0; i < N_THREADS; i++) {
 			processPermit.release();
 		}
-
-		CarriersCollection collection = new CarriersCollection(
-				warehouse.getPallets(), warehouse.getPackages());
-		collection.setOrder(bestResult.getPackages());
-		collection.save(outputStream);
+		
+		OutputStream outputStream = solutionAcceptor.newSolutionOutputStream();
+		
+		if (outputStream != null) {
+			CarriersCollection collection = new CarriersCollection(
+					warehouse.getPallets(), warehouse.getPackages());
+			collection.setOrder(bestResult.getPackages());
+			collection.save(outputStream);
+		}
+		
 		bestResultSem.release();
 	}
 }
