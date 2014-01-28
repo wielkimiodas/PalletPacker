@@ -7,6 +7,7 @@ public class Result implements Comparable<Result> {
 	float volume;
 	List<Package> packages;
 	public int count = 0;
+
 	public Result(float area, float volume, List<Package> packages, int count) {
 		super();
 		this.area = area;
@@ -14,47 +15,53 @@ public class Result implements Comparable<Result> {
 		this.packages = packages;
 		this.count = count;
 	}
+
 	public float getArea() {
 		return area;
 	}
+
 	public float getVolume() {
 		return volume;
 	}
+
 	public List<Package> getPackages() {
 		return packages;
 	}
+
 	@Override
 	public int compareTo(Result o) {
-		if (area != o.area){
+		if (area != o.area) {
 			return area < o.area ? 1 : -1;
 		}
-		
+
 		float diff = volume - o.volume;
-		if (diff == 0){
+		if (diff == 0) {
 			return 0;
 		}
-		
+
 		return diff < 0 ? 1 : -1;
 	}
+
 	public int compareTo(Result o, float temp) {
-		if (area != o.area){
-			if (area > o.area){
+		if (area != o.area) {
+			if (area > o.area) {
 				return area * temp < o.area ? 1 : -1;
 			} else
 				return 1;
 		}
-		
+
 		float diff = volume - o.volume;
-		if (diff == 0){
+		if (diff == 0) {
 			return 0;
 		}
-		
-		if (diff > 0){
+
+		if (diff > 0) {
 			return volume * temp < o.volume ? 1 : -1;
 		}
 		return 1;
 	}
-	public static Result getWorst(){
+
+	public static Result getWorst() {
 		return new Result(Float.MAX_VALUE, Float.MAX_VALUE, null, 0);
 	}
 }

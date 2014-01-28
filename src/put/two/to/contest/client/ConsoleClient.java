@@ -1,5 +1,10 @@
 package put.two.to.contest.client;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
 
 import put.two.to.contest.model.CarriersCollection;
@@ -8,7 +13,9 @@ import put.two.to.contest.model.Result;
 import put.two.to.contest.model.Warehouse;
 
 public class ConsoleClient {
-	public static boolean process(String input, String output, final int time, final int iterations, final boolean messing, boolean print) {
+	public static boolean process(InputStream input, OutputStream outputStream,
+			final int time, final int iterations, final boolean messing,
+			boolean print) {
 		long start = System.currentTimeMillis();
 
 		final Warehouse warehouse = new Warehouse();
@@ -32,8 +39,9 @@ public class ConsoleClient {
 
 					int iterationsCount = 0;
 					do {
-						ArrayList<Package> list = new ArrayList<>(processing.currentOrder);
-						if (messing && ((iterationsCount + 3) % 6 == 0)){
+						ArrayList<Package> list = new ArrayList<>(
+								processing.currentOrder);
+						if (messing && ((iterationsCount + 3) % 6 == 0)) {
 							list = collection.random(list, 1);
 						}
 						Result result = collection.process(list,
@@ -49,7 +57,7 @@ public class ConsoleClient {
 
 		float N_ITER = iterations;
 		for (int i = 1; i <= N_ITER; i++) {
-			processing.sync(output, 1 - (float) i / N_ITER);
+			processing.sync(outputStream, 1 - (float) i / N_ITER);
 		}
 
 		long end = System.currentTimeMillis();
@@ -79,7 +87,13 @@ public class ConsoleClient {
 
 			final int N = 11;
 			for (int it = 0; it < N; it++)
-				process(input, output, 49, 20, true, true);
+				try {
+					process(new FileInputStream(input), new FileOutputStream(
+							output), 49, 20, true, true);
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 		}
 	}
 }

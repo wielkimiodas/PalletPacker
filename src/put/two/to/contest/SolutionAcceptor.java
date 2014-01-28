@@ -5,5 +5,5 @@ import java.io.OutputStream;
 public interface SolutionAcceptor {
 
 	OutputStream newSolutionOutputStream();
-	
+
 }

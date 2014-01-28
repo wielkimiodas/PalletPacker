@@ -20,7 +20,7 @@ public class Carrier {
 	public boolean contains(Package pkg) {
 		return packagesAssigned.contains(pkg);
 	}
-	
+
 	private boolean canAddPackage(Package pcg, int palletId) {
 		Pallet pallet = allPallets[palletId];
 		if (loadInUse + pcg.getLoad() > pallet.getMaxLoad()) {
@@ -83,15 +83,15 @@ public class Carrier {
 			}
 		}
 	}
-	
-	public void addPackage(Package pkg, int newPalletId){
+
+	public void addPackage(Package pkg, int newPalletId) {
 		final float packageVolume = pkg.getVolume();
 
 		volumeInUse += packageVolume;
 		loadInUse += pkg.getLoad();
 		typesVolumes[pkg.getDefaultPallet().getId()] += packageVolume;
 		packagesAssigned.add(pkg);
-		
+
 		currentPalletId = newPalletId;
 	}
 
@@ -99,31 +99,32 @@ public class Carrier {
 		Pallet palletUsed = getPalletUsed();
 		int result = (int) Math.ceil(volumeInUse / palletUsed.getArea()
 				/ palletUsed.getExtensionHeight());
-		
+
 		return result;
 	}
 
 	public ArrayList<Package> getPackagesAssigned() {
 		return packagesAssigned;
 	}
-	
-	public int getCurrentPalletId(){
+
+	public int getCurrentPalletId() {
 		return currentPalletId;
 	}
 
 	public Pallet getPalletUsed() {
 		return allPallets[currentPalletId];
 	}
-	
-	public float getArea(){
-		if (packagesAssigned.size() == 0){
+
+	public float getArea() {
+		if (packagesAssigned.size() == 0) {
 			return 0;
 		}
-		
+
 		return allPallets[currentPalletId].getArea();
 	}
-	
-	public float getVolume(){
-		return getExtensionsUsed() * getPalletUsed().getExtensionHeight() * getArea();
+
+	public float getVolume() {
+		return getExtensionsUsed() * getPalletUsed().getExtensionHeight()
+				* getArea();
 	}
 }

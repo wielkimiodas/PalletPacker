@@ -1,5 +1,6 @@
 package put.two.to.contest.client;
 
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -12,7 +13,7 @@ import put.two.to.contest.model.Warehouse;
 
 class Processing {
 	public final int N_THREADS = 4;
-	
+
 	Warehouse warehouse;
 
 	Semaphore threadsReady = new Semaphore(0);
@@ -52,8 +53,8 @@ class Processing {
 		bestResult.count = count;
 		bestResultSem.release();
 	}
-	
-	public void waitThread(){
+
+	public void waitThread() {
 		threadsReady.release();
 		try {
 			processPermit.acquire();
@@ -61,33 +62,34 @@ class Processing {
 			e.printStackTrace();
 		}
 	}
-	
-	public void sync(String output, float temp){
-		for(int i = 0; i <N_THREADS; i++){
+
+	public void sync(OutputStream outputStream, float temp) {
+		for (int i = 0; i < N_THREADS; i++) {
 			try {
 				threadsReady.acquire();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
-		
+
 		try {
 			bestResultSem.acquire();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
+
 		end = temp == 0.0f;
 		currentOrder = new ArrayList<>();
 		currentOrder.addAll(bestResult.getPackages());
-		
-		for(int i = 0; i < N_THREADS; i++){
+
+		for (int i = 0; i < N_THREADS; i++) {
 			processPermit.release();
 		}
-		
-		CarriersCollection collection = new CarriersCollection(warehouse.getPallets(), warehouse.getPackages());
+
+		CarriersCollection collection = new CarriersCollection(
+				warehouse.getPallets(), warehouse.getPackages());
 		collection.setOrder(bestResult.getPackages());
-		collection.save(output);
+		collection.save(outputStream);
 		bestResultSem.release();
 	}
 }

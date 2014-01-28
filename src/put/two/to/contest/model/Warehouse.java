@@ -1,9 +1,9 @@
 package put.two.to.contest.model;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 public class Warehouse {
 
@@ -31,10 +31,10 @@ public class Warehouse {
 		return pallets;
 	}
 
-	public void readData(String dataFilePath) throws NumberFormatException,
+	public void readData(InputStream inputStream) throws NumberFormatException,
 			IOException {
-		final File dataFile = new File(dataFilePath);
-		final BufferedReader br = new BufferedReader(new FileReader(dataFile));
+		InputStreamReader streamReader = new InputStreamReader(inputStream);
+		final BufferedReader br = new BufferedReader(streamReader);
 		final int palletsAmount = Integer.parseInt(br.readLine());
 
 		pallets = new Pallet[palletsAmount];
@@ -78,7 +78,7 @@ public class Warehouse {
 			final Package p = new Package(id, v, defPallet, load);
 			packages[i] = p;
 		}
-		
+
 		br.close();
 	}
 }
