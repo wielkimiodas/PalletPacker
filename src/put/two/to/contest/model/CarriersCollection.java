@@ -76,28 +76,22 @@ public class CarriersCollection {
 		return min;
 	}
 
-	public ArrayList<Package> random(List<Package> baseOrder, float temp) {
-		ArrayList<Package> result = new ArrayList<>();
-		result.add(baseOrder.get(0));
-		for (int i = 1; i < baseOrder.size(); i++) {
+	public void random(List<Package> baseOrder, float temp) {
+		for (int i = baseOrder.size() - 2; i >= 0; i--) {
 			int j;
 			if (r.nextFloat() <= temp)
 				j = r.nextInt(i + 1);
 			else
 				j = i;
 			if (i != j) {
-				result.add(result.get(j));
-				result.set(j, baseOrder.get(i));
-			} else {
-				result.add(baseOrder.get(i));
+				Package p = baseOrder.get(i);
+				baseOrder.set(i, baseOrder.get(j));
+				baseOrder.set(j, p);
 			}
 		}
-
-		return result;
 	}
 
-	public Result process(List<Package> packages, float initTemp,
-			float tempMul, int time) {
+	public Result process(List<Package> packages, float temperature, int time) {
 		Result localBest = getResult(packages);
 		packages = new ArrayList<>(packages);
 
@@ -108,17 +102,14 @@ public class CarriersCollection {
 		while (end > System.currentTimeMillis()) {
 			count++;
 
-			ArrayList<Package> tmpPackages = random(packages, initTemp);
+			random(packages, temperature);
 
-			Result result = getResult(tmpPackages);
+			Result result = getResult(packages);
 
 			if (result.compareTo(localBest) > 0) {
 				// znaleziono najlepszy wynik
 				localBest = result;
-				packages = new ArrayList<>(localBest.getPackages());
-			} else if (result.compareTo(localBest, initTemp * tempMul) > 0) {
-				// znaleziono calkiem niezly wynik
-				packages = tmpPackages;
+				packages = new ArrayList<>(packages);
 			}
 		}
 

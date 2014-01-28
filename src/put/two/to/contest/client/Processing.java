@@ -63,8 +63,10 @@ class Processing {
 			e.printStackTrace();
 		}
 	}
-
-	public void sync(SolutionAcceptor solutionAcceptor, float temp) {
+	
+	Result lastSaved = Result.getWorst();
+	
+	public void sync(SolutionAcceptor solutionAcceptor, float temp, boolean end) {
 		for (int i = 0; i < N_THREADS; i++) {
 			try {
 				threadsReady.acquire();
@@ -79,7 +81,8 @@ class Processing {
 			e.printStackTrace();
 		}
 
-		end = temp == 0.0f;
+		this.end = end;
+		this.currentTemp = temp;
 		currentOrder = new ArrayList<>();
 		currentOrder.addAll(bestResult.getPackages());
 
@@ -87,13 +90,17 @@ class Processing {
 			processPermit.release();
 		}
 		
-		OutputStream outputStream = solutionAcceptor.newSolutionOutputStream();
-		
-		if (outputStream != null) {
-			CarriersCollection collection = new CarriersCollection(
-					warehouse.getPallets(), warehouse.getPackages());
-			collection.setOrder(bestResult.getPackages());
-			collection.save(outputStream);
+		if (bestResult.compareTo(lastSaved) > 0) {
+			OutputStream outputStream = solutionAcceptor
+					.newSolutionOutputStream();
+
+			if (outputStream != null) {
+				CarriersCollection collection = new CarriersCollection(
+						warehouse.getPallets(), warehouse.getPackages());
+				collection.setOrder(bestResult.getPackages());
+				collection.save(outputStream);
+			}
+			lastSaved = bestResult;
 		}
 		
 		bestResultSem.release();

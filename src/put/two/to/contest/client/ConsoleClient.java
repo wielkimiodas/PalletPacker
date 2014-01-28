@@ -17,17 +17,17 @@ public class ConsoleClient {
 	static class SolutionAcceptorImplementation implements SolutionAcceptor {
 		String path;
 		int callsCount = 0;
-		
-		public SolutionAcceptorImplementation(String path){
+
+		public SolutionAcceptorImplementation(String path) {
 			this.path = path;
 		}
-		
+
 		@Override
 		public OutputStream newSolutionOutputStream() {
-			if (++callsCount > 20){
+			if (++callsCount > 20) {
 				return null;
 			}
-			
+
 			try {
 				return new FileOutputStream(path);
 			} catch (FileNotFoundException e) {
@@ -35,26 +35,23 @@ public class ConsoleClient {
 				return null;
 			}
 		}
-		
-	}
-	
-	public static boolean process(InputStream input, SolutionAcceptor solutionAcceptor,
-			final int time, final int iterations, final boolean messing,
-			boolean print) {
-		long start = System.currentTimeMillis();
 
+	}
+
+	public static Result process(InputStream input,
+			SolutionAcceptor solutionAcceptor, final int time,
+			final int iterations, final boolean messing) {
 		final Warehouse warehouse = new Warehouse();
 		try {
 			warehouse.readData(input);
 		} catch (final Exception e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		}
 
 		final Processing processing = new Processing(warehouse);
 
 		for (int th = 0; th < processing.N_THREADS; th++) {
-			final float mul = 1 - (float) th / processing.N_THREADS;
 			new Thread(new Runnable() {
 
 				@Override
@@ -67,10 +64,10 @@ public class ConsoleClient {
 						ArrayList<Package> list = new ArrayList<>(
 								processing.currentOrder);
 						if (messing && ((iterationsCount + 3) % 6 == 0)) {
-							list = collection.random(list, 1);
+							collection.random(list, 1);
 						}
 						Result result = collection.process(list,
-								processing.currentTemp, mul, time);
+								processing.currentTemp, time);
 
 						processing.setResult(result);
 
@@ -81,20 +78,13 @@ public class ConsoleClient {
 		}
 
 		float N_ITER = iterations;
+		float temp = 1;
 		for (int i = 1; i <= N_ITER; i++) {
-			processing.sync(solutionAcceptor, 1 - (float) i / N_ITER);
+			processing.sync(solutionAcceptor, temp, i == N_ITER);
+			temp *= 0.8f;
 		}
 
-		long end = System.currentTimeMillis();
-
-		if (print) {
-			System.out.print(processing.bestResult.getArea() + "\t"
-					+ processing.bestResult.getVolume() + "\t");
-			System.out.println("Took " + (end - start) + " ms. "
-					+ processing.bestResult.count);
-		}
-
-		return true;
+		return processing.bestResult;
 	}
 
 	public static void main(String[] args) {
@@ -110,13 +100,13 @@ public class ConsoleClient {
 				output = "data/instances-pp1/output1" + i + ".txt";
 			}
 
-			final int N = 1;
-			for (int it = 0; it < N; it++)
-				try {
-					process(new FileInputStream(input), new SolutionAcceptorImplementation(output), 49, 20, true, true);
-				} catch (FileNotFoundException e) {
-					e.printStackTrace();
-				}
+			try {
+				process(new FileInputStream(input),
+						new SolutionAcceptorImplementation(output), 120, 8,
+						true);
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 }
