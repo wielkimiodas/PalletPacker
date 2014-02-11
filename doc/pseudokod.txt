@@ -1,0 +1,72 @@
+function przydziel_paczki(List<Paczka> paczki) : <float, float>
+List<Paleta> palety = new List
+foreach paczka in paczki
+  foreach paleta in palety
+    // sprawdzenie, czy dołożenie paczki do palety
+    // nie narusza zadanych ograniczeń
+    if paleta.zmieści(paczka)
+      paleta.dodaj(paczka)
+      break
+  
+    // paczka nie została przydzielona do żadnej palety
+    Paleta p = new Paleta
+    p.dodaj(paczka)
+    paczki.dodaj(p)
+
+return <palety.suma_powierzchni, palety.najmniejsza_objętość>
+end function
+
+
+function oblicz(List<Paczka> paczki, float koniec, float temperatura) : <List<Paczka>, float, float>
+List<Paczki> najlepsza_kolejność = new List(paczki)
+<float, float> najlepszy_wynik = przydziel_paczki(najlepsza_kolejność)
+
+while czas < koniec
+  paczki.random(temperatura)
+  <float, float> pair = przydziel_paczki(paczki)
+  if pair < najlepszy_wynik
+    najlepszy_wynik = pair
+    najlepsza_kolejność = new List(paczki)
+
+return <najlepsza_kolejność, najlepszy_wynik>
+end function
+
+function wątek_liczący(StanPrzetwarzania stan)
+while stan.przetwarzanie
+  <lista, wynik> = oblicz(new List(stan.kolejność), czas + stan.czas_przetwarzania, stan.temperatura)
+  stan.synchronizuj
+  {
+    if (wynik < stan.wynik)
+      stan.kolejność = lista
+      stan.wynik = wynik
+  }
+  stan.blokada_wątku_głównego.zwolnij()
+  stan.blokada_wątków.czekaj()
+end function
+
+function wątek_główny(List<Paczka> paczki)
+paczki.sortuj()
+StanPrzetwarzania stan = new StanPrzetwarzania
+stan.kolejność = paczki
+stan.wynik = przydziel_paczki(stan.wynik)
+stan.temperatura = 1
+stan.czas_przetwarzania = 120ms
+
+for t = 1..stan.LICZBA_WĄTKÓW
+  new Thread(wątek_liczący(stan)).start()
+
+<float, float> najlepszy_wynik
+
+for i = 1..8
+  for t = 1..stan.LICZBA_WĄTKÓW
+    stan.blokada_wątku_głównego.czekaj()
+  
+  stan.temperatura *= 0.8
+  stan.przetwarzanie = i != 8
+  
+  if stan.wynik < najlepszy_wynik
+    stan.zapisz_do_pliku()
+  
+  for t = 1..stan.LICZBA_WĄTKÓW
+    stan.blokada_wątków.zwolnij()
+end function
