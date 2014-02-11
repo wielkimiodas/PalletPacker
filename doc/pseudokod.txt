@@ -22,10 +22,10 @@ List<Paczki> najlepsza_kolejność = new List(paczki)
 <float, float> najlepszy_wynik = przydziel_paczki(najlepsza_kolejność)
 
 while czas < koniec
-  paczki.random(temperatura)
-  <float, float> pair = przydziel_paczki(paczki)
-  if pair < najlepszy_wynik
-    najlepszy_wynik = pair
+  paczki.losuj(temperatura)
+  <float, float> wynik = przydziel_paczki(paczki)
+  if wynik < najlepszy_wynik
+    najlepszy_wynik = wynik
     najlepsza_kolejność = new List(paczki)
 
 return <najlepsza_kolejność, najlepszy_wynik>
